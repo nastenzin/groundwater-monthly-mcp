@@ -144,6 +144,12 @@ jobs:
           print(wheel, "ok", len(names), "files")
           PY
 
+      - name: 生成 SHA256SUMS
+        run: |
+          cd dist
+          sha256sum * > SHA256SUMS
+          cat SHA256SUMS
+
       - uses: softprops/action-gh-release@v2
         with:
           files: dist/*

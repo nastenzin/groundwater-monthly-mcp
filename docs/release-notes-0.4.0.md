@@ -50,10 +50,10 @@ MCP 客户端配置（Claude Desktop / Cursor / Cline / DSH 等）：
 
 ## 校验
 
-- 产出物：`groundwater_monthly_mcp-0.4.0-py3-none-any.whl`（5,647,891 B，
-  sha256 `24ae8fea9a8e270661c8d36f9f97a0335f9ce635610733bac3a3283c3f1ec9c4`）、
-  `groundwater_monthly_mcp-0.4.0.tar.gz`（5,654,026 B，
-  sha256 `caa6d32cc320d163408d10fffec800da7f7de2fe9ba3246ad0e77d356101b694`）。
+- 产出物：`groundwater_monthly_mcp-0.4.0-py3-none-any.whl`（5,647,599 B，
+  sha256 `c9a87f5fe6f14153f6bac30ae73721ebb20f6a9c3fe0db5356a4d8002752dc7c`）、
+  `groundwater_monthly_mcp-0.4.0.tar.gz`（5,653,126 B，
+  sha256 `c0beaaf13852c30d2a42a76dd979242d86cd48bc4d0f9987be5c6d816b1a0de1`）。
 - 测试：`pytest` 27 passed；MCP stdio 冒烟 26/26 工具调用成功；`verify_all` 59/59。
 - 详细算法、精度与限制见 [docs/surface.md](https://github.com/nastenzin/groundwater-monthly-mcp/blob/main/docs/surface.md)；
   安装/客户端配置见 [README](https://github.com/nastenzin/groundwater-monthly-mcp/blob/main/README.md)。
