@@ -31,9 +31,9 @@ pip install "https://github.com/nastenzin/groundwater-monthly-mcp/releases/downl
 
 ## 资产
 
-- `groundwater_monthly_mcp-0.4.1-py3-none-any.whl`（5,648,602 B，
-  sha256 `63a3aa325bd3e5b63613c231274cdf7a975a715ddbb86e120115d5789c89c045`）
-- `groundwater_monthly_mcp-0.4.1.tar.gz`（5,655,415 B，
-  sha256 `4e6ddcefddea6e6cd799eb6b9c13c1fadf66a4f39538f93de87b24252f82b170`）
+- `groundwater_monthly_mcp-0.4.1-py3-none-any.whl`（5,648,307 B，
+  sha256 `16f66d5d26c1996838a5570cacdfef6bfbad022a4d916aafd92fdc7004c77d0e`）
+- `groundwater_monthly_mcp-0.4.1.tar.gz`（5,654,317 B，
+  sha256 `bf247839a12d2d6af00af89f9b1ebfeb8534e925f010f831a1c19c4a188d35ec`）
 - `SHA256SUMS`（由 GitHub Actions 在 Release 中生成；CI 构建的 wheel 哈希可能与本地构建略有差异，
   以 Release 附件中的 `SHA256SUMS` 为准）

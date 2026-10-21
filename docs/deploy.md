@@ -743,7 +743,7 @@ docker push <dockerhub-user>/groundwater-monthly-mcp:latest
 环境：`python` 3.13.9、`mcp 2.3.0`、Docker CLI/Desktop 29.5.3（linux/amd64）。
 
 > 0.4.1 验证结论：`python -m pytest -q tests` → **29 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
-> wheel `groundwater_monthly_mcp-0.4.1-py3-none-any.whl`（5,648,602 B，sha256 `60e98571…`）；
+> wheel `groundwater_monthly_mcp-0.4.1-py3-none-any.whl`（5,648,307 B，sha256 `60e98571…`）；
 > Docker 镜像 `groundwater-monthly-mcp:0.4.1`（`842e4a1e5afd`，约 283MB，HEALTHCHECK `healthy`，HTTP 端 26 个工具）；
 > 随包 DB 7,790,592 B（约 7,608 KB），含 `surface_maps` 437 行/25 期与 339 个城市点位。
 
@@ -817,7 +817,7 @@ data: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{...},"serverInfo":{"name
 PS> python -m pip wheel . -w dist --no-deps
 Successfully built groundwater-monthly-mcp
 Created wheel: groundwater_monthly_mcp-0.4.1-py3-none-any.whl (5646895 bytes)
-sha256=63a3aa325bd3e5b63613c231274cdf7a975a715ddbb86e120115d5789c89c045
+sha256=16f66d5d26c1996838a5570cacdfef6bfbad022a4d916aafd92fdc7004c77d0e
 
 PS> python scripts/package_check.py wheel
 { "ok": true, "size_mb": 5.39, "file_count": 27,
