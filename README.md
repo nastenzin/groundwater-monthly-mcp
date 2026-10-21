@@ -80,8 +80,8 @@
     三者互补，**不要把不同口径的数值直接拼接成一条“埋深序列”**
   - 1997 年为九大流域片口径（松辽片/海河片/…），2006 年起改为 10 个水资源一级区口径；本库一级区机读数据
     自 2010 年起（2006-2009 年公报的一级区表格在网页中只是扁平化文本且内容重复，未做机读解析，仅保留全国数值）
-- 每期数据均可回溯：原生 PDF 期次随仓库分发（`data/pdfs/`、`data/legacy/pdfs/`），HTML5 文本层期次逐页
-  存档（`data/legacy/html/<YYYY-MM>/pageN.html`），数据库中每个数值都能对应到期号、页码/表号与
+- 每期数据均可回溯：原始 PDF/HTML 归档因体积较大不随 Git 仓库分发（可用 `scripts/download_pdfs.py`、
+  `scripts/legacy_crawl.py` 等重新下载），数据库中每个数值都能对应到期号、页码/表号与
   `reports.detail_url` / `reports.pdf_url`（HTML 期次无 PDF 直链时 `pdf_url` 为空）。
 - 解析方式：`pdfplumber` 抽取文本与表格；先用「表 N 标题」把页面切成区域，再在区域内识别表格，
   解决同一页两张表（如表 10+表 11）被合并、跨页表（表 15/16）被截断的问题。2024-01~09 的 HTML5
@@ -94,58 +94,49 @@
 
 ## 2. 安装与运行
 
-```powershell
-# Python 3.10+；本机使用 D:\Anaconda\python.exe
-python -m pip install -e .
-# 本地 MCP stdio 服务器（供 MCP 客户端拉起）
-python -m groundwater_mcp
-```
+**Python 3.10+**。以下三种方式任选其一，都不需要 Docker。
 
-在 DeepSeek Harness 中注册（stdio）：
-
-```jsonc
-// mcp_register
-{
-  "name": "groundwater-monthly",
-  "transport": "stdio",
-  "command": "D:\\Anaconda\\python.exe",
-  "args": ["-m", "groundwater_mcp"],
-  "cwd": "D:\\MCP服务器"
-}
-```
-
-其他 MCP 客户端（Claude Desktop 等）等价配置：
-
-```json
-{
-  "mcpServers": {
-    "groundwater-monthly": {
-      "command": "python",
-      "args": ["-m", "groundwater_mcp"],
-      "cwd": "D:/MCP服务器"
-    }
-  }
-}
-```
-
-## 2.1 发布与分发（不依赖 Docker）
-
-推荐路径：**GitHub Release + 从 Git 直接安装**（不需要 Docker，也不需要 PyPI 账号）。
-仓库：<https://github.com/nastenzin/groundwater-monthly-mcp>。
+### 2.1 直接使用（推荐）
 
 ```powershell
-# 方式 A：直接从 GitHub 安装（uv 自带工具，装一次即可）
+# 方式 A：uvx 直接从 GitHub 运行（装一次 uv 即可，无需 clone）
 uvx --from git+https://github.com/nastenzin/groundwater-monthly-mcp.git groundwater-mcp
 
 # 方式 B：pip 从 Git 安装
 pip install "git+https://github.com/nastenzin/groundwater-monthly-mcp.git"
 groundwater-mcp
 
-# 方式 C：从 GitHub Release 下载 wheel 后离线安装
+# 方式 C：从 GitHub Release 下载 wheel（离线/内网）
 pip install "https://github.com/nastenzin/groundwater-monthly-mcp/releases/download/v0.4.0/groundwater_monthly_mcp-0.4.0-py3-none-any.whl"
+groundwater-mcp
 ```
 
-其他 MCP 客户端（Claude Desktop / Cursor / Cline / DSH）的 `uvx` 配置：
+`groundwater-mcp` 默认 stdio；需要 HTTP 时用
+`groundwater-mcp --transport streamable-http --host 127.0.0.1 --port 8765`。
+
+### 2.2 从源码运行（开发者）
+
+```powershell
+git clone https://github.com/nastenzin/groundwater-monthly-mcp.git
+cd groundwater-monthly-mcp
+python -m pip install -e .
+python -m groundwater_mcp
+```
+
+### 2.3 在 MCP 客户端中注册
+
+DeepSeek Harness（`mcp_register`，推荐 uvx 方式，无需本机安装）：
+
+```jsonc
+{
+  "name": "groundwater-monthly",
+  "transport": "stdio",
+  "command": "uvx",
+  "args": ["--from", "git+https://github.com/nastenzin/groundwater-monthly-mcp.git", "groundwater-mcp"]
+}
+```
+
+Claude Desktop / Cursor / Cline 等（`mcpServers`）：
 
 ```json
 {
@@ -158,23 +149,18 @@ pip install "https://github.com/nastenzin/groundwater-monthly-mcp/releases/downl
 }
 ```
 
-其他落地形态见 **[docs/deploy.md](docs/deploy.md)**：
+若已 `pip install`，也可用 `"command": "python", "args": ["-m", "groundwater_mcp"]`（不需要 `cwd`）。
 
-| 形态 | 适用场景 | 启动/分发方式 |
-| --- | --- | --- |
-| GitHub Release / Git 安装（stdio） | 公开分发，零 Docker、零 PyPI | 上面的 `uvx`/`pip` 三种命令 |
-| pip / uvx（本地目录） | 内网/离线 | `pip install .` 或 `uvx --from . groundwater-mcp` |
-| Docker（stdio 或 HTTP） | 团队内共享、免环境配置 | `docker build -t groundwater-monthly-mcp .`（可选，非必需） |
-| 远程 Streamable HTTP | 公网/内网服务化，多客户端复用 | `groundwater-mcp --transport streamable-http --host 0.0.0.0 --port 8765` + 反向代理/鉴权 |
+### 2.4 发布与分发（维护者）
 
-发布流程（本仓库已配置好）：
+1. 推送 `main` 与 `v*` tag → `.github/workflows/release.yml` 自动构建 wheel/sdist、创建 GitHub Release
+   并生成 `SHA256SUMS`；Docker / PyPI 任务默认跳过（仓库变量 `PUBLISH_DOCKER=true` / `PUBLISH_PYPI=true`
+   时才执行）；
+2. 使用者用 2.1 的 `uvx --from git+...` 或 Release 里的 wheel 安装；
+3. 可选 PyPI：配置 Trusted Publisher 后设仓库变量 `PUBLISH_PYPI=true`，之后可直接 `uvx groundwater-monthly-mcp`。
 
-1. 推送 `main` 分支与 `v0.4.0` tag → `.github/workflows/release.yml` 自动构建 wheel/sdist，
-   并创建 GitHub Release 挂载产物（Docker 任务默认跳过，仓库变量 `PUBLISH_DOCKER=true` 时才执行）；
-2. 使用者用上面的 `uvx --from git+...` 或 Release 里的 wheel 安装；
-3. 如需发 PyPI（可选）：在 PyPI 配置 Trusted Publisher 后，把仓库变量 `PUBLISH_PYPI` 设为 `true`，
-   之后 `uvx groundwater-monthly-mcp` 即可。
-
+其他落地形态（Docker / 远程 HTTP / 内网镜像）见 **[docs/deploy.md](docs/deploy.md)**。Release 附带的 wheel
+由 GitHub Actions 构建，其 sha256 见 Release 附件或文档中的 Release 资产值；本地重新构建的 wheel 哈希可能不同。
 
 ## 3. 工具清单（26 个工具 / 3 个资源 / 1 个提示词）
 

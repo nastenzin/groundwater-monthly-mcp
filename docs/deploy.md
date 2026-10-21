@@ -34,8 +34,8 @@ Docker（stdio 与 HTTP）、公网 HTTPS 部署、PyPI 与 MCP Registry 发布�
 
 ```powershell
 # 方式 A：从本仓库的 wheel 安装（离线可用）
-D:\Anaconda\python.exe -m pip wheel . -w dist --no-deps
-D:\Anaconda\python.exe -m pip install dist\groundwater_monthly_mcp-0.4.0-py3-none-any.whl
+python -m pip wheel . -w dist --no-deps
+python -m pip install dist\groundwater_monthly_mcp-0.4.0-py3-none-any.whl
 
 # 方式 B：PyPI 发布之后
 # pip install groundwater-monthly-mcp
@@ -212,8 +212,8 @@ mcp_register(name="groundwater-monthly", transport="stdio",
 
 # 或直接从仓库源码跑（开发用）
 mcp_register(name="groundwater-monthly-dev", transport="stdio",
-             command="D:\\Anaconda\\python.exe", args=["-m", "groundwater_mcp"],
-             cwd="D:\\MCP服务器", tier="on-demand")
+             command="python", args=["-m", "groundwater_mcp"],
+             cwd="<repo>", tier="on-demand")
 ```
 
 **streamable-http（远程/本机服务）**
@@ -444,7 +444,7 @@ docker compose up -d --build
 
 ```powershell
 docker run -d --name gw -p 127.0.0.1:8765:8765 `
-  -v D:\MCP服务器\src\groundwater_mcp\data\groundwater.db:/data/groundwater.db:ro `
+  -v <repo>\src\groundwater_mcp\data\groundwater.db:/data/groundwater.db:ro `
   -e GROUNDWATER_DB=/data/groundwater.db `
   groundwater-monthly-mcp:0.4.0
 ```
@@ -740,7 +740,7 @@ docker push <dockerhub-user>/groundwater-monthly-mcp:latest
 
 ## 7. 本机实测记录（2026-10-21，Windows）
 
-环境：`D:\Anaconda\python.exe` 3.13.9、`mcp 2.3.0`、Docker CLI/Desktop 29.5.3（linux/amd64）。
+环境：`python` 3.13.9、`mcp 2.3.0`、Docker CLI/Desktop 29.5.3（linux/amd64）。
 
 > 0.4.0 验证结论：`python -m pytest -q tests` → **27 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
 > wheel `groundwater_monthly_mcp-0.4.0-py3-none-any.whl`（5,647,599 B，sha256 `60e98571…`）；
@@ -756,7 +756,7 @@ groundwater-mcp 0.4.0
 PS> python scripts/package_check.py stdio
 {
   "ok": true,
-  "command": "D:\\Anaconda\\python.exe -m groundwater_mcp",
+  "command": "python -m groundwater_mcp",
   "server": "groundwater-monthly 0.4.0",
   "protocol_version": "2025-11-25",
   "tool_count": 26,

@@ -7,7 +7,7 @@ B. 同一批点 -> 行政区定位（locate_admin）
 C. 公共 API 契约：非法输入、海域、排序、数量、数据文件属性
 D. units_for_admin 行政区检索
 
-用法：D:\\Anaconda\\python.exe scripts\\geo_check.py
+用法：python scripts/geo_check.py
 输出 PASS/FAIL 明细与统计；任一失败时退出码为 1。
 """
 from __future__ import annotations

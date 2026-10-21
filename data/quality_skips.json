@@ -1,7 +1,7 @@
 [
   {
     "period": "2021-03",
-    "source": "D:\\MCP服务器\\data\\legacy\\pdfs\\2021-03.pdf",
+    "source": "data/legacy/pdfs/2021-03.pdf",
     "kind": "pdf",
     "quality": {
       "counts": {
