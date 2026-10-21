@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groundwater-monthly-mcp"
+version = "0.4.0"
+description = "《地下水动态月报》数据 MCP 服务器：提供降水、浅层/深层地下水、重点站数据与经纬度/行政区/地图选点定位"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "groundwater-monthly-mcp" }]
+keywords = ["mcp", "model-context-protocol", "groundwater", "hydrology", "china", "open-data"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Hydrology",
+    "Typing :: Typed",
+]
+dependencies = [
+    # 本服务器基于 mcp 2.x（mcp.server.mcpserver.MCPServer）实现，
+    # 1.x 的 mcp.server.fastmcp 与之 API 不兼容。
+    "mcp>=2.0,<3",
+]
+
+[project.optional-dependencies]
+# 只有“从 PDF/HTML 重建数据集”（groundwater_mcp.ingest）才需要 pdfplumber；
+# 服务器运行时（stdio / streamable-http / sse）不依赖它，Docker 镜像因此不装。
+ingest = ["pdfplumber>=0.10"]
+dev = ["build>=1.2", "pytest>=8"]
+all = ["pdfplumber>=0.10", "build>=1.2", "pytest>=8"]
+
+[project.scripts]
+groundwater-mcp = "groundwater_mcp.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nastenzin/groundwater-monthly-mcp"
+Repository = "https://github.com/nastenzin/groundwater-monthly-mcp"
+Issues = "https://github.com/nastenzin/groundwater-monthly-mcp/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+groundwater_mcp = ["data/*.db", "data/geo/*.geojson", "data/geo/*.json", "data/map/*"]

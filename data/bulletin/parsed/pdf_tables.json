@@ -1,0 +1,8935 @@
+{
+ "2015": [
+  {
+   "page": 9,
+   "caption": "表1 2015 年各水资源一级区水资源量     单位：亿m3",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 62569.4,
+     "surface": 26900.8,
+     "ground": 7797.0,
+     "unrepeat": 1061.8,
+     "total": 27962.6
+    },
+    {
+     "name": "北方6区",
+     "precip": 19553.6,
+     "surface": 3836.2,
+     "ground": 2357.8,
+     "unrepeat": 897.3,
+     "total": 4733.5
+    },
+    {
+     "name": "南方4区",
+     "precip": 43015.8,
+     "surface": 23064.6,
+     "ground": 5439.2,
+     "unrepeat": 164.5,
+     "total": 23229.1
+    },
+    {
+     "name": "松花江区",
+     "precip": 4721.2,
+     "surface": 1275.8,
+     "ground": 473.6,
+     "unrepeat": 204.4,
+     "total": 1480.2
+    },
+    {
+     "name": "辽河区",
+     "precip": 1504.1,
+     "surface": 226.4,
+     "ground": 162.7,
+     "unrepeat": 77.2,
+     "total": 303.6
+    },
+    {
+     "name": "海河区",
+     "precip": 1653.3,
+     "surface": 108.4,
+     "ground": 213.6,
+     "unrepeat": 152.0,
+     "total": 260.3
+    },
+    {
+     "name": "黄河区",
+     "precip": 3273.6,
+     "surface": 435.0,
+     "ground": 337.3,
+     "unrepeat": 106.1,
+     "total": 541.0
+    },
+    {
+     "name": "淮河区",
+     "precip": 2678.1,
+     "surface": 607.3,
+     "ground": 374.2,
+     "unrepeat": 247.0,
+     "total": 854.2
+    },
+    {
+     "name": "长江区",
+     "precip": 20223.2,
+     "surface": 10190.0,
+     "ground": 2546.0,
+     "unrepeat": 139.7,
+     "total": 10329.7
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 599.1,
+     "surface": 311.6,
+     "ground": 59.3,
+     "unrepeat": 30.7,
+     "total": 342.4
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 4281.7,
+     "surface": 2536.9,
+     "ground": 554.3,
+     "unrepeat": 11.3,
+     "total": 2548.2
+    },
+    {
+     "name": "珠江区",
+     "precip": 10088.3,
+     "surface": 5323.4,
+     "ground": 1162.5,
+     "unrepeat": 13.6,
+     "total": 5337.0
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 8422.5,
+     "surface": 5014.3,
+     "ground": 1176.4,
+     "unrepeat": 0.0,
+     "total": 5014.3
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 5723.3,
+     "surface": 1183.3,
+     "ground": 796.4,
+     "unrepeat": 110.7,
+     "total": 1294.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 9,
+   "caption": "表2      2015 年各水资源一级区供用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4969.5,
+     "ground": 1069.2,
+     "other": 64.5,
+     "total_supply": 6103.2,
+     "total_use": 6103.2,
+     "domestic": 793.5,
+     "industry": 1334.8,
+     "dc_thermal": 480.5,
+     "agri": 3852.2,
+     "eco": 122.7
+    },
+    {
+     "name": "北方6区",
+     "surface": 1762.1,
+     "ground": 954.1,
+     "other": 46.0,
+     "total_supply": 2762.2,
+     "total_use": 2762.2,
+     "domestic": 262.8,
+     "industry": 294.9,
+     "dc_thermal": 25.8,
+     "agri": 2119.9,
+     "eco": 84.6
+    },
+    {
+     "name": "南方4区",
+     "surface": 3207.4,
+     "ground": 115.1,
+     "other": 18.5,
+     "total_supply": 3341.0,
+     "total_use": 3341.0,
+     "domestic": 530.7,
+     "industry": 1039.9,
+     "dc_thermal": 454.7,
+     "agri": 1732.3,
+     "eco": 38.1
+    },
+    {
+     "name": "松花江区",
+     "surface": 293.0,
+     "ground": 206.9,
+     "other": 1.6,
+     "total_supply": 501.5,
+     "total_use": 501.5,
+     "domestic": 28.3,
+     "industry": 45.9,
+     "dc_thermal": 13.6,
+     "agri": 412.4,
+     "eco": 15.0
+    },
+    {
+     "name": "辽河区",
+     "surface": 96.3,
+     "ground": 102.6,
+     "other": 4.4,
+     "total_supply": 203.4,
+     "total_use": 203.4,
+     "domestic": 30.7,
+     "industry": 30.7,
+     "dc_thermal": 0.0,
+     "agri": 134.4,
+     "eco": 7.6
+    },
+    {
+     "name": "海河区",
+     "surface": 141.3,
+     "ground": 208.1,
+     "other": 19.1,
+     "total_supply": 368.5,
+     "total_use": 368.5,
+     "domestic": 60.6,
+     "industry": 49.3,
+     "dc_thermal": 0.1,
+     "agri": 236.7,
+     "eco": 22.0
+    },
+    {
+     "name": "黄河区",
+     "surface": 262.9,
+     "ground": 123.9,
+     "other": 8.7,
+     "total_supply": 395.5,
+     "total_use": 395.5,
+     "domestic": 44.2,
+     "industry": 57.0,
+     "dc_thermal": 0.0,
+     "agri": 281.5,
+     "eco": 12.9
+    },
+    {
+     "name": "淮河区",
+     "surface": 438.0,
+     "ground": 159.0,
+     "other": 10.1,
+     "total_supply": 607.1,
+     "total_use": 607.1,
+     "domestic": 82.4,
+     "industry": 92.5,
+     "dc_thermal": 12.1,
+     "agri": 420.1,
+     "eco": 12.1
+    },
+    {
+     "name": "长江区",
+     "surface": 1970.3,
+     "ground": 71.6,
+     "other": 12.8,
+     "total_supply": 2054.6,
+     "total_use": 2054.6,
+     "domestic": 301.3,
+     "industry": 734.6,
+     "dc_thermal": 383.8,
+     "agri": 997.7,
+     "eco": 21.0
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 336.3,
+     "ground": 0.3,
+     "other": 4.8,
+     "total_supply": 341.4,
+     "total_use": 341.4,
+     "domestic": 53.7,
+     "industry": 208.8,
+     "dc_thermal": 166.8,
+     "agri": 76.6,
+     "eco": 2.3
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 318.2,
+     "ground": 7.0,
+     "other": 1.3,
+     "total_supply": 326.5,
+     "total_use": 326.5,
+     "domestic": 64.4,
+     "industry": 107.2,
+     "dc_thermal": 13.0,
+     "agri": 147.2,
+     "eco": 7.7
+    },
+    {
+     "name": "珠江区",
+     "surface": 820.2,
+     "ground": 32.7,
+     "other": 4.3,
+     "total_supply": 857.2,
+     "total_use": 857.2,
+     "domestic": 155.9,
+     "industry": 189.0,
+     "dc_thermal": 57.8,
+     "agri": 503.7,
+     "eco": 8.6
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 98.6,
+     "ground": 3.7,
+     "other": 0.3,
+     "total_supply": 102.6,
+     "total_use": 102.6,
+     "domestic": 9.1,
+     "industry": 9.1,
+     "dc_thermal": 0.0,
+     "agri": 83.6,
+     "eco": 0.8
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 530.6,
+     "ground": 153.7,
+     "other": 1.9,
+     "total_supply": 686.2,
+     "total_use": 686.2,
+     "domestic": 16.7,
+     "industry": 19.5,
+     "dc_thermal": 0.0,
+     "agri": 634.9,
+     "eco": 15.1
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2016": [
+  {
+   "page": 6,
+   "caption": "表1 2016 年各水资源一级区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 730.0,
+     "surface": 31273.9,
+     "ground": 8854.8,
+     "unrepeat": 1192.5,
+     "total": 32466.4
+    },
+    {
+     "name": "北方6区",
+     "precip": 371.1,
+     "surface": 4577.3,
+     "ground": 2704.4,
+     "unrepeat": 1015.4,
+     "total": 5592.7
+    },
+    {
+     "name": "南方4区",
+     "precip": 1353.6,
+     "surface": 26696.6,
+     "ground": 6150.4,
+     "unrepeat": 177.1,
+     "total": 26873.7
+    },
+    {
+     "name": "松花江区",
+     "precip": 523.7,
+     "surface": 1278.8,
+     "ground": 497.0,
+     "unrepeat": 205.2,
+     "total": 1484.0
+    },
+    {
+     "name": "辽河区",
+     "precip": 602.9,
+     "surface": 385.3,
+     "ground": 212.0,
+     "unrepeat": 104.4,
+     "total": 489.8
+    },
+    {
+     "name": "海河区",
+     "precip": 614.2,
+     "surface": 204.0,
+     "ground": 259.9,
+     "unrepeat": 183.9,
+     "total": 387.9
+    },
+    {
+     "name": "黄河区",
+     "precip": 482.4,
+     "surface": 481.0,
+     "ground": 354.9,
+     "unrepeat": 120.7,
+     "total": 601.8
+    },
+    {
+     "name": "淮河区",
+     "precip": 893.3,
+     "surface": 732.6,
+     "ground": 428.2,
+     "unrepeat": 277.0,
+     "total": 1009.5
+    },
+    {
+     "name": "长江区",
+     "precip": 1205.3,
+     "surface": 11796.7,
+     "ground": 2706.5,
+     "unrepeat": 150.3,
+     "total": 11947.1
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1860.6,
+     "surface": 404.4,
+     "ground": 68.0,
+     "unrepeat": 34.8,
+     "total": 439.2
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 2249.3,
+     "surface": 3102.1,
+     "ground": 636.1,
+     "unrepeat": 11.3,
+     "total": 3113.4
+    },
+    {
+     "name": "珠江区",
+     "precip": 1822.2,
+     "surface": 5913.4,
+     "ground": 1394.7,
+     "unrepeat": 15.5,
+     "total": 5928.9
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1124.8,
+     "surface": 5884.3,
+     "ground": 1413.0,
+     "unrepeat": 0.0,
+     "total": 5884.3
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 206.3,
+     "surface": 1495.6,
+     "ground": 952.4,
+     "unrepeat": 124.2,
+     "total": 1619.8
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 6,
+   "caption": "表2      2016 年各水资源一级区供用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4912.4,
+     "ground": 1057.0,
+     "other": 70.8,
+     "total_supply": 6040.2,
+     "total_use": 6040.2,
+     "domestic": 821.6,
+     "industry": 1308.0,
+     "dc_thermal": 480.8,
+     "agri": 3768.0,
+     "eco": 142.6
+    },
+    {
+     "name": "北方6区",
+     "surface": 1748.4,
+     "ground": 947.3,
+     "other": 53.2,
+     "total_supply": 2748.9,
+     "total_use": 2748.9,
+     "domestic": 274.8,
+     "industry": 282.7,
+     "dc_thermal": 24.4,
+     "agri": 2089.6,
+     "eco": 101.8
+    },
+    {
+     "name": "南方4区",
+     "surface": 3164.0,
+     "ground": 109.7,
+     "other": 17.6,
+     "total_supply": 3291.3,
+     "total_use": 3291.3,
+     "domestic": 546.8,
+     "industry": 1025.3,
+     "dc_thermal": 456.4,
+     "agri": 1678.4,
+     "eco": 40.8
+    },
+    {
+     "name": "松花江区",
+     "surface": 282.1,
+     "ground": 216.9,
+     "other": 1.6,
+     "total_supply": 500.7,
+     "total_use": 500.7,
+     "domestic": 29.0,
+     "industry": 40.8,
+     "dc_thermal": 12.7,
+     "agri": 416.0,
+     "eco": 15.0
+    },
+    {
+     "name": "辽河区",
+     "surface": 90.8,
+     "ground": 101.8,
+     "other": 4.7,
+     "total_supply": 197.3,
+     "total_use": 197.3,
+     "domestic": 31.2,
+     "industry": 27.6,
+     "dc_thermal": 0.0,
+     "agri": 130.8,
+     "eco": 7.7
+    },
+    {
+     "name": "海河区",
+     "surface": 146.6,
+     "ground": 195.0,
+     "other": 21.5,
+     "total_supply": 363.1,
+     "total_use": 363.1,
+     "domestic": 63.2,
+     "industry": 48.0,
+     "dc_thermal": 0.1,
+     "agri": 226.0,
+     "eco": 26.0
+    },
+    {
+     "name": "黄河区",
+     "surface": 257.7,
+     "ground": 121.3,
+     "other": 11.5,
+     "total_supply": 390.4,
+     "total_use": 390.4,
+     "domestic": 46.5,
+     "industry": 55.6,
+     "dc_thermal": 0.0,
+     "agri": 272.7,
+     "eco": 15.6
+    },
+    {
+     "name": "淮河区",
+     "surface": 449.7,
+     "ground": 159.2,
+     "other": 11.5,
+     "total_supply": 620.4,
+     "total_use": 620.4,
+     "domestic": 87.2,
+     "industry": 92.1,
+     "dc_thermal": 11.5,
+     "agri": 424.4,
+     "eco": 16.7
+    },
+    {
+     "name": "长江区",
+     "surface": 1957.9,
+     "ground": 68.6,
+     "other": 12.2,
+     "total_supply": 2038.6,
+     "total_use": 2038.6,
+     "domestic": 312.0,
+     "industry": 735.3,
+     "dc_thermal": 394.2,
+     "agri": 968.3,
+     "eco": 23.0
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 329.9,
+     "ground": 0.3,
+     "other": 5.6,
+     "total_supply": 335.8,
+     "total_use": 335.8,
+     "domestic": 55.9,
+     "industry": 207.7,
+     "dc_thermal": 167.9,
+     "agri": 70.1,
+     "eco": 2.2
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 304.2,
+     "ground": 6.5,
+     "other": 1.4,
+     "total_supply": 312.2,
+     "total_use": 312.2,
+     "domestic": 66.4,
+     "industry": 101.9,
+     "dc_thermal": 8.8,
+     "agri": 136.4,
+     "eco": 7.5
+    },
+    {
+     "name": "珠江区",
+     "surface": 802.7,
+     "ground": 31.4,
+     "other": 3.9,
+     "total_supply": 838.1,
+     "total_use": 838.1,
+     "domestic": 157.9,
+     "industry": 179.2,
+     "dc_thermal": 53.4,
+     "agri": 491.6,
+     "eco": 9.3
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 99.0,
+     "ground": 3.2,
+     "other": 0.1,
+     "total_supply": 102.4,
+     "total_use": 102.4,
+     "domestic": 10.5,
+     "industry": 8.8,
+     "dc_thermal": 0.0,
+     "agri": 82.0,
+     "eco": 1.0
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 521.5,
+     "ground": 153.1,
+     "other": 2.4,
+     "total_supply": 677.0,
+     "total_use": 677.0,
+     "domestic": 17.7,
+     "industry": 18.7,
+     "dc_thermal": 0.2,
+     "agri": 619.7,
+     "eco": 20.9
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 7,
+   "caption": "表3  2016 年各省级行政区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 730.0,
+     "surface": 31273.9,
+     "ground": 8854.8,
+     "unrepeat": 1192.5,
+     "total": 32466.4
+    },
+    {
+     "name": "北京",
+     "precip": 660.0,
+     "surface": 14.0,
+     "ground": 24.2,
+     "unrepeat": 21.1,
+     "total": 35.1
+    },
+    {
+     "name": "天津",
+     "precip": 622.1,
+     "surface": 14.1,
+     "ground": 6.1,
+     "unrepeat": 4.8,
+     "total": 18.9
+    },
+    {
+     "name": "河北",
+     "precip": 595.9,
+     "surface": 105.9,
+     "ground": 133.7,
+     "unrepeat": 102.4,
+     "total": 208.3
+    },
+    {
+     "name": "山西",
+     "precip": 615.4,
+     "surface": 88.9,
+     "ground": 104.9,
+     "unrepeat": 45.3,
+     "total": 134.1
+    },
+    {
+     "name": "内蒙古",
+     "precip": 283.0,
+     "surface": 268.5,
+     "ground": 248.2,
+     "unrepeat": 158.0,
+     "total": 426.5
+    },
+    {
+     "name": "辽宁",
+     "precip": 755.4,
+     "surface": 286.2,
+     "ground": 120.9,
+     "unrepeat": 45.5,
+     "total": 331.6
+    },
+    {
+     "name": "吉林",
+     "precip": 731.1,
+     "surface": 420.7,
+     "ground": 154.7,
+     "unrepeat": 68.2,
+     "total": 488.8
+    },
+    {
+     "name": "黑龙江",
+     "precip": 564.2,
+     "surface": 720.0,
+     "ground": 285.9,
+     "unrepeat": 123.7,
+     "total": 843.7
+    },
+    {
+     "name": "上海",
+     "precip": 1566.3,
+     "surface": 52.7,
+     "ground": 11.3,
+     "unrepeat": 8.4,
+     "total": 61.0
+    },
+    {
+     "name": "江苏",
+     "precip": 1410.5,
+     "surface": 605.8,
+     "ground": 164.0,
+     "unrepeat": 136.0,
+     "total": 741.7
+    },
+    {
+     "name": "浙江",
+     "precip": 1953.8,
+     "surface": 1306.8,
+     "ground": 255.5,
+     "unrepeat": 16.5,
+     "total": 1323.3
+    },
+    {
+     "name": "安徽",
+     "precip": 1612.7,
+     "surface": 1179.2,
+     "ground": 219.3,
+     "unrepeat": 65.9,
+     "total": 1245.2
+    },
+    {
+     "name": "福建",
+     "precip": 2503.3,
+     "surface": 2107.1,
+     "ground": 450.7,
+     "unrepeat": 1.9,
+     "total": 2109.0
+    },
+    {
+     "name": "江西",
+     "precip": 1996.7,
+     "surface": 2203.2,
+     "ground": 501.9,
+     "unrepeat": 17.8,
+     "total": 2221.1
+    },
+    {
+     "name": "山东",
+     "precip": 658.3,
+     "surface": 121.2,
+     "ground": 164.8,
+     "unrepeat": 99.1,
+     "total": 220.3
+    },
+    {
+     "name": "河南",
+     "precip": 787.1,
+     "surface": 220.1,
+     "ground": 190.2,
+     "unrepeat": 117.2,
+     "total": 337.3
+    },
+    {
+     "name": "湖北",
+     "precip": 1423.4,
+     "surface": 1468.2,
+     "ground": 313.6,
+     "unrepeat": 29.8,
+     "total": 1498.0
+    },
+    {
+     "name": "湖南",
+     "precip": 1668.9,
+     "surface": 2189.5,
+     "ground": 475.4,
+     "unrepeat": 7.1,
+     "total": 2196.6
+    },
+    {
+     "name": "广东",
+     "precip": 2357.6,
+     "surface": 2448.5,
+     "ground": 570.0,
+     "unrepeat": 10.1,
+     "total": 2458.6
+    },
+    {
+     "name": "广西",
+     "precip": 1631.6,
+     "surface": 2176.8,
+     "ground": 529.2,
+     "unrepeat": 1.8,
+     "total": 2178.6
+    },
+    {
+     "name": "海南",
+     "precip": 2341.5,
+     "surface": 486.3,
+     "ground": 118.3,
+     "unrepeat": 3.6,
+     "total": 489.9
+    },
+    {
+     "name": "重庆",
+     "precip": 1236.8,
+     "surface": 604.9,
+     "ground": 112.3,
+     "unrepeat": 0.0,
+     "total": 604.9
+    },
+    {
+     "name": "四川",
+     "precip": 921.3,
+     "surface": 2339.7,
+     "ground": 593.3,
+     "unrepeat": 1.2,
+     "total": 2340.9
+    },
+    {
+     "name": "贵州",
+     "precip": 1213.7,
+     "surface": 1066.1,
+     "ground": 251.3,
+     "unrepeat": 0.0,
+     "total": 1066.1
+    },
+    {
+     "name": "云南",
+     "precip": 1295.9,
+     "surface": 2088.9,
+     "ground": 699.7,
+     "unrepeat": 0.0,
+     "total": 2088.9
+    },
+    {
+     "name": "西藏",
+     "precip": 611.6,
+     "surface": 4642.2,
+     "ground": 1028.0,
+     "unrepeat": 0.0,
+     "total": 4642.2
+    },
+    {
+     "name": "陕西",
+     "precip": 626.2,
+     "surface": 249.2,
+     "ground": 107.4,
+     "unrepeat": 22.3,
+     "total": 271.5
+    },
+    {
+     "name": "甘肃",
+     "precip": 290.9,
+     "surface": 160.9,
+     "ground": 108.7,
+     "unrepeat": 7.5,
+     "total": 168.4
+    },
+    {
+     "name": "青海",
+     "precip": 304.7,
+     "surface": 591.5,
+     "ground": 282.5,
+     "unrepeat": 21.2,
+     "total": 612.7
+    },
+    {
+     "name": "宁夏",
+     "precip": 301.0,
+     "surface": 7.5,
+     "ground": 18.6,
+     "unrepeat": 2.1,
+     "total": 9.6
+    },
+    {
+     "name": "新疆",
+     "precip": 229.6,
+     "surface": 1039.3,
+     "ground": 610.4,
+     "unrepeat": 54.1,
+     "total": 1093.4
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 8,
+   "caption": "表4      2016 年各省级行政区供水量和用水量          单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4912.4,
+     "ground": 1057.0,
+     "other": 70.8,
+     "total_supply": 6040.2,
+     "total_use": 6040.2,
+     "domestic": 821.6,
+     "industry": 1308.0,
+     "dc_thermal": 480.8,
+     "agri": 3768.0,
+     "eco": 142.6
+    },
+    {
+     "name": "北京",
+     "surface": 11.3,
+     "ground": 17.5,
+     "other": 10.0,
+     "total_supply": 38.8,
+     "total_use": 38.8,
+     "domestic": 17.8,
+     "industry": 3.8,
+     "dc_thermal": 0.0,
+     "agri": 6.0,
+     "eco": 11.1
+    },
+    {
+     "name": "天津",
+     "surface": 19.1,
+     "ground": 4.7,
+     "other": 3.4,
+     "total_supply": 27.2,
+     "total_use": 27.2,
+     "domestic": 5.6,
+     "industry": 5.5,
+     "dc_thermal": 0.0,
+     "agri": 12.0,
+     "eco": 4.1
+    },
+    {
+     "name": "河北",
+     "surface": 51.5,
+     "ground": 125.0,
+     "other": 6.0,
+     "total_supply": 182.6,
+     "total_use": 182.6,
+     "domestic": 25.9,
+     "industry": 21.9,
+     "dc_thermal": 0.1,
+     "agri": 128.0,
+     "eco": 6.7
+    },
+    {
+     "name": "山西",
+     "surface": 39.5,
+     "ground": 31.7,
+     "other": 4.4,
+     "total_supply": 75.5,
+     "total_use": 75.5,
+     "domestic": 12.6,
+     "industry": 12.9,
+     "dc_thermal": 0.0,
+     "agri": 46.7,
+     "eco": 3.3
+    },
+    {
+     "name": "内蒙古",
+     "surface": 98.3,
+     "ground": 88.8,
+     "other": 3.2,
+     "total_supply": 190.3,
+     "total_use": 190.3,
+     "domestic": 10.6,
+     "industry": 17.4,
+     "dc_thermal": 0.2,
+     "agri": 139.2,
+     "eco": 23.1
+    },
+    {
+     "name": "辽宁",
+     "surface": 74.3,
+     "ground": 57.0,
+     "other": 4.2,
+     "total_supply": 135.4,
+     "total_use": 135.4,
+     "domestic": 25.3,
+     "industry": 19.6,
+     "dc_thermal": 0.0,
+     "agri": 84.9,
+     "eco": 5.6
+    },
+    {
+     "name": "吉林",
+     "surface": 87.2,
+     "ground": 44.9,
+     "other": 0.4,
+     "total_supply": 132.5,
+     "total_use": 132.5,
+     "domestic": 14.3,
+     "industry": 20.9,
+     "dc_thermal": 5.0,
+     "agri": 91.1,
+     "eco": 6.3
+    },
+    {
+     "name": "黑龙江",
+     "surface": 184.8,
+     "ground": 166.8,
+     "other": 1.0,
+     "total_supply": 352.6,
+     "total_use": 352.6,
+     "domestic": 15.6,
+     "industry": 20.6,
+     "dc_thermal": 7.7,
+     "agri": 313.8,
+     "eco": 2.5
+    },
+    {
+     "name": "上海",
+     "surface": 104.8,
+     "ground": 0.0,
+     "other": 0.0,
+     "total_supply": 104.8,
+     "total_use": 104.8,
+     "domestic": 25.1,
+     "industry": 64.4,
+     "dc_thermal": 54.0,
+     "agri": 14.5,
+     "eco": 0.8
+    },
+    {
+     "name": "江苏",
+     "surface": 561.0,
+     "ground": 8.9,
+     "other": 7.5,
+     "total_supply": 577.4,
+     "total_use": 577.4,
+     "domestic": 56.1,
+     "industry": 248.5,
+     "dc_thermal": 200.9,
+     "agri": 270.8,
+     "eco": 2.0
+    },
+    {
+     "name": "浙江",
+     "surface": 178.5,
+     "ground": 1.6,
+     "other": 1.1,
+     "total_supply": 181.1,
+     "total_use": 181.1,
+     "domestic": 46.3,
+     "industry": 48.4,
+     "dc_thermal": 0.9,
+     "agri": 81.0,
+     "eco": 5.5
+    },
+    {
+     "name": "安徽",
+     "surface": 256.1,
+     "ground": 32.0,
+     "other": 2.5,
+     "total_supply": 290.7,
+     "total_use": 290.7,
+     "domestic": 33.4,
+     "industry": 93.1,
+     "dc_thermal": 53.0,
+     "agri": 158.6,
+     "eco": 5.6
+    },
+    {
+     "name": "福建",
+     "surface": 182.8,
+     "ground": 5.6,
+     "other": 0.7,
+     "total_supply": 189.1,
+     "total_use": 189.1,
+     "domestic": 33.1,
+     "industry": 68.6,
+     "dc_thermal": 8.2,
+     "agri": 84.2,
+     "eco": 3.1
+    },
+    {
+     "name": "江西",
+     "surface": 235.1,
+     "ground": 8.2,
+     "other": 2.1,
+     "total_supply": 245.4,
+     "total_use": 245.4,
+     "domestic": 28.5,
+     "industry": 60.5,
+     "dc_thermal": 15.1,
+     "agri": 154.2,
+     "eco": 2.2
+    },
+    {
+     "name": "山东",
+     "surface": 123.3,
+     "ground": 82.3,
+     "other": 8.4,
+     "total_supply": 214.0,
+     "total_use": 214.0,
+     "domestic": 34.2,
+     "industry": 30.6,
+     "dc_thermal": 0.0,
+     "agri": 141.5,
+     "eco": 7.6
+    },
+    {
+     "name": "河南",
+     "surface": 105.0,
+     "ground": 119.8,
+     "other": 2.8,
+     "total_supply": 227.6,
+     "total_use": 227.6,
+     "domestic": 38.7,
+     "industry": 50.3,
+     "dc_thermal": 4.5,
+     "agri": 125.6,
+     "eco": 13.0
+    },
+    {
+     "name": "湖北",
+     "surface": 273.1,
+     "ground": 8.8,
+     "other": 0.0,
+     "total_supply": 282.0,
+     "total_use": 282.0,
+     "domestic": 52.4,
+     "industry": 91.4,
+     "dc_thermal": 38.9,
+     "agri": 137.0,
+     "eco": 1.1
+    },
+    {
+     "name": "湖南",
+     "surface": 315.1,
+     "ground": 15.2,
+     "other": 0.1,
+     "total_supply": 330.4,
+     "total_use": 330.4,
+     "domestic": 43.5,
+     "industry": 89.0,
+     "dc_thermal": 33.0,
+     "agri": 195.1,
+     "eco": 2.8
+    },
+    {
+     "name": "广东",
+     "surface": 418.8,
+     "ground": 14.3,
+     "other": 1.8,
+     "total_supply": 435.0,
+     "total_use": 435.0,
+     "domestic": 99.9,
+     "industry": 109.2,
+     "dc_thermal": 36.3,
+     "agri": 220.5,
+     "eco": 5.4
+    },
+    {
+     "name": "广西",
+     "surface": 278.0,
+     "ground": 11.5,
+     "other": 1.1,
+     "total_supply": 290.6,
+     "total_use": 290.6,
+     "domestic": 39.7,
+     "industry": 49.8,
+     "dc_thermal": 16.1,
+     "agri": 198.3,
+     "eco": 2.7
+    },
+    {
+     "name": "海南",
+     "surface": 41.9,
+     "ground": 2.9,
+     "other": 0.2,
+     "total_supply": 45.0,
+     "total_use": 45.0,
+     "domestic": 8.3,
+     "industry": 3.1,
+     "dc_thermal": 0.0,
+     "agri": 33.1,
+     "eco": 0.5
+    },
+    {
+     "name": "重庆",
+     "surface": 76.0,
+     "ground": 1.4,
+     "other": 0.2,
+     "total_supply": 77.5,
+     "total_use": 77.5,
+     "domestic": 20.2,
+     "industry": 30.7,
+     "dc_thermal": 3.8,
+     "agri": 25.5,
+     "eco": 1.1
+    },
+    {
+     "name": "四川",
+     "surface": 253.9,
+     "ground": 12.0,
+     "other": 1.4,
+     "total_supply": 267.3,
+     "total_use": 267.3,
+     "domestic": 49.8,
+     "industry": 55.8,
+     "dc_thermal": 0.3,
+     "agri": 155.9,
+     "eco": 5.8
+    },
+    {
+     "name": "贵州",
+     "surface": 96.5,
+     "ground": 3.1,
+     "other": 0.8,
+     "total_supply": 100.3,
+     "total_use": 100.3,
+     "domestic": 17.4,
+     "industry": 25.7,
+     "dc_thermal": 2.3,
+     "agri": 56.4,
+     "eco": 0.9
+    },
+    {
+     "name": "云南",
+     "surface": 145.3,
+     "ground": 3.7,
+     "other": 1.2,
+     "total_supply": 150.2,
+     "total_use": 150.2,
+     "domestic": 21.1,
+     "industry": 21.1,
+     "dc_thermal": 0.4,
+     "agri": 105.2,
+     "eco": 2.8
+    },
+    {
+     "name": "西藏",
+     "surface": 28.6,
+     "ground": 2.5,
+     "other": 0.0,
+     "total_supply": 31.1,
+     "total_use": 31.1,
+     "domestic": 2.5,
+     "industry": 1.5,
+     "dc_thermal": 0.0,
+     "agri": 26.9,
+     "eco": 0.3
+    },
+    {
+     "name": "陕西",
+     "surface": 55.5,
+     "ground": 33.3,
+     "other": 2.0,
+     "total_supply": 90.8,
+     "total_use": 90.8,
+     "domestic": 16.4,
+     "industry": 13.7,
+     "dc_thermal": 0.0,
+     "agri": 57.6,
+     "eco": 3.1
+    },
+    {
+     "name": "甘肃",
+     "surface": 90.5,
+     "ground": 24.8,
+     "other": 3.0,
+     "total_supply": 118.4,
+     "total_use": 118.4,
+     "domestic": 8.3,
+     "industry": 11.1,
+     "dc_thermal": 0.0,
+     "agri": 94.7,
+     "eco": 4.1
+    },
+    {
+     "name": "青海",
+     "surface": 21.5,
+     "ground": 4.8,
+     "other": 0.1,
+     "total_supply": 26.4,
+     "total_use": 26.4,
+     "domestic": 2.8,
+     "industry": 2.6,
+     "dc_thermal": 0.0,
+     "agri": 19.9,
+     "eco": 1.1
+    },
+    {
+     "name": "宁夏",
+     "surface": 59.4,
+     "ground": 5.3,
+     "other": 0.2,
+     "total_supply": 64.9,
+     "total_use": 64.9,
+     "domestic": 2.2,
+     "industry": 4.4,
+     "dc_thermal": 0.0,
+     "agri": 56.3,
+     "eco": 2.0
+    },
+    {
+     "name": "新疆",
+     "surface": 445.9,
+     "ground": 118.6,
+     "other": 0.9,
+     "total_supply": 565.4,
+     "total_use": 565.4,
+     "domestic": 13.9,
+     "industry": 11.7,
+     "dc_thermal": 0.1,
+     "agri": 533.3,
+     "eco": 6.5
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2017": [
+  {
+   "page": 6,
+   "caption": "表1 2017 年各水资源一级区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 664.8,
+     "surface": 27746.3,
+     "ground": 8309.6,
+     "unrepeat": 1014.9,
+     "total": 28761.2
+    },
+    {
+     "name": "北方6区",
+     "precip": 333.4,
+     "surface": 4181.9,
+     "ground": 2596.7,
+     "unrepeat": 864.7,
+     "total": 5046.6
+    },
+    {
+     "name": "南方4区",
+     "precip": 1252.5,
+     "surface": 23564.4,
+     "ground": 5712.9,
+     "unrepeat": 150.2,
+     "total": 23714.6
+    },
+    {
+     "name": "松花江区",
+     "precip": 451.0,
+     "surface": 1086.0,
+     "ground": 462.2,
+     "unrepeat": 181.5,
+     "total": 1267.5
+    },
+    {
+     "name": "辽河区",
+     "precip": 459.8,
+     "surface": 220.4,
+     "ground": 164.8,
+     "unrepeat": 72.8,
+     "total": 293.1
+    },
+    {
+     "name": "海河区",
+     "precip": 500.3,
+     "surface": 128.3,
+     "ground": 223.3,
+     "unrepeat": 143.8,
+     "total": 272.2
+    },
+    {
+     "name": "黄河区",
+     "precip": 488.8,
+     "surface": 552.9,
+     "ground": 376.7,
+     "unrepeat": 106.3,
+     "total": 659.3
+    },
+    {
+     "name": "淮河区",
+     "precip": 874.7,
+     "surface": 699.8,
+     "ground": 419.2,
+     "unrepeat": 258.8,
+     "total": 958.6
+    },
+    {
+     "name": "长江区",
+     "precip": 1121.8,
+     "surface": 10488.7,
+     "ground": 2606.4,
+     "unrepeat": 126.0,
+     "total": 10614.7
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1244.1,
+     "surface": 183.7,
+     "ground": 44.4,
+     "unrepeat": 23.2,
+     "total": 206.9
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1546.6,
+     "surface": 1799.3,
+     "ground": 450.7,
+     "unrepeat": 9.2,
+     "total": 1808.5
+    },
+    {
+     "name": "珠江区",
+     "precip": 1679.5,
+     "surface": 5250.5,
+     "ground": 1158.2,
+     "unrepeat": 15.0,
+     "total": 5265.5
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1163.7,
+     "surface": 6025.9,
+     "ground": 1497.6,
+     "unrepeat": 0.0,
+     "total": 6025.9
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 183.3,
+     "surface": 1494.5,
+     "ground": 950.5,
+     "unrepeat": 101.5,
+     "total": 1596.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 6,
+   "caption": "表2 2017 年各水资源一级区供用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4945.5,
+     "ground": 1016.7,
+     "other": 81.2,
+     "total_supply": 6043.4,
+     "total_use": 6043.4,
+     "domestic": 838.1,
+     "industry": 1277.0,
+     "dc_thermal": 478.3,
+     "agri": 3766.4,
+     "eco": 161.9
+    },
+    {
+     "name": "北方6区",
+     "surface": 1761.3,
+     "ground": 909.5,
+     "other": 58.6,
+     "total_supply": 2729.4,
+     "total_use": 2729.4,
+     "domestic": 281.5,
+     "industry": 274.3,
+     "dc_thermal": 24.1,
+     "agri": 2054.2,
+     "eco": 119.4
+    },
+    {
+     "name": "南方4区",
+     "surface": 3184.2,
+     "ground": 107.2,
+     "other": 22.6,
+     "total_supply": 3314.0,
+     "total_use": 3314.0,
+     "domestic": 556.6,
+     "industry": 1002.7,
+     "dc_thermal": 456.5,
+     "agri": 1712.2,
+     "eco": 42.5
+    },
+    {
+     "name": "松花江区",
+     "surface": 283.2,
+     "ground": 212.1,
+     "other": 1.7,
+     "total_supply": 497.0,
+     "total_use": 497.0,
+     "domestic": 28.7,
+     "industry": 37.5,
+     "dc_thermal": 12.4,
+     "agri": 417.7,
+     "eco": 13.1
+    },
+    {
+     "name": "辽河区",
+     "surface": 87.3,
+     "ground": 97.9,
+     "other": 4.7,
+     "total_supply": 189.8,
+     "total_use": 189.8,
+     "domestic": 31.3,
+     "industry": 24.7,
+     "dc_thermal": 0.1,
+     "agri": 126.4,
+     "eco": 7.4
+    },
+    {
+     "name": "海河区",
+     "surface": 161.9,
+     "ground": 184.9,
+     "other": 23.0,
+     "total_supply": 369.8,
+     "total_use": 369.8,
+     "domestic": 65.7,
+     "industry": 46.2,
+     "dc_thermal": 0.0,
+     "agri": 224.3,
+     "eco": 33.7
+    },
+    {
+     "name": "黄河区",
+     "surface": 263.6,
+     "ground": 118.9,
+     "other": 13.1,
+     "total_supply": 395.6,
+     "total_use": 395.6,
+     "domestic": 48.3,
+     "industry": 56.8,
+     "dc_thermal": 0.0,
+     "agri": 273.2,
+     "eco": 17.3
+    },
+    {
+     "name": "淮河区",
+     "surface": 451.2,
+     "ground": 152.3,
+     "other": 12.7,
+     "total_supply": 616.2,
+     "total_use": 616.2,
+     "domestic": 89.1,
+     "industry": 90.2,
+     "dc_thermal": 11.4,
+     "agri": 414.5,
+     "eco": 22.5
+    },
+    {
+     "name": "长江区",
+     "surface": 1977.8,
+     "ground": 67.4,
+     "other": 15.0,
+     "total_supply": 2060.1,
+     "total_use": 2060.1,
+     "domestic": 318.3,
+     "industry": 723.9,
+     "dc_thermal": 392.1,
+     "agri": 994.0,
+     "eco": 23.9
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 334.0,
+     "ground": 0.3,
+     "other": 6.2,
+     "total_supply": 340.5,
+     "total_use": 340.5,
+     "domestic": 56.2,
+     "industry": 207.4,
+     "dc_thermal": 167.2,
+     "agri": 74.6,
+     "eco": 2.3
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 305.7,
+     "ground": 5.7,
+     "other": 1.7,
+     "total_supply": 313.1,
+     "total_use": 313.1,
+     "domestic": 66.8,
+     "industry": 96.5,
+     "dc_thermal": 11.0,
+     "agri": 142.2,
+     "eco": 7.5
+    },
+    {
+     "name": "珠江区",
+     "surface": 800.4,
+     "ground": 29.9,
+     "other": 5.5,
+     "total_supply": 835.8,
+     "total_use": 835.8,
+     "domestic": 160.6,
+     "industry": 173.3,
+     "dc_thermal": 51.1,
+     "agri": 492.0,
+     "eco": 9.9
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 100.3,
+     "ground": 4.2,
+     "other": 0.4,
+     "total_supply": 105.0,
+     "total_use": 105.0,
+     "domestic": 10.9,
+     "industry": 8.9,
+     "dc_thermal": 0.0,
+     "agri": 84.0,
+     "eco": 1.1
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 514.2,
+     "ground": 143.4,
+     "other": 3.3,
+     "total_supply": 660.9,
+     "total_use": 660.9,
+     "domestic": 18.4,
+     "industry": 18.9,
+     "dc_thermal": 0.2,
+     "agri": 598.1,
+     "eco": 25.5
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 7,
+   "caption": "表3 2017 年各省级行政区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 664.8,
+     "surface": 27746.3,
+     "ground": 8309.6,
+     "unrepeat": 1014.9,
+     "total": 28761.2
+    },
+    {
+     "name": "北京",
+     "precip": 592.0,
+     "surface": 12.0,
+     "ground": 20.4,
+     "unrepeat": 17.7,
+     "total": 29.8
+    },
+    {
+     "name": "天津",
+     "precip": 496.6,
+     "surface": 8.8,
+     "ground": 5.5,
+     "unrepeat": 4.2,
+     "total": 13.0
+    },
+    {
+     "name": "河北",
+     "precip": 478.8,
+     "surface": 60.0,
+     "ground": 116.3,
+     "unrepeat": 78.4,
+     "total": 138.3
+    },
+    {
+     "name": "山西",
+     "precip": 579.5,
+     "surface": 87.8,
+     "ground": 104.1,
+     "unrepeat": 42.4,
+     "total": 130.2
+    },
+    {
+     "name": "内蒙古",
+     "precip": 208.2,
+     "surface": 194.1,
+     "ground": 207.3,
+     "unrepeat": 115.8,
+     "total": 309.9
+    },
+    {
+     "name": "辽宁",
+     "precip": 543.6,
+     "surface": 161.0,
+     "ground": 86.6,
+     "unrepeat": 25.3,
+     "total": 186.3
+    },
+    {
+     "name": "吉林",
+     "precip": 595.9,
+     "surface": 339.8,
+     "ground": 133.3,
+     "unrepeat": 54.5,
+     "total": 394.4
+    },
+    {
+     "name": "黑龙江",
+     "precip": 526.6,
+     "surface": 626.5,
+     "ground": 273.2,
+     "unrepeat": 116.0,
+     "total": 742.5
+    },
+    {
+     "name": "上海",
+     "precip": 1195.5,
+     "surface": 27.8,
+     "ground": 9.2,
+     "unrepeat": 6.2,
+     "total": 34.0
+    },
+    {
+     "name": "江苏",
+     "precip": 1006.8,
+     "surface": 295.4,
+     "ground": 114.5,
+     "unrepeat": 97.5,
+     "total": 392.9
+    },
+    {
+     "name": "浙江",
+     "precip": 1556.2,
+     "surface": 881.9,
+     "ground": 204.3,
+     "unrepeat": 13.4,
+     "total": 895.3
+    },
+    {
+     "name": "安徽",
+     "precip": 1255.0,
+     "surface": 717.8,
+     "ground": 201.0,
+     "unrepeat": 67.1,
+     "total": 784.9
+    },
+    {
+     "name": "福建",
+     "precip": 1513.0,
+     "surface": 1054.2,
+     "ground": 287.5,
+     "unrepeat": 1.4,
+     "total": 1055.6
+    },
+    {
+     "name": "江西",
+     "precip": 1658.9,
+     "surface": 1637.2,
+     "ground": 379.5,
+     "unrepeat": 17.9,
+     "total": 1655.1
+    },
+    {
+     "name": "山东",
+     "precip": 635.8,
+     "surface": 139.1,
+     "ground": 151.1,
+     "unrepeat": 86.5,
+     "total": 225.6
+    },
+    {
+     "name": "河南",
+     "precip": 827.8,
+     "surface": 311.2,
+     "ground": 206.5,
+     "unrepeat": 111.8,
+     "total": 423.1
+    },
+    {
+     "name": "湖北",
+     "precip": 1309.5,
+     "surface": 1219.3,
+     "ground": 319.0,
+     "unrepeat": 29.5,
+     "total": 1248.8
+    },
+    {
+     "name": "湖南",
+     "precip": 1499.4,
+     "surface": 1905.7,
+     "ground": 436.8,
+     "unrepeat": 6.7,
+     "total": 1912.4
+    },
+    {
+     "name": "广东",
+     "precip": 1739.2,
+     "surface": 1777.0,
+     "ground": 440.7,
+     "unrepeat": 9.6,
+     "total": 1786.6
+    },
+    {
+     "name": "广西",
+     "precip": 1805.7,
+     "surface": 2386.0,
+     "ground": 446.6,
+     "unrepeat": 2.0,
+     "total": 2388.0
+    },
+    {
+     "name": "海南",
+     "precip": 2062.2,
+     "surface": 380.5,
+     "ground": 96.8,
+     "unrepeat": 3.4,
+     "total": 383.9
+    },
+    {
+     "name": "重庆",
+     "precip": 1275.3,
+     "surface": 656.1,
+     "ground": 116.1,
+     "unrepeat": 0.0,
+     "total": 656.1
+    },
+    {
+     "name": "四川",
+     "precip": 941.4,
+     "surface": 2466.0,
+     "ground": 607.5,
+     "unrepeat": 1.2,
+     "total": 2467.1
+    },
+    {
+     "name": "贵州",
+     "precip": 1175.3,
+     "surface": 1051.5,
+     "ground": 260.8,
+     "unrepeat": 0.0,
+     "total": 1051.5
+    },
+    {
+     "name": "云南",
+     "precip": 1351.5,
+     "surface": 2202.6,
+     "ground": 762.0,
+     "unrepeat": 0.0,
+     "total": 2202.6
+    },
+    {
+     "name": "西藏",
+     "precip": 631.7,
+     "surface": 4749.9,
+     "ground": 1086.0,
+     "unrepeat": 0.0,
+     "total": 4749.9
+    },
+    {
+     "name": "陕西",
+     "precip": 801.2,
+     "surface": 422.6,
+     "ground": 141.6,
+     "unrepeat": 26.6,
+     "total": 449.1
+    },
+    {
+     "name": "甘肃",
+     "precip": 317.7,
+     "surface": 231.8,
+     "ground": 133.4,
+     "unrepeat": 7.1,
+     "total": 238.9
+    },
+    {
+     "name": "青海",
+     "precip": 338.9,
+     "surface": 764.3,
+     "ground": 355.7,
+     "unrepeat": 21.4,
+     "total": 785.7
+    },
+    {
+     "name": "宁夏",
+     "precip": 331.6,
+     "surface": 8.7,
+     "ground": 19.3,
+     "unrepeat": 2.1,
+     "total": 10.8
+    },
+    {
+     "name": "新疆",
+     "precip": 192.4,
+     "surface": 969.5,
+     "ground": 587.0,
+     "unrepeat": 49.1,
+     "total": 1018.6
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 8,
+   "caption": "表4 2017 年各省级行政区供水量和用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4945.5,
+     "ground": 1016.7,
+     "other": 81.2,
+     "total_supply": 6043.4,
+     "total_use": 6043.4,
+     "domestic": 838.1,
+     "industry": 1277.0,
+     "dc_thermal": 478.3,
+     "agri": 3766.4,
+     "eco": 161.9
+    },
+    {
+     "name": "北京",
+     "surface": 12.4,
+     "ground": 16.6,
+     "other": 10.5,
+     "total_supply": 39.5,
+     "total_use": 39.5,
+     "domestic": 18.3,
+     "industry": 3.5,
+     "dc_thermal": 0.0,
+     "agri": 5.1,
+     "eco": 12.7
+    },
+    {
+     "name": "天津",
+     "surface": 19.0,
+     "ground": 4.6,
+     "other": 3.9,
+     "total_supply": 27.5,
+     "total_use": 27.5,
+     "domestic": 6.1,
+     "industry": 5.5,
+     "dc_thermal": 0.0,
+     "agri": 10.7,
+     "eco": 5.2
+    },
+    {
+     "name": "河北",
+     "surface": 59.4,
+     "ground": 116.0,
+     "other": 6.2,
+     "total_supply": 181.6,
+     "total_use": 181.6,
+     "domestic": 27.0,
+     "industry": 20.3,
+     "dc_thermal": 0.0,
+     "agri": 126.1,
+     "eco": 8.2
+    },
+    {
+     "name": "山西",
+     "surface": 39.6,
+     "ground": 31.1,
+     "other": 4.2,
+     "total_supply": 74.9,
+     "total_use": 74.9,
+     "domestic": 12.8,
+     "industry": 13.5,
+     "dc_thermal": 0.0,
+     "agri": 45.5,
+     "eco": 3.0
+    },
+    {
+     "name": "内蒙古",
+     "surface": 99.2,
+     "ground": 85.3,
+     "other": 3.4,
+     "total_supply": 188.0,
+     "total_use": 188.0,
+     "domestic": 11.0,
+     "industry": 15.7,
+     "dc_thermal": 0.1,
+     "agri": 138.1,
+     "eco": 23.1
+    },
+    {
+     "name": "辽宁",
+     "surface": 72.4,
+     "ground": 54.5,
+     "other": 4.2,
+     "total_supply": 131.1,
+     "total_use": 131.1,
+     "domestic": 25.4,
+     "industry": 18.6,
+     "dc_thermal": 0.1,
+     "agri": 81.6,
+     "eco": 5.5
+    },
+    {
+     "name": "吉林",
+     "surface": 81.5,
+     "ground": 44.7,
+     "other": 0.4,
+     "total_supply": 126.7,
+     "total_use": 126.7,
+     "domestic": 14.1,
+     "industry": 18.1,
+     "dc_thermal": 5.2,
+     "agri": 89.8,
+     "eco": 4.7
+    },
+    {
+     "name": "黑龙江",
+     "surface": 188.9,
+     "ground": 163.1,
+     "other": 1.0,
+     "total_supply": 353.1,
+     "total_use": 353.1,
+     "domestic": 15.4,
+     "industry": 19.7,
+     "dc_thermal": 7.2,
+     "agri": 316.4,
+     "eco": 1.5
+    },
+    {
+     "name": "上海",
+     "surface": 104.8,
+     "ground": 0.0,
+     "other": 0.0,
+     "total_supply": 104.8,
+     "total_use": 104.8,
+     "domestic": 24.6,
+     "industry": 62.7,
+     "dc_thermal": 52.2,
+     "agri": 16.7,
+     "eco": 0.8
+    },
+    {
+     "name": "江苏",
+     "surface": 575.3,
+     "ground": 8.4,
+     "other": 7.7,
+     "total_supply": 591.3,
+     "total_use": 591.3,
+     "domestic": 58.5,
+     "industry": 250.1,
+     "dc_thermal": 202.1,
+     "agri": 280.6,
+     "eco": 2.1
+    },
+    {
+     "name": "浙江",
+     "surface": 176.2,
+     "ground": 1.3,
+     "other": 2.0,
+     "total_supply": 179.5,
+     "total_use": 179.5,
+     "domestic": 47.0,
+     "industry": 46.1,
+     "dc_thermal": 0.9,
+     "agri": 80.9,
+     "eco": 5.5
+    },
+    {
+     "name": "安徽",
+     "surface": 256.5,
+     "ground": 30.8,
+     "other": 3.0,
+     "total_supply": 290.3,
+     "total_use": 290.3,
+     "domestic": 33.8,
+     "industry": 92.2,
+     "dc_thermal": 53.6,
+     "agri": 158.2,
+     "eco": 6.2
+    },
+    {
+     "name": "福建",
+     "surface": 186.4,
+     "ground": 5.0,
+     "other": 0.7,
+     "total_supply": 192.0,
+     "total_use": 192.0,
+     "domestic": 33.2,
+     "industry": 64.4,
+     "dc_thermal": 10.5,
+     "agri": 91.2,
+     "eco": 3.2
+    },
+    {
+     "name": "江西",
+     "surface": 237.6,
+     "ground": 8.3,
+     "other": 2.1,
+     "total_supply": 248.0,
+     "total_use": 248.0,
+     "domestic": 28.9,
+     "industry": 60.5,
+     "dc_thermal": 15.8,
+     "agri": 156.3,
+     "eco": 2.3
+    },
+    {
+     "name": "山东",
+     "surface": 121.1,
+     "ground": 79.7,
+     "other": 8.7,
+     "total_supply": 209.5,
+     "total_use": 209.5,
+     "domestic": 34.6,
+     "industry": 28.8,
+     "dc_thermal": 0.0,
+     "agri": 134.0,
+     "eco": 12.0
+    },
+    {
+     "name": "河南",
+     "surface": 113.1,
+     "ground": 115.5,
+     "other": 5.1,
+     "total_supply": 233.8,
+     "total_use": 233.8,
+     "domestic": 40.2,
+     "industry": 51.0,
+     "dc_thermal": 4.6,
+     "agri": 122.8,
+     "eco": 19.8
+    },
+    {
+     "name": "湖北",
+     "surface": 281.4,
+     "ground": 8.8,
+     "other": 0.1,
+     "total_supply": 290.3,
+     "total_use": 290.3,
+     "domestic": 53.2,
+     "industry": 87.8,
+     "dc_thermal": 36.6,
+     "agri": 148.1,
+     "eco": 1.2
+    },
+    {
+     "name": "湖南",
+     "surface": 311.7,
+     "ground": 15.2,
+     "other": 0.1,
+     "total_supply": 326.9,
+     "total_use": 326.9,
+     "domestic": 44.5,
+     "industry": 86.0,
+     "dc_thermal": 33.1,
+     "agri": 193.7,
+     "eco": 2.8
+    },
+    {
+     "name": "广东",
+     "surface": 417.3,
+     "ground": 13.8,
+     "other": 2.3,
+     "total_supply": 433.5,
+     "total_use": 433.5,
+     "domestic": 100.9,
+     "industry": 107.0,
+     "dc_thermal": 37.7,
+     "agri": 220.3,
+     "eco": 5.3
+    },
+    {
+     "name": "广西",
+     "surface": 273.1,
+     "ground": 10.5,
+     "other": 1.4,
+     "total_supply": 284.9,
+     "total_use": 284.9,
+     "domestic": 40.2,
+     "industry": 46.0,
+     "dc_thermal": 13.0,
+     "agri": 195.8,
+     "eco": 3.0
+    },
+    {
+     "name": "海南",
+     "surface": 42.3,
+     "ground": 3.1,
+     "other": 0.2,
+     "total_supply": 45.6,
+     "total_use": 45.6,
+     "domestic": 8.4,
+     "industry": 3.0,
+     "dc_thermal": 0.0,
+     "agri": 33.3,
+     "eco": 0.8
+    },
+    {
+     "name": "重庆",
+     "surface": 76.1,
+     "ground": 1.1,
+     "other": 0.2,
+     "total_supply": 77.4,
+     "total_use": 77.4,
+     "domestic": 20.5,
+     "industry": 30.4,
+     "dc_thermal": 3.5,
+     "agri": 25.4,
+     "eco": 1.1
+    },
+    {
+     "name": "四川",
+     "surface": 254.3,
+     "ground": 12.1,
+     "other": 1.9,
+     "total_supply": 268.4,
+     "total_use": 268.4,
+     "domestic": 50.7,
+     "industry": 51.4,
+     "dc_thermal": 1.5,
+     "agri": 160.5,
+     "eco": 5.8
+    },
+    {
+     "name": "贵州",
+     "surface": 101.1,
+     "ground": 1.8,
+     "other": 0.6,
+     "total_supply": 103.5,
+     "total_use": 103.5,
+     "domestic": 18.8,
+     "industry": 24.8,
+     "dc_thermal": 0.0,
+     "agri": 58.9,
+     "eco": 0.9
+    },
+    {
+     "name": "云南",
+     "surface": 149.9,
+     "ground": 3.7,
+     "other": 3.1,
+     "total_supply": 156.6,
+     "total_use": 156.6,
+     "domestic": 21.7,
+     "industry": 23.4,
+     "dc_thermal": 0.4,
+     "agri": 108.5,
+     "eco": 3.1
+    },
+    {
+     "name": "西藏",
+     "surface": 27.8,
+     "ground": 3.6,
+     "other": 0.0,
+     "total_supply": 31.4,
+     "total_use": 31.4,
+     "domestic": 2.7,
+     "industry": 1.5,
+     "dc_thermal": 0.0,
+     "agri": 26.9,
+     "eco": 0.2
+    },
+    {
+     "name": "陕西",
+     "surface": 58.2,
+     "ground": 32.6,
+     "other": 2.3,
+     "total_supply": 93.0,
+     "total_use": 93.0,
+     "domestic": 17.0,
+     "industry": 14.3,
+     "dc_thermal": 0.0,
+     "agri": 58.2,
+     "eco": 3.5
+    },
+    {
+     "name": "甘肃",
+     "surface": 87.1,
+     "ground": 25.1,
+     "other": 3.9,
+     "total_supply": 116.1,
+     "total_use": 116.1,
+     "domestic": 8.7,
+     "industry": 10.4,
+     "dc_thermal": 0.0,
+     "agri": 92.3,
+     "eco": 4.7
+    },
+    {
+     "name": "青海",
+     "surface": 20.7,
+     "ground": 5.0,
+     "other": 0.2,
+     "total_supply": 25.8,
+     "total_use": 25.8,
+     "domestic": 2.9,
+     "industry": 2.5,
+     "dc_thermal": 0.0,
+     "agri": 19.2,
+     "eco": 1.2
+    },
+    {
+     "name": "宁夏",
+     "surface": 60.3,
+     "ground": 5.5,
+     "other": 0.2,
+     "total_supply": 66.1,
+     "total_use": 66.1,
+     "domestic": 2.3,
+     "industry": 4.5,
+     "dc_thermal": 0.0,
+     "agri": 56.7,
+     "eco": 2.5
+    },
+    {
+     "name": "新疆",
+     "surface": 440.9,
+     "ground": 109.8,
+     "other": 1.6,
+     "total_supply": 552.3,
+     "total_use": 552.3,
+     "domestic": 14.7,
+     "industry": 13.1,
+     "dc_thermal": 0.1,
+     "agri": 514.4,
+     "eco": 10.2
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2018": [
+  {
+   "page": 6,
+   "caption": "表1 2018 年各水资源一级区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 682.5,
+     "surface": 26323.2,
+     "ground": 8246.5,
+     "unrepeat": 1139.3,
+     "total": 27462.5
+    },
+    {
+     "name": "北方6区",
+     "precip": 379.1,
+     "surface": 4830.2,
+     "ground": 2742.7,
+     "unrepeat": 977.0,
+     "total": 5807.2
+    },
+    {
+     "name": "南方4区",
+     "precip": 1220.2,
+     "surface": 21493.0,
+     "ground": 5503.8,
+     "unrepeat": 162.3,
+     "total": 21655.3
+    },
+    {
+     "name": "松花江区",
+     "precip": 569.9,
+     "surface": 1441.7,
+     "ground": 553.0,
+     "unrepeat": 246.9,
+     "total": 1688.6
+    },
+    {
+     "name": "辽河区",
+     "precip": 511.3,
+     "surface": 307.8,
+     "ground": 161.6,
+     "unrepeat": 79.3,
+     "total": 387.1
+    },
+    {
+     "name": "海河区",
+     "precip": 540.7,
+     "surface": 173.9,
+     "ground": 257.1,
+     "unrepeat": 164.4,
+     "total": 338.4
+    },
+    {
+     "name": "黄河区",
+     "precip": 551.6,
+     "surface": 755.3,
+     "ground": 449.8,
+     "unrepeat": 113.8,
+     "total": 869.1
+    },
+    {
+     "name": "淮河区",
+     "precip": 925.2,
+     "surface": 769.9,
+     "ground": 431.8,
+     "unrepeat": 258.8,
+     "total": 1028.7
+    },
+    {
+     "name": "长江区",
+     "precip": 1086.3,
+     "surface": 9238.1,
+     "ground": 2383.6,
+     "unrepeat": 135.6,
+     "total": 9373.7
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1381.8,
+     "surface": 204.1,
+     "ground": 52.3,
+     "unrepeat": 27.3,
+     "total": 231.3
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1607.2,
+     "surface": 1505.5,
+     "ground": 420.1,
+     "unrepeat": 12.2,
+     "total": 1517.7
+    },
+    {
+     "name": "珠江区",
+     "precip": 1599.7,
+     "surface": 4762.9,
+     "ground": 1163.0,
+     "unrepeat": 14.6,
+     "total": 4777.5
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1147.9,
+     "surface": 5986.5,
+     "ground": 1537.1,
+     "unrepeat": 0.0,
+     "total": 5986.5
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 203.9,
+     "surface": 1381.5,
+     "ground": 889.4,
+     "unrepeat": 113.7,
+     "total": 1495.3
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 6,
+   "caption": "表2      2018 年各水资源一级区供用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4952.7,
+     "ground": 976.4,
+     "other": 86.4,
+     "total_supply": 6015.5,
+     "total_use": 6015.5,
+     "domestic": 859.9,
+     "industry": 1261.6,
+     "dc_thermal": 488.3,
+     "agri": 3693.1,
+     "eco": 200.9
+    },
+    {
+     "name": "北方6区",
+     "surface": 1766.4,
+     "ground": 877.3,
+     "other": 62.7,
+     "total_supply": 2706.4,
+     "total_use": 2706.4,
+     "domestic": 289.5,
+     "industry": 272.2,
+     "dc_thermal": 23.5,
+     "agri": 1989.9,
+     "eco": 154.8
+    },
+    {
+     "name": "南方4区",
+     "surface": 3186.3,
+     "ground": 99.1,
+     "other": 23.7,
+     "total_supply": 3309.1,
+     "total_use": 3309.1,
+     "domestic": 570.4,
+     "industry": 989.4,
+     "dc_thermal": 464.8,
+     "agri": 1703.2,
+     "eco": 46.1
+    },
+    {
+     "name": "松花江区",
+     "surface": 279.1,
+     "ground": 198.4,
+     "other": 1.7,
+     "total_supply": 479.2,
+     "total_use": 479.2,
+     "domestic": 29.0,
+     "industry": 36.2,
+     "dc_thermal": 12.3,
+     "agri": 399.0,
+     "eco": 15.1
+    },
+    {
+     "name": "辽河区",
+     "surface": 86.8,
+     "ground": 102.0,
+     "other": 4.9,
+     "total_supply": 193.7,
+     "total_use": 193.7,
+     "domestic": 31.4,
+     "industry": 24.6,
+     "dc_thermal": 0.1,
+     "agri": 130.5,
+     "eco": 7.2
+    },
+    {
+     "name": "海河区",
+     "surface": 171.9,
+     "ground": 175.3,
+     "other": 24.1,
+     "total_supply": 371.3,
+     "total_use": 371.3,
+     "domestic": 68.0,
+     "industry": 46.4,
+     "dc_thermal": 0.2,
+     "agri": 217.0,
+     "eco": 39.8
+    },
+    {
+     "name": "黄河区",
+     "surface": 260.5,
+     "ground": 117.2,
+     "other": 14.0,
+     "total_supply": 391.7,
+     "total_use": 391.7,
+     "domestic": 49.6,
+     "industry": 56.3,
+     "dc_thermal": 0.0,
+     "agri": 264.4,
+     "eco": 21.4
+    },
+    {
+     "name": "淮河区",
+     "surface": 451.2,
+     "ground": 150.1,
+     "other": 14.4,
+     "total_supply": 615.7,
+     "total_use": 615.7,
+     "domestic": 92.7,
+     "industry": 90.5,
+     "dc_thermal": 10.6,
+     "agri": 406.9,
+     "eco": 25.6
+    },
+    {
+     "name": "长江区",
+     "surface": 1994.9,
+     "ground": 62.0,
+     "other": 14.8,
+     "total_supply": 2071.6,
+     "total_use": 2071.6,
+     "domestic": 328.3,
+     "industry": 722.0,
+     "dc_thermal": 401.1,
+     "agri": 995.1,
+     "eco": 26.3
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 335.9,
+     "ground": 0.2,
+     "other": 6.9,
+     "total_supply": 343.0,
+     "total_use": 343.0,
+     "domestic": 56.6,
+     "industry": 212.6,
+     "dc_thermal": 172.7,
+     "agri": 71.5,
+     "eco": 2.2
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 297.2,
+     "ground": 4.9,
+     "other": 2.6,
+     "total_supply": 304.6,
+     "total_use": 304.6,
+     "domestic": 67.3,
+     "industry": 93.0,
+     "dc_thermal": 14.5,
+     "agri": 136.2,
+     "eco": 8.1
+    },
+    {
+     "name": "珠江区",
+     "surface": 792.9,
+     "ground": 28.1,
+     "other": 5.3,
+     "total_supply": 826.3,
+     "total_use": 826.3,
+     "domestic": 163.0,
+     "industry": 166.0,
+     "dc_thermal": 49.1,
+     "agri": 487.0,
+     "eco": 10.4
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 101.3,
+     "ground": 4.1,
+     "other": 1.0,
+     "total_supply": 106.5,
+     "total_use": 106.5,
+     "domestic": 11.8,
+     "industry": 8.4,
+     "dc_thermal": 0.0,
+     "agri": 84.9,
+     "eco": 1.4
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 516.9,
+     "ground": 134.3,
+     "other": 3.6,
+     "total_supply": 654.9,
+     "total_use": 654.9,
+     "domestic": 18.9,
+     "industry": 18.2,
+     "dc_thermal": 0.3,
+     "agri": 572.1,
+     "eco": 45.6
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 7,
+   "caption": "表3  2018 年各省级行政区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 682.5,
+     "surface": 26323.2,
+     "ground": 8246.5,
+     "unrepeat": 1139.3,
+     "total": 27462.5
+    },
+    {
+     "name": "北京",
+     "precip": 590.4,
+     "surface": 14.3,
+     "ground": 28.9,
+     "unrepeat": 21.1,
+     "total": 35.5
+    },
+    {
+     "name": "天津",
+     "precip": 581.8,
+     "surface": 11.8,
+     "ground": 7.3,
+     "unrepeat": 5.8,
+     "total": 17.6
+    },
+    {
+     "name": "河北",
+     "precip": 507.6,
+     "surface": 85.3,
+     "ground": 124.4,
+     "unrepeat": 78.7,
+     "total": 164.1
+    },
+    {
+     "name": "山西",
+     "precip": 522.9,
+     "surface": 81.3,
+     "ground": 100.3,
+     "unrepeat": 40.6,
+     "total": 121.9
+    },
+    {
+     "name": "内蒙古",
+     "precip": 328.2,
+     "surface": 302.4,
+     "ground": 253.6,
+     "unrepeat": 159.2,
+     "total": 461.5
+    },
+    {
+     "name": "辽宁",
+     "precip": 586.1,
+     "surface": 209.3,
+     "ground": 79.8,
+     "unrepeat": 26.1,
+     "total": 235.4
+    },
+    {
+     "name": "吉林",
+     "precip": 672.9,
+     "surface": 422.2,
+     "ground": 137.9,
+     "unrepeat": 59.0,
+     "total": 481.2
+    },
+    {
+     "name": "黑龙江",
+     "precip": 633.3,
+     "surface": 842.2,
+     "ground": 347.5,
+     "unrepeat": 169.2,
+     "total": 1011.4
+    },
+    {
+     "name": "上海",
+     "precip": 1266.6,
+     "surface": 32.0,
+     "ground": 9.6,
+     "unrepeat": 6.7,
+     "total": 38.7
+    },
+    {
+     "name": "江苏",
+     "precip": 1088.1,
+     "surface": 274.9,
+     "ground": 119.7,
+     "unrepeat": 103.6,
+     "total": 378.4
+    },
+    {
+     "name": "浙江",
+     "precip": 1640.2,
+     "surface": 848.3,
+     "ground": 213.9,
+     "unrepeat": 17.9,
+     "total": 866.2
+    },
+    {
+     "name": "安徽",
+     "precip": 1314.7,
+     "surface": 766.7,
+     "ground": 203.7,
+     "unrepeat": 69.1,
+     "total": 835.8
+    },
+    {
+     "name": "福建",
+     "precip": 1566.6,
+     "surface": 777.0,
+     "ground": 245.7,
+     "unrepeat": 1.4,
+     "total": 778.5
+    },
+    {
+     "name": "江西",
+     "precip": 1487.6,
+     "surface": 1129.9,
+     "ground": 298.5,
+     "unrepeat": 19.2,
+     "total": 1149.1
+    },
+    {
+     "name": "山东",
+     "precip": 789.5,
+     "surface": 230.6,
+     "ground": 196.7,
+     "unrepeat": 112.7,
+     "total": 343.3
+    },
+    {
+     "name": "河南",
+     "precip": 755.0,
+     "surface": 241.7,
+     "ground": 188.0,
+     "unrepeat": 98.2,
+     "total": 339.8
+    },
+    {
+     "name": "湖北",
+     "precip": 1072.2,
+     "surface": 825.9,
+     "ground": 257.7,
+     "unrepeat": 31.1,
+     "total": 857.0
+    },
+    {
+     "name": "湖南",
+     "precip": 1363.7,
+     "surface": 1336.5,
+     "ground": 333.5,
+     "unrepeat": 6.4,
+     "total": 1342.9
+    },
+    {
+     "name": "广东",
+     "precip": 1843.1,
+     "surface": 1885.2,
+     "ground": 460.6,
+     "unrepeat": 9.9,
+     "total": 1895.1
+    },
+    {
+     "name": "广西",
+     "precip": 1560.0,
+     "surface": 1829.7,
+     "ground": 440.9,
+     "unrepeat": 1.3,
+     "total": 1831.0
+    },
+    {
+     "name": "海南",
+     "precip": 2095.9,
+     "surface": 414.6,
+     "ground": 98.0,
+     "unrepeat": 3.5,
+     "total": 418.1
+    },
+    {
+     "name": "重庆",
+     "precip": 1134.8,
+     "surface": 524.2,
+     "ground": 104.0,
+     "unrepeat": 0.0,
+     "total": 524.2
+    },
+    {
+     "name": "四川",
+     "precip": 1050.3,
+     "surface": 2951.5,
+     "ground": 635.1,
+     "unrepeat": 1.2,
+     "total": 2952.6
+    },
+    {
+     "name": "贵州",
+     "precip": 1162.9,
+     "surface": 978.7,
+     "ground": 252.7,
+     "unrepeat": 0.0,
+     "total": 978.7
+    },
+    {
+     "name": "云南",
+     "precip": 1337.5,
+     "surface": 2206.5,
+     "ground": 772.8,
+     "unrepeat": 0.0,
+     "total": 2206.5
+    },
+    {
+     "name": "西藏",
+     "precip": 619.0,
+     "surface": 4658.2,
+     "ground": 1105.7,
+     "unrepeat": 0.0,
+     "total": 4658.2
+    },
+    {
+     "name": "陕西",
+     "precip": 703.0,
+     "surface": 347.6,
+     "ground": 125.0,
+     "unrepeat": 23.9,
+     "total": 371.4
+    },
+    {
+     "name": "甘肃",
+     "precip": 371.9,
+     "surface": 325.7,
+     "ground": 165.6,
+     "unrepeat": 7.5,
+     "total": 333.3
+    },
+    {
+     "name": "青海",
+     "precip": 403.9,
+     "surface": 939.5,
+     "ground": 424.2,
+     "unrepeat": 22.4,
+     "total": 961.9
+    },
+    {
+     "name": "宁夏",
+     "precip": 389.2,
+     "surface": 12.0,
+     "ground": 18.1,
+     "unrepeat": 2.7,
+     "total": 14.7
+    },
+    {
+     "name": "新疆",
+     "precip": 186.0,
+     "surface": 817.8,
+     "ground": 497.0,
+     "unrepeat": 41.0,
+     "total": 858.8
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 8,
+   "caption": "表4      2018 年各省级行政区供水量和用水量          单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4952.7,
+     "ground": 976.4,
+     "other": 86.4,
+     "total_supply": 6015.5,
+     "total_use": 6015.5,
+     "domestic": 859.9,
+     "industry": 1261.6,
+     "dc_thermal": 488.3,
+     "agri": 3693.1,
+     "eco": 200.9
+    },
+    {
+     "name": "北京",
+     "surface": 12.3,
+     "ground": 16.3,
+     "other": 10.8,
+     "total_supply": 39.3,
+     "total_use": 39.3,
+     "domestic": 18.4,
+     "industry": 3.3,
+     "dc_thermal": 0.0,
+     "agri": 4.2,
+     "eco": 13.4
+    },
+    {
+     "name": "天津",
+     "surface": 19.5,
+     "ground": 4.4,
+     "other": 4.6,
+     "total_supply": 28.4,
+     "total_use": 28.4,
+     "domestic": 7.4,
+     "industry": 5.4,
+     "dc_thermal": 0.0,
+     "agri": 10.0,
+     "eco": 5.6
+    },
+    {
+     "name": "河北",
+     "surface": 70.4,
+     "ground": 106.1,
+     "other": 5.8,
+     "total_supply": 182.4,
+     "total_use": 182.4,
+     "domestic": 27.8,
+     "industry": 19.1,
+     "dc_thermal": 0.1,
+     "agri": 121.1,
+     "eco": 14.5
+    },
+    {
+     "name": "山西",
+     "surface": 39.8,
+     "ground": 30.0,
+     "other": 4.5,
+     "total_supply": 74.3,
+     "total_use": 74.3,
+     "domestic": 13.4,
+     "industry": 14.0,
+     "dc_thermal": 0.0,
+     "agri": 43.3,
+     "eco": 3.5
+    },
+    {
+     "name": "内蒙古",
+     "surface": 99.5,
+     "ground": 88.7,
+     "other": 3.9,
+     "total_supply": 192.1,
+     "total_use": 192.1,
+     "domestic": 11.2,
+     "industry": 15.9,
+     "dc_thermal": 0.1,
+     "agri": 140.3,
+     "eco": 24.6
+    },
+    {
+     "name": "辽宁",
+     "surface": 72.5,
+     "ground": 53.3,
+     "other": 4.4,
+     "total_supply": 130.3,
+     "total_use": 130.3,
+     "domestic": 25.5,
+     "industry": 18.7,
+     "dc_thermal": 0.1,
+     "agri": 80.5,
+     "eco": 5.7
+    },
+    {
+     "name": "吉林",
+     "surface": 76.6,
+     "ground": 42.5,
+     "other": 0.4,
+     "total_supply": 119.5,
+     "total_use": 119.5,
+     "domestic": 14.1,
+     "industry": 16.7,
+     "dc_thermal": 4.8,
+     "agri": 84.4,
+     "eco": 4.4
+    },
+    {
+     "name": "黑龙江",
+     "surface": 190.3,
+     "ground": 152.8,
+     "other": 0.9,
+     "total_supply": 343.9,
+     "total_use": 343.9,
+     "domestic": 15.7,
+     "industry": 19.8,
+     "dc_thermal": 7.5,
+     "agri": 304.8,
+     "eco": 3.6
+    },
+    {
+     "name": "上海",
+     "surface": 103.4,
+     "ground": 0.0,
+     "other": 0.0,
+     "total_supply": 103.4,
+     "total_use": 103.4,
+     "domestic": 24.5,
+     "industry": 61.6,
+     "dc_thermal": 51.7,
+     "agri": 16.5,
+     "eco": 0.8
+    },
+    {
+     "name": "江苏",
+     "surface": 575.5,
+     "ground": 7.9,
+     "other": 8.7,
+     "total_supply": 592.0,
+     "total_use": 592.0,
+     "domestic": 61.0,
+     "industry": 255.2,
+     "dc_thermal": 208.3,
+     "agri": 273.3,
+     "eco": 2.5
+    },
+    {
+     "name": "浙江",
+     "surface": 170.4,
+     "ground": 0.8,
+     "other": 2.6,
+     "total_supply": 173.8,
+     "total_use": 173.8,
+     "domestic": 47.2,
+     "industry": 44.0,
+     "dc_thermal": 1.3,
+     "agri": 77.1,
+     "eco": 5.5
+    },
+    {
+     "name": "安徽",
+     "surface": 251.5,
+     "ground": 29.8,
+     "other": 4.5,
+     "total_supply": 285.8,
+     "total_use": 285.8,
+     "domestic": 34.1,
+     "industry": 91.0,
+     "dc_thermal": 52.7,
+     "agri": 154.0,
+     "eco": 6.7
+    },
+    {
+     "name": "福建",
+     "surface": 181.2,
+     "ground": 4.4,
+     "other": 1.2,
+     "total_supply": 186.9,
+     "total_use": 186.9,
+     "domestic": 33.6,
+     "industry": 62.1,
+     "dc_thermal": 13.2,
+     "agri": 87.5,
+     "eco": 3.7
+    },
+    {
+     "name": "江西",
+     "surface": 240.6,
+     "ground": 8.0,
+     "other": 2.2,
+     "total_supply": 250.8,
+     "total_use": 250.8,
+     "domestic": 29.0,
+     "industry": 58.8,
+     "dc_thermal": 15.9,
+     "agri": 160.7,
+     "eco": 2.4
+    },
+    {
+     "name": "山东",
+     "surface": 125.7,
+     "ground": 78.3,
+     "other": 8.7,
+     "total_supply": 212.7,
+     "total_use": 212.7,
+     "domestic": 36.0,
+     "industry": 32.5,
+     "dc_thermal": 0.0,
+     "agri": 133.5,
+     "eco": 10.6
+    },
+    {
+     "name": "河南",
+     "surface": 112.4,
+     "ground": 116.0,
+     "other": 6.2,
+     "total_supply": 234.6,
+     "total_use": 234.6,
+     "domestic": 40.7,
+     "industry": 50.4,
+     "dc_thermal": 4.3,
+     "agri": 119.9,
+     "eco": 23.6
+    },
+    {
+     "name": "湖北",
+     "surface": 289.0,
+     "ground": 7.8,
+     "other": 0.0,
+     "total_supply": 296.9,
+     "total_use": 296.9,
+     "domestic": 54.4,
+     "industry": 87.4,
+     "dc_thermal": 38.9,
+     "agri": 153.8,
+     "eco": 1.3
+    },
+    {
+     "name": "湖南",
+     "surface": 322.6,
+     "ground": 14.3,
+     "other": 0.1,
+     "total_supply": 337.0,
+     "total_use": 337.0,
+     "domestic": 45.7,
+     "industry": 93.2,
+     "dc_thermal": 36.1,
+     "agri": 194.5,
+     "eco": 3.6
+    },
+    {
+     "name": "广东",
+     "surface": 406.1,
+     "ground": 12.6,
+     "other": 2.2,
+     "total_supply": 420.9,
+     "total_use": 420.9,
+     "domestic": 102.1,
+     "industry": 99.4,
+     "dc_thermal": 34.2,
+     "agri": 214.2,
+     "eco": 5.3
+    },
+    {
+     "name": "广西",
+     "surface": 276.1,
+     "ground": 10.0,
+     "other": 1.8,
+     "total_supply": 287.8,
+     "total_use": 287.8,
+     "domestic": 40.8,
+     "industry": 47.6,
+     "dc_thermal": 14.9,
+     "agri": 196.4,
+     "eco": 3.0
+    },
+    {
+     "name": "海南",
+     "surface": 41.7,
+     "ground": 3.0,
+     "other": 0.3,
+     "total_supply": 45.1,
+     "total_use": 45.1,
+     "domestic": 8.6,
+     "industry": 2.9,
+     "dc_thermal": 0.0,
+     "agri": 32.6,
+     "eco": 0.9
+    },
+    {
+     "name": "重庆",
+     "surface": 75.9,
+     "ground": 1.1,
+     "other": 0.2,
+     "total_supply": 77.2,
+     "total_use": 77.2,
+     "domestic": 21.5,
+     "industry": 29.1,
+     "dc_thermal": 3.8,
+     "agri": 25.4,
+     "eco": 1.2
+    },
+    {
+     "name": "四川",
+     "surface": 248.1,
+     "ground": 10.3,
+     "other": 0.7,
+     "total_supply": 259.1,
+     "total_use": 259.1,
+     "domestic": 54.4,
+     "industry": 42.5,
+     "dc_thermal": 0.0,
+     "agri": 156.6,
+     "eco": 5.6
+    },
+    {
+     "name": "贵州",
+     "surface": 104.3,
+     "ground": 1.8,
+     "other": 0.6,
+     "total_supply": 106.8,
+     "total_use": 106.8,
+     "domestic": 19.5,
+     "industry": 25.2,
+     "dc_thermal": 0.0,
+     "agri": 61.2,
+     "eco": 0.9
+    },
+    {
+     "name": "云南",
+     "surface": 150.0,
+     "ground": 3.4,
+     "other": 2.3,
+     "total_supply": 155.7,
+     "total_use": 155.7,
+     "domestic": 23.6,
+     "industry": 21.0,
+     "dc_thermal": 0.0,
+     "agri": 107.2,
+     "eco": 3.9
+    },
+    {
+     "name": "西藏",
+     "surface": 27.9,
+     "ground": 3.7,
+     "other": 0.0,
+     "total_supply": 31.7,
+     "total_use": 31.7,
+     "domestic": 2.9,
+     "industry": 1.5,
+     "dc_thermal": 0.0,
+     "agri": 27.0,
+     "eco": 0.3
+    },
+    {
+     "name": "陕西",
+     "surface": 59.4,
+     "ground": 31.7,
+     "other": 2.6,
+     "total_supply": 93.7,
+     "total_use": 93.7,
+     "domestic": 17.4,
+     "industry": 14.5,
+     "dc_thermal": 0.0,
+     "agri": 57.1,
+     "eco": 4.8
+    },
+    {
+     "name": "甘肃",
+     "surface": 83.6,
+     "ground": 24.8,
+     "other": 3.9,
+     "total_supply": 112.3,
+     "total_use": 112.3,
+     "domestic": 9.2,
+     "industry": 9.2,
+     "dc_thermal": 0.0,
+     "agri": 89.2,
+     "eco": 4.7
+    },
+    {
+     "name": "青海",
+     "surface": 20.9,
+     "ground": 5.0,
+     "other": 0.2,
+     "total_supply": 26.1,
+     "total_use": 26.1,
+     "domestic": 3.0,
+     "industry": 2.5,
+     "dc_thermal": 0.0,
+     "agri": 19.3,
+     "eco": 1.3
+    },
+    {
+     "name": "宁夏",
+     "surface": 59.8,
+     "ground": 6.1,
+     "other": 0.3,
+     "total_supply": 66.2,
+     "total_use": 66.2,
+     "domestic": 2.6,
+     "industry": 4.3,
+     "dc_thermal": 0.0,
+     "agri": 56.7,
+     "eco": 2.6
+    },
+    {
+     "name": "新疆",
+     "surface": 445.8,
+     "ground": 101.3,
+     "other": 1.7,
+     "total_supply": 548.8,
+     "total_use": 548.8,
+     "domestic": 14.8,
+     "industry": 12.6,
+     "dc_thermal": 0.3,
+     "agri": 490.9,
+     "eco": 30.5
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2019": [
+  {
+   "page": 5,
+   "caption": "表3 2019 年各水资源一级区地表水资源量与2018 年和多年平均值比较",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 7,
+   "caption": "表4 2019 年各水资源一级区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "一级区/mm",
+     "precip": 3.0,
+     "surface": 3.0,
+     "ground": 3.0,
+     "unrepeat": 3.0,
+     "total": null
+    },
+    {
+     "name": "全国",
+     "precip": 651.3,
+     "surface": 27993.3,
+     "ground": 8191.5,
+     "unrepeat": 1047.7,
+     "total": 29041.0
+    },
+    {
+     "name": "北方6区",
+     "precip": 346.0,
+     "surface": 4713.0,
+     "ground": 2563.7,
+     "unrepeat": 897.8,
+     "total": 5610.8
+    },
+    {
+     "name": "南方4区",
+     "precip": 1192.3,
+     "surface": 23280.3,
+     "ground": 5627.8,
+     "unrepeat": 149.9,
+     "total": 23430.2
+    },
+    {
+     "name": "松花江区",
+     "precip": 603.4,
+     "surface": 1935.1,
+     "ground": 628.4,
+     "unrepeat": 288.1,
+     "total": 2223.2
+    },
+    {
+     "name": "辽河区",
+     "precip": 557.9,
+     "surface": 305.7,
+     "ground": 195.1,
+     "unrepeat": 101.9,
+     "total": 407.6
+    },
+    {
+     "name": "海河区",
+     "precip": 449.2,
+     "surface": 104.5,
+     "ground": 190.4,
+     "unrepeat": 117.0,
+     "total": 221.4
+    },
+    {
+     "name": "黄河区",
+     "precip": 496.9,
+     "surface": 690.2,
+     "ground": 415.9,
+     "unrepeat": 107.2,
+     "total": 797.5
+    },
+    {
+     "name": "淮河区",
+     "precip": 610.0,
+     "surface": 328.1,
+     "ground": 274.8,
+     "unrepeat": 179.0,
+     "total": 507.2
+    },
+    {
+     "name": "长江区",
+     "precip": 1059.8,
+     "surface": 10427.6,
+     "ground": 2580.5,
+     "unrepeat": 122.1,
+     "total": 10549.7
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1261.8,
+     "surface": 204.2,
+     "ground": 44.1,
+     "unrepeat": 21.6,
+     "total": 225.8
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1844.9,
+     "surface": 2475.0,
+     "ground": 542.0,
+     "unrepeat": 13.6,
+     "total": 2488.5
+    },
+    {
+     "name": "珠江区",
+     "precip": 1627.5,
+     "surface": 5065.8,
+     "ground": 1198.4,
+     "unrepeat": 14.2,
+     "total": 5080.0
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1013.6,
+     "surface": 5312.0,
+     "ground": 1307.0,
+     "unrepeat": 0.0,
+     "total": 5312.0
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 183.2,
+     "surface": 1349.4,
+     "ground": 859.2,
+     "unrepeat": 104.7,
+     "total": 1454.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 8,
+   "caption": "表5 2019 年各省级行政区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "行政区/mm",
+     "precip": 3.0,
+     "surface": 3.0,
+     "ground": 3.0,
+     "unrepeat": 3.0,
+     "total": null
+    },
+    {
+     "name": "全国",
+     "precip": 651.3,
+     "surface": 27993.3,
+     "ground": 8191.5,
+     "unrepeat": 1047.7,
+     "total": 29041.0
+    },
+    {
+     "name": "北京",
+     "precip": 506.0,
+     "surface": 8.6,
+     "ground": 24.7,
+     "unrepeat": 16.0,
+     "total": 24.6
+    },
+    {
+     "name": "天津",
+     "precip": 436.2,
+     "surface": 5.1,
+     "ground": 4.2,
+     "unrepeat": 3.0,
+     "total": 8.1
+    },
+    {
+     "name": "河北",
+     "precip": 442.7,
+     "surface": 51.4,
+     "ground": 97.8,
+     "unrepeat": 62.1,
+     "total": 113.5
+    },
+    {
+     "name": "山西",
+     "precip": 458.1,
+     "surface": 58.5,
+     "ground": 82.5,
+     "unrepeat": 38.8,
+     "total": 97.3
+    },
+    {
+     "name": "内蒙古",
+     "precip": 279.5,
+     "surface": 305.8,
+     "ground": 233.8,
+     "unrepeat": 142.1,
+     "total": 447.9
+    },
+    {
+     "name": "辽宁",
+     "precip": 687.2,
+     "surface": 211.5,
+     "ground": 106.8,
+     "unrepeat": 44.5,
+     "total": 256.0
+    },
+    {
+     "name": "吉林",
+     "precip": 679.3,
+     "surface": 437.4,
+     "ground": 156.1,
+     "unrepeat": 68.7,
+     "total": 506.1
+    },
+    {
+     "name": "黑龙江",
+     "precip": 728.3,
+     "surface": 1305.7,
+     "ground": 413.6,
+     "unrepeat": 205.8,
+     "total": 1511.4
+    },
+    {
+     "name": "上海",
+     "precip": 1389.2,
+     "surface": 40.9,
+     "ground": 10.4,
+     "unrepeat": 7.4,
+     "total": 48.3
+    },
+    {
+     "name": "江苏",
+     "precip": 798.5,
+     "surface": 163.0,
+     "ground": 77.5,
+     "unrepeat": 68.7,
+     "total": 231.7
+    },
+    {
+     "name": "浙江",
+     "precip": 1950.3,
+     "surface": 1303.0,
+     "ground": 253.7,
+     "unrepeat": 18.5,
+     "total": 1321.5
+    },
+    {
+     "name": "安徽",
+     "precip": 935.8,
+     "surface": 482.1,
+     "ground": 144.8,
+     "unrepeat": 57.8,
+     "total": 539.9
+    },
+    {
+     "name": "福建",
+     "precip": 1730.7,
+     "surface": 1362.5,
+     "ground": 339.0,
+     "unrepeat": 1.4,
+     "total": 1363.9
+    },
+    {
+     "name": "江西",
+     "precip": 1710.0,
+     "surface": 2032.7,
+     "ground": 482.4,
+     "unrepeat": 18.9,
+     "total": 2051.6
+    },
+    {
+     "name": "山东",
+     "precip": 558.9,
+     "surface": 119.7,
+     "ground": 128.4,
+     "unrepeat": 75.5,
+     "total": 195.2
+    },
+    {
+     "name": "河南",
+     "precip": 529.1,
+     "surface": 105.8,
+     "ground": 119.1,
+     "unrepeat": 62.8,
+     "total": 168.6
+    },
+    {
+     "name": "湖北",
+     "precip": 893.5,
+     "surface": 583.4,
+     "ground": 217.3,
+     "unrepeat": 30.3,
+     "total": 613.7
+    },
+    {
+     "name": "湖南",
+     "precip": 1498.5,
+     "surface": 2091.2,
+     "ground": 472.3,
+     "unrepeat": 7.1,
+     "total": 2098.3
+    },
+    {
+     "name": "广东",
+     "precip": 1993.6,
+     "surface": 2058.3,
+     "ground": 508.2,
+     "unrepeat": 10.0,
+     "total": 2068.2
+    },
+    {
+     "name": "广西",
+     "precip": 1602.7,
+     "surface": 2103.8,
+     "ground": 445.0,
+     "unrepeat": 1.3,
+     "total": 2105.1
+    },
+    {
+     "name": "海南",
+     "precip": 1594.4,
+     "surface": 249.3,
+     "ground": 73.0,
+     "unrepeat": 3.0,
+     "total": 252.3
+    },
+    {
+     "name": "重庆",
+     "precip": 1106.8,
+     "surface": 498.1,
+     "ground": 98.5,
+     "unrepeat": 0.0,
+     "total": 498.1
+    },
+    {
+     "name": "四川",
+     "precip": 953.2,
+     "surface": 2747.7,
+     "ground": 616.2,
+     "unrepeat": 1.1,
+     "total": 2748.9
+    },
+    {
+     "name": "贵州",
+     "precip": 1246.1,
+     "surface": 1117.0,
+     "ground": 267.0,
+     "unrepeat": 0.0,
+     "total": 1117.0
+    },
+    {
+     "name": "云南",
+     "precip": 1008.0,
+     "surface": 1533.8,
+     "ground": 554.6,
+     "unrepeat": 0.0,
+     "total": 1533.8
+    },
+    {
+     "name": "西藏",
+     "precip": 596.3,
+     "surface": 4496.9,
+     "ground": 1037.0,
+     "unrepeat": 0.0,
+     "total": 4496.9
+    },
+    {
+     "name": "陕西",
+     "precip": 759.4,
+     "surface": 469.7,
+     "ground": 139.4,
+     "unrepeat": 25.6,
+     "total": 495.3
+    },
+    {
+     "name": "甘肃",
+     "precip": 362.1,
+     "surface": 312.2,
+     "ground": 148.7,
+     "unrepeat": 13.7,
+     "total": 325.9
+    },
+    {
+     "name": "青海",
+     "precip": 374.0,
+     "surface": 898.2,
+     "ground": 412.7,
+     "unrepeat": 21.1,
+     "total": 919.3
+    },
+    {
+     "name": "宁夏",
+     "precip": 345.7,
+     "surface": 10.3,
+     "ground": 18.4,
+     "unrepeat": 2.2,
+     "total": 12.6
+    },
+    {
+     "name": "新疆",
+     "precip": 174.7,
+     "surface": 829.7,
+     "ground": 508.5,
+     "unrepeat": 40.5,
+     "total": 870.1
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 10,
+   "caption": "表6 2019 年各水资源一级区供水量和用水量 单位：亿m 3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4982.5,
+     "ground": 934.2,
+     "other": 104.5,
+     "total_supply": 6021.2,
+     "total_use": 6021.2,
+     "domestic": 871.7,
+     "industry": 1217.6,
+     "dc_thermal": 479.3,
+     "agri": 3682.3,
+     "eco": 249.6
+    },
+    {
+     "name": "北方6区",
+     "surface": 1832.5,
+     "ground": 838.5,
+     "other": 75.5,
+     "total_supply": 2746.5,
+     "total_use": 2746.5,
+     "domestic": 294.9,
+     "industry": 257.8,
+     "dc_thermal": 19.0,
+     "agri": 1993.6,
+     "eco": 200.2
+    },
+    {
+     "name": "南方4区",
+     "surface": 3150.0,
+     "ground": 95.7,
+     "other": 29.0,
+     "total_supply": 3274.7,
+     "total_use": 3274.7,
+     "domestic": 576.8,
+     "industry": 959.8,
+     "dc_thermal": 460.3,
+     "agri": 1688.7,
+     "eco": 49.4
+    },
+    {
+     "name": "松花江区",
+     "surface": 260.8,
+     "ground": 177.7,
+     "other": 3.8,
+     "total_supply": 442.3,
+     "total_use": 442.3,
+     "domestic": 28.3,
+     "industry": 33.8,
+     "dc_thermal": 11.2,
+     "agri": 366.5,
+     "eco": 13.7
+    },
+    {
+     "name": "辽河区",
+     "surface": 85.8,
+     "ground": 98.7,
+     "other": 6.0,
+     "total_supply": 190.6,
+     "total_use": 190.6,
+     "domestic": 31.1,
+     "industry": 21.9,
+     "dc_thermal": 0.3,
+     "agri": 129.7,
+     "eco": 7.9
+    },
+    {
+     "name": "海河区",
+     "surface": 192.2,
+     "ground": 160.8,
+     "other": 27.6,
+     "total_supply": 380.6,
+     "total_use": 380.6,
+     "domestic": 68.0,
+     "industry": 45.4,
+     "dc_thermal": 0.4,
+     "agri": 212.4,
+     "eco": 54.8
+    },
+    {
+     "name": "黄河区",
+     "surface": 269.2,
+     "ground": 114.3,
+     "other": 16.7,
+     "total_supply": 400.2,
+     "total_use": 400.2,
+     "domestic": 52.2,
+     "industry": 55.7,
+     "dc_thermal": 0.01,
+     "agri": 267.4,
+     "eco": 24.9
+    },
+    {
+     "name": "淮河区",
+     "surface": 476.6,
+     "ground": 148.1,
+     "other": 16.9,
+     "total_supply": 641.5,
+     "total_use": 641.5,
+     "domestic": 95.8,
+     "industry": 83.6,
+     "dc_thermal": 6.9,
+     "agri": 426.8,
+     "eco": 35.4
+    },
+    {
+     "name": "长江区",
+     "surface": 1987.1,
+     "ground": 59.8,
+     "other": 17.6,
+     "total_supply": 2064.5,
+     "total_use": 2064.5,
+     "domestic": 332.1,
+     "industry": 704.0,
+     "dc_thermal": 397.7,
+     "agri": 999.5,
+     "eco": 29.0
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 330.4,
+     "ground": 0.2,
+     "other": 8.1,
+     "total_supply": 338.7,
+     "total_use": 338.7,
+     "domestic": 57.7,
+     "industry": 205.4,
+     "dc_thermal": 167.8,
+     "agri": 73.0,
+     "eco": 2.6
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 282.3,
+     "ground": 5.0,
+     "other": 3.1,
+     "total_supply": 290.4,
+     "total_use": 290.4,
+     "domestic": 67.9,
+     "industry": 84.9,
+     "dc_thermal": 11.2,
+     "agri": 129.6,
+     "eco": 8.0
+    },
+    {
+     "name": "珠江区",
+     "surface": 780.9,
+     "ground": 26.7,
+     "other": 6.9,
+     "total_supply": 814.4,
+     "total_use": 814.4,
+     "domestic": 165.2,
+     "industry": 162.5,
+     "dc_thermal": 51.4,
+     "agri": 475.9,
+     "eco": 10.9
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 99.7,
+     "ground": 4.2,
+     "other": 1.4,
+     "total_supply": 105.3,
+     "total_use": 105.3,
+     "domestic": 11.6,
+     "industry": 8.5,
+     "agri": 83.7,
+     "eco": 1.5
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 548.0,
+     "ground": 138.9,
+     "other": 4.5,
+     "total_supply": 691.4,
+     "total_use": 691.4,
+     "domestic": 19.6,
+     "industry": 17.3,
+     "dc_thermal": 0.1,
+     "agri": 590.8,
+     "eco": 63.6
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 11,
+   "caption": "表7 2019 年各省级行政区供水量和用水量 单位：亿m 3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4982.5,
+     "ground": 934.2,
+     "other": 104.5,
+     "total_supply": 6021.2,
+     "total_use": 6021.2,
+     "domestic": 871.7,
+     "industry": 1217.6,
+     "dc_thermal": 479.3,
+     "agri": 3682.3,
+     "eco": 249.6
+    },
+    {
+     "name": "北京",
+     "surface": 15.1,
+     "ground": 15.1,
+     "other": 11.5,
+     "total_supply": 41.7,
+     "total_use": 41.7,
+     "domestic": 18.7,
+     "industry": 3.3,
+     "agri": 3.7,
+     "eco": 16.0
+    },
+    {
+     "name": "天津",
+     "surface": 19.2,
+     "ground": 3.9,
+     "other": 5.4,
+     "total_supply": 28.4,
+     "total_use": 28.4,
+     "domestic": 7.5,
+     "industry": 5.5,
+     "agri": 9.2,
+     "eco": 6.2
+    },
+    {
+     "name": "河北",
+     "surface": 78.3,
+     "ground": 96.4,
+     "other": 7.5,
+     "total_supply": 182.3,
+     "total_use": 182.3,
+     "domestic": 27.0,
+     "industry": 18.8,
+     "dc_thermal": 0.4,
+     "agri": 114.3,
+     "eco": 22.1
+    },
+    {
+     "name": "山西",
+     "surface": 42.3,
+     "ground": 29.2,
+     "other": 4.5,
+     "total_supply": 76.0,
+     "total_use": 76.0,
+     "domestic": 13.8,
+     "industry": 13.5,
+     "agri": 43.8,
+     "eco": 4.9
+    },
+    {
+     "name": "内蒙古",
+     "surface": 100.0,
+     "ground": 84.3,
+     "other": 6.6,
+     "total_supply": 190.9,
+     "total_use": 190.9,
+     "domestic": 11.7,
+     "industry": 14.6,
+     "dc_thermal": 0.4,
+     "agri": 139.6,
+     "eco": 25.0
+    },
+    {
+     "name": "辽宁",
+     "surface": 72.6,
+     "ground": 52.7,
+     "other": 5.0,
+     "total_supply": 130.3,
+     "total_use": 130.3,
+     "domestic": 25.3,
+     "industry": 18.3,
+     "dc_thermal": 0.1,
+     "agri": 80.7,
+     "eco": 6.0
+    },
+    {
+     "name": "吉林",
+     "surface": 75.0,
+     "ground": 39.0,
+     "other": 1.4,
+     "total_supply": 115.4,
+     "total_use": 115.4,
+     "domestic": 13.4,
+     "industry": 14.1,
+     "dc_thermal": 4.1,
+     "agri": 81.5,
+     "eco": 6.5
+    },
+    {
+     "name": "黑龙江",
+     "surface": 173.5,
+     "ground": 135.4,
+     "other": 1.5,
+     "total_supply": 310.4,
+     "total_use": 310.4,
+     "domestic": 15.6,
+     "industry": 19.5,
+     "dc_thermal": 7.1,
+     "agri": 274.2,
+     "eco": 1.2
+    },
+    {
+     "name": "上海",
+     "surface": 100.9,
+     "ground": 0.0,
+     "other": 0.0,
+     "total_supply": 100.9,
+     "total_use": 100.9,
+     "domestic": 24.2,
+     "industry": 58.9,
+     "dc_thermal": 49.7,
+     "agri": 16.9,
+     "eco": 0.9
+    },
+    {
+     "name": "江苏",
+     "surface": 602.3,
+     "ground": 6.3,
+     "other": 10.5,
+     "total_supply": 619.1,
+     "total_use": 619.1,
+     "domestic": 64.0,
+     "industry": 248.3,
+     "dc_thermal": 202.4,
+     "agri": 303.1,
+     "eco": 3.7
+    },
+    {
+     "name": "浙江",
+     "surface": 162.4,
+     "ground": 0.7,
+     "other": 2.7,
+     "total_supply": 165.8,
+     "total_use": 165.8,
+     "domestic": 47.2,
+     "industry": 40.8,
+     "dc_thermal": 0.7,
+     "agri": 72.4,
+     "eco": 5.4
+    },
+    {
+     "name": "安徽",
+     "surface": 244.1,
+     "ground": 29.1,
+     "other": 4.6,
+     "total_supply": 277.7,
+     "total_use": 277.7,
+     "domestic": 34.7,
+     "industry": 85.2,
+     "dc_thermal": 47.5,
+     "agri": 150.2,
+     "eco": 7.7
+    },
+    {
+     "name": "福建",
+     "surface": 171.3,
+     "ground": 4.7,
+     "other": 1.5,
+     "total_supply": 177.5,
+     "total_use": 177.5,
+     "domestic": 34.2,
+     "industry": 56.0,
+     "dc_thermal": 10.7,
+     "agri": 83.7,
+     "eco": 3.6
+    },
+    {
+     "name": "江西",
+     "surface": 243.2,
+     "ground": 8.0,
+     "other": 2.2,
+     "total_supply": 253.3,
+     "total_use": 253.3,
+     "domestic": 29.1,
+     "industry": 59.4,
+     "dc_thermal": 16.8,
+     "agri": 162.5,
+     "eco": 2.4
+    },
+    {
+     "name": "山东",
+     "surface": 137.0,
+     "ground": 78.7,
+     "other": 9.5,
+     "total_supply": 225.3,
+     "total_use": 225.3,
+     "domestic": 37.3,
+     "industry": 31.9,
+     "agri": 138.2,
+     "eco": 17.9
+    },
+    {
+     "name": "河南",
+     "surface": 117.4,
+     "ground": 112.5,
+     "other": 7.9,
+     "total_supply": 237.8,
+     "total_use": 237.8,
+     "domestic": 41.6,
+     "industry": 45.2,
+     "dc_thermal": 1.8,
+     "agri": 121.8,
+     "eco": 29.2
+    },
+    {
+     "name": "湖北",
+     "surface": 297.3,
+     "ground": 5.6,
+     "other": 0.3,
+     "total_supply": 303.2,
+     "total_use": 303.2,
+     "domestic": 54.6,
+     "industry": 91.3,
+     "dc_thermal": 43.6,
+     "agri": 155.6,
+     "eco": 1.7
+    },
+    {
+     "name": "湖南",
+     "surface": 319.0,
+     "ground": 13.3,
+     "other": 0.6,
+     "total_supply": 333.0,
+     "total_use": 333.0,
+     "domestic": 46.7,
+     "industry": 90.8,
+     "dc_thermal": 38.9,
+     "agri": 191.7,
+     "eco": 3.8
+    },
+    {
+     "name": "广东",
+     "surface": 397.6,
+     "ground": 11.8,
+     "other": 3.0,
+     "total_supply": 412.3,
+     "total_use": 412.3,
+     "domestic": 103.6,
+     "industry": 94.6,
+     "dc_thermal": 33.7,
+     "agri": 208.5,
+     "eco": 5.7
+    },
+    {
+     "name": "广西",
+     "surface": 272.1,
+     "ground": 9.3,
+     "other": 2.1,
+     "total_supply": 283.4,
+     "total_use": 283.4,
+     "domestic": 41.2,
+     "industry": 49.0,
+     "dc_thermal": 17.7,
+     "agri": 189.9,
+     "eco": 3.3
+    },
+    {
+     "name": "海南",
+     "surface": 42.9,
+     "ground": 3.0,
+     "other": 0.4,
+     "total_supply": 46.4,
+     "total_use": 46.4,
+     "domestic": 8.5,
+     "industry": 2.8,
+     "agri": 34.2,
+     "eco": 0.9
+    },
+    {
+     "name": "重庆",
+     "surface": 75.1,
+     "ground": 1.0,
+     "other": 0.4,
+     "total_supply": 76.5,
+     "total_use": 76.5,
+     "domestic": 21.9,
+     "industry": 28.1,
+     "dc_thermal": 3.7,
+     "agri": 25.2,
+     "eco": 1.3
+    },
+    {
+     "name": "四川",
+     "surface": 241.8,
+     "ground": 9.8,
+     "other": 0.8,
+     "total_supply": 252.4,
+     "total_use": 252.4,
+     "domestic": 54.1,
+     "industry": 37.9,
+     "agri": 154.5,
+     "eco": 5.9
+    },
+    {
+     "name": "贵州",
+     "surface": 103.4,
+     "ground": 3.5,
+     "other": 1.2,
+     "total_supply": 108.1,
+     "total_use": 108.1,
+     "domestic": 20.0,
+     "industry": 25.4,
+     "agri": 61.7,
+     "eco": 1.0
+    },
+    {
+     "name": "云南",
+     "surface": 148.4,
+     "ground": 3.5,
+     "other": 3.0,
+     "total_supply": 154.9,
+     "total_use": 154.9,
+     "domestic": 23.3,
+     "industry": 20.8,
+     "dc_thermal": 0.03,
+     "agri": 106.4,
+     "eco": 4.4
+    },
+    {
+     "name": "西藏",
+     "surface": 28.2,
+     "ground": 3.7,
+     "other": 0.1,
+     "total_supply": 32.0,
+     "total_use": 32.0,
+     "domestic": 3.0,
+     "industry": 1.5,
+     "agri": 27.2,
+     "eco": 0.3
+    },
+    {
+     "name": "陕西",
+     "surface": 58.5,
+     "ground": 31.1,
+     "other": 3.0,
+     "total_supply": 92.6,
+     "total_use": 92.6,
+     "domestic": 18.1,
+     "industry": 14.8,
+     "agri": 55.1,
+     "eco": 4.5
+    },
+    {
+     "name": "甘肃",
+     "surface": 81.2,
+     "ground": 24.6,
+     "other": 4.2,
+     "total_supply": 110.0,
+     "total_use": 110.0,
+     "domestic": 9.6,
+     "industry": 8.7,
+     "agri": 86.5,
+     "eco": 5.2
+    },
+    {
+     "name": "青海",
+     "surface": 20.7,
+     "ground": 5.0,
+     "other": 0.6,
+     "total_supply": 26.2,
+     "total_use": 26.2,
+     "domestic": 3.2,
+     "industry": 2.8,
+     "agri": 18.9,
+     "eco": 1.4
+    },
+    {
+     "name": "宁夏",
+     "surface": 62.7,
+     "ground": 6.8,
+     "other": 0.4,
+     "total_supply": 69.9,
+     "total_use": 69.9,
+     "domestic": 3.0,
+     "industry": 4.4,
+     "agri": 59.6,
+     "eco": 2.8
+    },
+    {
+     "name": "新疆",
+     "surface": 479.1,
+     "ground": 106.4,
+     "other": 2.2,
+     "total_supply": 587.7,
+     "total_use": 587.7,
+     "domestic": 15.7,
+     "industry": 11.5,
+     "dc_thermal": 0.05,
+     "agri": 511.4,
+     "eco": 49.0
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2020": [
+  {
+   "page": 6,
+   "caption": "表3  2020 年各水资源一级区地表水资源量与2019 年和多年平均值比较",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 8,
+   "caption": "表4  2020 年各水资源一级区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 706.5,
+     "surface": 30407.0,
+     "ground": 8553.5,
+     "unrepeat": 1198.2,
+     "total": 31605.2
+    },
+    {
+     "name": "北方6区",
+     "precip": 373.1,
+     "surface": 5594.0,
+     "ground": 2820.1,
+     "unrepeat": 1051.0,
+     "total": 6645.0
+    },
+    {
+     "name": "南方4区",
+     "precip": 1297.0,
+     "surface": 24813.0,
+     "ground": 5733.4,
+     "unrepeat": 147.2,
+     "total": 24960.2
+    },
+    {
+     "name": "松花江区",
+     "precip": 649.4,
+     "surface": 1950.5,
+     "ground": 647.3,
+     "unrepeat": 302.6,
+     "total": 2253.1
+    },
+    {
+     "name": "辽河区",
+     "precip": 589.4,
+     "surface": 470.3,
+     "ground": 200.0,
+     "unrepeat": 94.7,
+     "total": 565.0
+    },
+    {
+     "name": "海河区",
+     "precip": 552.4,
+     "surface": 121.5,
+     "ground": 238.5,
+     "unrepeat": 161.6,
+     "total": 283.1
+    },
+    {
+     "name": "黄河区",
+     "precip": 507.3,
+     "surface": 796.2,
+     "ground": 451.6,
+     "unrepeat": 121.2,
+     "total": 917.4
+    },
+    {
+     "name": "淮河区",
+     "precip": 1060.9,
+     "surface": 1042.5,
+     "ground": 463.1,
+     "unrepeat": 261.2,
+     "total": 1303.6
+    },
+    {
+     "name": "长江区",
+     "precip": 1282.0,
+     "surface": 12741.7,
+     "ground": 2823.0,
+     "unrepeat": 121.2,
+     "total": 12862.9
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1543.4,
+     "surface": 292.3,
+     "ground": 54.5,
+     "unrepeat": 20.8,
+     "total": 313.1
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1582.3,
+     "surface": 1665.1,
+     "ground": 429.4,
+     "unrepeat": 12.1,
+     "total": 1677.3
+    },
+    {
+     "name": "珠江区",
+     "precip": 1540.5,
+     "surface": 4655.2,
+     "ground": 1068.7,
+     "unrepeat": 13.8,
+     "total": 4669.0
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1091.9,
+     "surface": 5751.1,
+     "ground": 1412.4,
+     "unrepeat": 0.0,
+     "total": 5751.1
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 159.6,
+     "surface": 1213.1,
+     "ground": 819.6,
+     "unrepeat": 109.7,
+     "total": 1322.8
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 9,
+   "caption": "表5  2020 年各省级行政区水资源量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 706.5,
+     "surface": 30407.0,
+     "ground": 8553.5,
+     "unrepeat": 1198.2,
+     "total": 31605.2
+    },
+    {
+     "name": "北京",
+     "precip": 560.0,
+     "surface": 8.2,
+     "ground": 22.3,
+     "unrepeat": 17.5,
+     "total": 25.8
+    },
+    {
+     "name": "天津",
+     "precip": 534.4,
+     "surface": 8.6,
+     "ground": 5.8,
+     "unrepeat": 4.7,
+     "total": 13.3
+    },
+    {
+     "name": "河北",
+     "precip": 546.7,
+     "surface": 55.7,
+     "ground": 130.3,
+     "unrepeat": 90.6,
+     "total": 146.3
+    },
+    {
+     "name": "山西",
+     "precip": 561.3,
+     "surface": 72.2,
+     "ground": 85.9,
+     "unrepeat": 42.9,
+     "total": 115.2
+    },
+    {
+     "name": "内蒙古",
+     "precip": 311.2,
+     "surface": 354.2,
+     "ground": 243.9,
+     "unrepeat": 149.7,
+     "total": 503.9
+    },
+    {
+     "name": "辽宁",
+     "precip": 748.0,
+     "surface": 357.7,
+     "ground": 115.2,
+     "unrepeat": 39.4,
+     "total": 397.1
+    },
+    {
+     "name": "吉林",
+     "precip": 769.1,
+     "surface": 504.8,
+     "ground": 169.4,
+     "unrepeat": 81.4,
+     "total": 586.2
+    },
+    {
+     "name": "黑龙江",
+     "precip": 723.1,
+     "surface": 1221.5,
+     "ground": 406.5,
+     "unrepeat": 198.5,
+     "total": 1419.9
+    },
+    {
+     "name": "上海",
+     "precip": 1554.6,
+     "surface": 49.9,
+     "ground": 11.6,
+     "unrepeat": 8.7,
+     "total": 58.6
+    },
+    {
+     "name": "江苏",
+     "precip": 1236.0,
+     "surface": 486.6,
+     "ground": 137.8,
+     "unrepeat": 56.8,
+     "total": 543.4
+    },
+    {
+     "name": "浙江",
+     "precip": 1701.0,
+     "surface": 1008.8,
+     "ground": 224.4,
+     "unrepeat": 17.8,
+     "total": 1026.6
+    },
+    {
+     "name": "安徽",
+     "precip": 1665.6,
+     "surface": 1193.7,
+     "ground": 228.6,
+     "unrepeat": 86.7,
+     "total": 1280.4
+    },
+    {
+     "name": "福建",
+     "precip": 1439.1,
+     "surface": 759.0,
+     "ground": 243.5,
+     "unrepeat": 1.3,
+     "total": 760.3
+    },
+    {
+     "name": "江西",
+     "precip": 1853.1,
+     "surface": 1666.7,
+     "ground": 386.0,
+     "unrepeat": 18.8,
+     "total": 1685.6
+    },
+    {
+     "name": "山东",
+     "precip": 838.1,
+     "surface": 259.8,
+     "ground": 201.8,
+     "unrepeat": 115.5,
+     "total": 375.3
+    },
+    {
+     "name": "河南",
+     "precip": 874.3,
+     "surface": 294.8,
+     "ground": 185.8,
+     "unrepeat": 113.7,
+     "total": 408.6
+    },
+    {
+     "name": "湖北",
+     "precip": 1642.6,
+     "surface": 1735.0,
+     "ground": 381.6,
+     "unrepeat": 19.7,
+     "total": 1754.7
+    },
+    {
+     "name": "湖南",
+     "precip": 1726.8,
+     "surface": 2111.2,
+     "ground": 466.1,
+     "unrepeat": 7.6,
+     "total": 2118.9
+    },
+    {
+     "name": "广东",
+     "precip": 1574.1,
+     "surface": 1616.3,
+     "ground": 399.1,
+     "unrepeat": 9.7,
+     "total": 1626.0
+    },
+    {
+     "name": "广西",
+     "precip": 1669.4,
+     "surface": 2113.7,
+     "ground": 445.4,
+     "unrepeat": 1.1,
+     "total": 2114.8
+    },
+    {
+     "name": "海南",
+     "precip": 1641.1,
+     "surface": 260.6,
+     "ground": 74.6,
+     "unrepeat": 3.0,
+     "total": 263.6
+    },
+    {
+     "name": "重庆",
+     "precip": 1435.6,
+     "surface": 766.9,
+     "ground": 128.7,
+     "unrepeat": 0.0,
+     "total": 766.9
+    },
+    {
+     "name": "四川",
+     "precip": 1055.0,
+     "surface": 3236.2,
+     "ground": 649.1,
+     "unrepeat": 1.1,
+     "total": 3237.3
+    },
+    {
+     "name": "贵州",
+     "precip": 1417.4,
+     "surface": 1328.6,
+     "ground": 281.0,
+     "unrepeat": 0.0,
+     "total": 1328.6
+    },
+    {
+     "name": "云南",
+     "precip": 1157.2,
+     "surface": 1799.2,
+     "ground": 619.8,
+     "unrepeat": 0.0,
+     "total": 1799.2
+    },
+    {
+     "name": "西藏",
+     "precip": 600.6,
+     "surface": 4597.3,
+     "ground": 1045.7,
+     "unrepeat": 0.0,
+     "total": 4597.3
+    },
+    {
+     "name": "陕西",
+     "precip": 690.5,
+     "surface": 385.6,
+     "ground": 146.7,
+     "unrepeat": 34.0,
+     "total": 419.6
+    },
+    {
+     "name": "甘肃",
+     "precip": 334.4,
+     "surface": 396.0,
+     "ground": 158.2,
+     "unrepeat": 12.0,
+     "total": 408.0
+    },
+    {
+     "name": "青海",
+     "precip": 367.1,
+     "surface": 989.5,
+     "ground": 437.3,
+     "unrepeat": 22.4,
+     "total": 1011.9
+    },
+    {
+     "name": "宁夏",
+     "precip": 309.7,
+     "surface": 9.0,
+     "ground": 17.8,
+     "unrepeat": 2.1,
+     "total": 11.0
+    },
+    {
+     "name": "新疆",
+     "precip": 141.7,
+     "surface": 759.6,
+     "ground": 503.5,
+     "unrepeat": 41.4,
+     "total": 801.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 14,
+   "caption": "表6  2020 年各水资源一级区供水量和用水量       单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4792.3,
+     "ground": 892.5,
+     "other": 128.1,
+     "total_supply": 5812.9,
+     "total_use": 5812.9,
+     "domestic": 863.1,
+     "industry": 1030.4,
+     "dc_thermal": 470.3,
+     "agri": 3612.4,
+     "eco": 307.0
+    },
+    {
+     "name": "北方6区",
+     "surface": 1771.9,
+     "ground": 820.5,
+     "other": 88.9,
+     "total_supply": 2681.3,
+     "total_use": 2681.3,
+     "domestic": 293.4,
+     "industry": 228.2,
+     "dc_thermal": 18.6,
+     "agri": 1928.0,
+     "eco": 231.7
+    },
+    {
+     "name": "南方4区",
+     "surface": 3020.4,
+     "ground": 72.0,
+     "other": 39.2,
+     "total_supply": 3131.6,
+     "total_use": 3131.6,
+     "domestic": 569.7,
+     "industry": 802.2,
+     "dc_thermal": 451.7,
+     "agri": 1684.4,
+     "eco": 75.3
+    },
+    {
+     "name": "松花江区",
+     "surface": 276.1,
+     "ground": 168.1,
+     "other": 4.9,
+     "total_supply": 449.1,
+     "total_use": 449.1,
+     "domestic": 27.8,
+     "industry": 28.5,
+     "dc_thermal": 10.8,
+     "agri": 372.7,
+     "eco": 20.1
+    },
+    {
+     "name": "辽河区",
+     "surface": 88.8,
+     "ground": 95.2,
+     "other": 7.0,
+     "total_supply": 191.0,
+     "total_use": 191.0,
+     "domestic": 30.5,
+     "industry": 19.9,
+     "dc_thermal": 0.3,
+     "agri": 128.7,
+     "eco": 11.9
+    },
+    {
+     "name": "海河区",
+     "surface": 192.5,
+     "ground": 147.8,
+     "other": 31.7,
+     "total_supply": 372.0,
+     "total_use": 372.0,
+     "domestic": 65.8,
+     "industry": 41.3,
+     "dc_thermal": 0.2,
+     "agri": 199.5,
+     "eco": 65.4
+    },
+    {
+     "name": "黄河区",
+     "surface": 263.7,
+     "ground": 110.5,
+     "other": 18.5,
+     "total_supply": 392.7,
+     "total_use": 392.7,
+     "domestic": 53.3,
+     "industry": 46.3,
+     "dc_thermal": 0.02,
+     "agri": 262.6,
+     "eco": 30.4
+    },
+    {
+     "name": "淮河区",
+     "surface": 438.2,
+     "ground": 141.2,
+     "other": 21.5,
+     "total_supply": 600.8,
+     "total_use": 600.8,
+     "domestic": 94.4,
+     "industry": 76.2,
+     "dc_thermal": 6.9,
+     "agri": 391.5,
+     "eco": 38.8
+    },
+    {
+     "name": "长江区",
+     "surface": 1891.0,
+     "ground": 40.3,
+     "other": 26.3,
+     "total_supply": 1957.6,
+     "total_use": 1957.6,
+     "domestic": 330.2,
+     "industry": 599.8,
+     "dc_thermal": 386.3,
+     "agri": 981.8,
+     "eco": 45.7
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 325.4,
+     "ground": 0.1,
+     "other": 8.0,
+     "total_supply": 333.5,
+     "total_use": 333.5,
+     "domestic": 59.5,
+     "industry": 198.0,
+     "dc_thermal": 161.7,
+     "agri": 72.6,
+     "eco": 3.5
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 287.2,
+     "ground": 3.6,
+     "other": 4.3,
+     "total_supply": 295.1,
+     "total_use": 295.1,
+     "domestic": 67.1,
+     "industry": 67.7,
+     "dc_thermal": 13.5,
+     "agri": 145.3,
+     "eco": 15.0
+    },
+    {
+     "name": "珠江区",
+     "surface": 741.4,
+     "ground": 23.9,
+     "other": 7.6,
+     "total_supply": 772.9,
+     "total_use": 772.9,
+     "domestic": 160.3,
+     "industry": 127.7,
+     "dc_thermal": 51.9,
+     "agri": 472.3,
+     "eco": 12.6
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 100.8,
+     "ground": 4.2,
+     "other": 1.0,
+     "total_supply": 106.1,
+     "total_use": 106.1,
+     "domestic": 12.1,
+     "industry": 7.0,
+     "dc_thermal": 0.0,
+     "agri": 84.9,
+     "eco": 2.0
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 512.5,
+     "ground": 157.8,
+     "other": 5.3,
+     "total_supply": 675.7,
+     "total_use": 675.7,
+     "domestic": 21.5,
+     "industry": 16.1,
+     "dc_thermal": 0.4,
+     "agri": 573.0,
+     "eco": 65.1
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 15,
+   "caption": "表7      2020 年各省级行政区供水量和用水量     单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4792.3,
+     "ground": 892.5,
+     "other": 128.1,
+     "total_supply": 5812.9,
+     "total_use": 5812.9,
+     "domestic": 863.1,
+     "industry": 1030.4,
+     "dc_thermal": 470.3,
+     "agri": 3612.4,
+     "eco": 307.0
+    },
+    {
+     "name": "北京",
+     "surface": 15.1,
+     "ground": 13.5,
+     "other": 12.0,
+     "total_supply": 40.6,
+     "total_use": 40.6,
+     "domestic": 17.2,
+     "industry": 3.0,
+     "agri": 3.2,
+     "eco": 17.2
+    },
+    {
+     "name": "天津",
+     "surface": 19.2,
+     "ground": 3.0,
+     "other": 5.6,
+     "total_supply": 27.8,
+     "total_use": 27.8,
+     "domestic": 6.6,
+     "industry": 4.5,
+     "agri": 10.3,
+     "eco": 6.4
+    },
+    {
+     "name": "河北",
+     "surface": 84.8,
+     "ground": 88.2,
+     "other": 9.8,
+     "total_supply": 182.8,
+     "total_use": 182.8,
+     "domestic": 27.0,
+     "industry": 18.2,
+     "dc_thermal": 0.2,
+     "agri": 107.7,
+     "eco": 29.9
+    },
+    {
+     "name": "山西",
+     "surface": 39.5,
+     "ground": 27.7,
+     "other": 5.5,
+     "total_supply": 72.8,
+     "total_use": 72.8,
+     "domestic": 14.6,
+     "industry": 12.4,
+     "agri": 41.0,
+     "eco": 4.8
+    },
+    {
+     "name": "内蒙古",
+     "surface": 105.7,
+     "ground": 81.6,
+     "other": 7.1,
+     "total_supply": 194.4,
+     "total_use": 194.4,
+     "domestic": 11.6,
+     "industry": 13.4,
+     "dc_thermal": 0.1,
+     "agri": 140.0,
+     "eco": 29.4
+    },
+    {
+     "name": "辽宁",
+     "surface": 72.9,
+     "ground": 50.8,
+     "other": 5.7,
+     "total_supply": 129.3,
+     "total_use": 129.3,
+     "domestic": 25.4,
+     "industry": 16.9,
+     "dc_thermal": 0.2,
+     "agri": 79.6,
+     "eco": 7.4
+    },
+    {
+     "name": "吉林",
+     "surface": 79.5,
+     "ground": 36.0,
+     "other": 2.3,
+     "total_supply": 117.7,
+     "total_use": 117.7,
+     "domestic": 13.3,
+     "industry": 10.0,
+     "dc_thermal": 2.6,
+     "agri": 83.0,
+     "eco": 11.4
+    },
+    {
+     "name": "黑龙江",
+     "surface": 182.9,
+     "ground": 129.4,
+     "other": 1.8,
+     "total_supply": 314.1,
+     "total_use": 314.1,
+     "domestic": 14.9,
+     "industry": 18.5,
+     "dc_thermal": 8.3,
+     "agri": 278.4,
+     "eco": 2.3
+    },
+    {
+     "name": "上海",
+     "surface": 97.4,
+     "ground": 0.0,
+     "other": 0.1,
+     "total_supply": 97.5,
+     "total_use": 97.5,
+     "domestic": 23.6,
+     "industry": 57.9,
+     "dc_thermal": 49.3,
+     "agri": 15.2,
+     "eco": 0.8
+    },
+    {
+     "name": "江苏",
+     "surface": 556.0,
+     "ground": 4.3,
+     "other": 11.7,
+     "total_supply": 572.0,
+     "total_use": 572.0,
+     "domestic": 63.7,
+     "industry": 236.9,
+     "dc_thermal": 195.9,
+     "agri": 266.6,
+     "eco": 4.8
+    },
+    {
+     "name": "浙江",
+     "surface": 159.7,
+     "ground": 0.3,
+     "other": 4.0,
+     "total_supply": 163.9,
+     "total_use": 163.9,
+     "domestic": 47.4,
+     "industry": 35.7,
+     "dc_thermal": 1.4,
+     "agri": 73.9,
+     "eco": 7.0
+    },
+    {
+     "name": "安徽",
+     "surface": 233.8,
+     "ground": 28.7,
+     "other": 5.8,
+     "total_supply": 268.3,
+     "total_use": 268.3,
+     "domestic": 35.1,
+     "industry": 80.4,
+     "dc_thermal": 46.3,
+     "agri": 144.5,
+     "eco": 8.3
+    },
+    {
+     "name": "福建",
+     "surface": 177.8,
+     "ground": 3.4,
+     "other": 1.8,
+     "total_supply": 183.0,
+     "total_use": 183.0,
+     "domestic": 33.0,
+     "industry": 41.1,
+     "dc_thermal": 12.1,
+     "agri": 99.7,
+     "eco": 9.3
+    },
+    {
+     "name": "江西",
+     "surface": 235.8,
+     "ground": 6.0,
+     "other": 2.3,
+     "total_supply": 244.1,
+     "total_use": 244.1,
+     "domestic": 28.8,
+     "industry": 50.4,
+     "dc_thermal": 22.0,
+     "agri": 161.9,
+     "eco": 3.2
+    },
+    {
+     "name": "山东",
+     "surface": 135.7,
+     "ground": 75.0,
+     "other": 11.9,
+     "total_supply": 222.5,
+     "total_use": 222.5,
+     "domestic": 37.5,
+     "industry": 31.9,
+     "agri": 134.0,
+     "eco": 19.1
+    },
+    {
+     "name": "河南",
+     "surface": 120.8,
+     "ground": 105.8,
+     "other": 10.6,
+     "total_supply": 237.1,
+     "total_use": 237.1,
+     "domestic": 43.1,
+     "industry": 35.6,
+     "dc_thermal": 0.9,
+     "agri": 123.5,
+     "eco": 35.0
+    },
+    {
+     "name": "湖北",
+     "surface": 273.8,
+     "ground": 4.6,
+     "other": 0.4,
+     "total_supply": 278.9,
+     "total_use": 278.9,
+     "domestic": 50.3,
+     "industry": 77.6,
+     "dc_thermal": 37.7,
+     "agri": 139.1,
+     "eco": 11.8
+    },
+    {
+     "name": "湖南",
+     "surface": 297.9,
+     "ground": 4.8,
+     "other": 2.4,
+     "total_supply": 305.1,
+     "total_use": 305.1,
+     "domestic": 44.4,
+     "industry": 58.0,
+     "dc_thermal": 37.4,
+     "agri": 195.8,
+     "eco": 6.9
+    },
+    {
+     "name": "广东",
+     "surface": 390.4,
+     "ground": 11.1,
+     "other": 3.6,
+     "total_supply": 405.1,
+     "total_use": 405.1,
+     "domestic": 107.9,
+     "industry": 80.4,
+     "dc_thermal": 31.7,
+     "agri": 210.9,
+     "eco": 6.0
+    },
+    {
+     "name": "广西",
+     "surface": 249.8,
+     "ground": 9.1,
+     "other": 2.2,
+     "total_supply": 261.1,
+     "total_use": 261.1,
+     "domestic": 35.4,
+     "industry": 34.7,
+     "dc_thermal": 19.7,
+     "agri": 186.9,
+     "eco": 4.1
+    },
+    {
+     "name": "海南",
+     "surface": 42.6,
+     "ground": 1.1,
+     "other": 0.3,
+     "total_supply": 44.0,
+     "total_use": 44.0,
+     "domestic": 8.0,
+     "industry": 1.5,
+     "agri": 33.4,
+     "eco": 1.1
+    },
+    {
+     "name": "重庆",
+     "surface": 64.6,
+     "ground": 1.0,
+     "other": 4.6,
+     "total_supply": 70.1,
+     "total_use": 70.1,
+     "domestic": 22.4,
+     "industry": 17.1,
+     "dc_thermal": 3.5,
+     "agri": 29.0,
+     "eco": 1.7
+    },
+    {
+     "name": "四川",
+     "surface": 227.8,
+     "ground": 7.9,
+     "other": 1.1,
+     "total_supply": 236.9,
+     "total_use": 236.9,
+     "domestic": 53.6,
+     "industry": 23.5,
+     "agri": 153.9,
+     "eco": 5.9
+    },
+    {
+     "name": "贵州",
+     "surface": 87.1,
+     "ground": 2.0,
+     "other": 1.0,
+     "total_supply": 90.1,
+     "total_use": 90.1,
+     "domestic": 18.0,
+     "industry": 18.7,
+     "agri": 51.8,
+     "eco": 1.7
+    },
+    {
+     "name": "云南",
+     "surface": 149.9,
+     "ground": 3.8,
+     "other": 2.3,
+     "total_supply": 156.0,
+     "total_use": 156.0,
+     "domestic": 25.1,
+     "industry": 16.5,
+     "dc_thermal": 0.5,
+     "agri": 110.0,
+     "eco": 4.4
+    },
+    {
+     "name": "西藏",
+     "surface": 28.5,
+     "ground": 3.6,
+     "other": 0.1,
+     "total_supply": 32.2,
+     "total_use": 32.2,
+     "domestic": 3.3,
+     "industry": 1.2,
+     "agri": 27.4,
+     "eco": 0.3
+    },
+    {
+     "name": "陕西",
+     "surface": 55.7,
+     "ground": 30.9,
+     "other": 4.0,
+     "total_supply": 90.6,
+     "total_use": 90.6,
+     "domestic": 18.9,
+     "industry": 10.9,
+     "agri": 55.6,
+     "eco": 5.2
+    },
+    {
+     "name": "甘肃",
+     "surface": 82.1,
+     "ground": 23.6,
+     "other": 4.2,
+     "total_supply": 109.9,
+     "total_use": 109.9,
+     "domestic": 9.3,
+     "industry": 6.2,
+     "agri": 83.7,
+     "eco": 10.7
+    },
+    {
+     "name": "青海",
+     "surface": 18.9,
+     "ground": 4.8,
+     "other": 0.5,
+     "total_supply": 24.3,
+     "total_use": 24.3,
+     "domestic": 3.0,
+     "industry": 2.4,
+     "agri": 17.7,
+     "eco": 1.1
+    },
+    {
+     "name": "宁夏",
+     "surface": 63.6,
+     "ground": 6.1,
+     "other": 0.5,
+     "total_supply": 70.2,
+     "total_use": 70.2,
+     "domestic": 3.7,
+     "industry": 4.2,
+     "agri": 58.6,
+     "eco": 3.7
+    },
+    {
+     "name": "新疆",
+     "surface": 442.9,
+     "ground": 124.3,
+     "other": 3.1,
+     "total_supply": 570.4,
+     "total_use": 570.4,
+     "domestic": 17.3,
+     "industry": 10.7,
+     "dc_thermal": 0.3,
+     "agri": 496.2,
+     "eco": 46.2
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2021": [
+  {
+   "page": 11,
+   "caption": "表3  2021 年水资源一级区地表水资源量",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 14,
+   "caption": "表4  2021 年水资源一级区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 691.6,
+     "surface": 28310.5,
+     "ground": 8195.7,
+     "unrepeat": 1327.7,
+     "total": 29638.2
+    },
+    {
+     "name": "北方6区",
+     "precip": 405.7,
+     "surface": 6273.1,
+     "ground": 2928.6,
+     "unrepeat": 1187.0,
+     "total": 7460.1
+    },
+    {
+     "name": "南方4区",
+     "precip": 1197.2,
+     "surface": 22037.4,
+     "ground": 5267.1,
+     "unrepeat": 140.7,
+     "total": 22178.1
+    },
+    {
+     "name": "松花江区",
+     "precip": 633.3,
+     "surface": 2043.3,
+     "ground": 582.7,
+     "unrepeat": 278.8,
+     "total": 2322.0
+    },
+    {
+     "name": "辽河区",
+     "precip": 725.9,
+     "surface": 584.8,
+     "ground": 231.4,
+     "unrepeat": 112.3,
+     "total": 697.1
+    },
+    {
+     "name": "海河区",
+     "precip": 838.5,
+     "surface": 473.2,
+     "ground": 405.2,
+     "unrepeat": 261.5,
+     "total": 734.8
+    },
+    {
+     "name": "黄河区",
+     "precip": 555.0,
+     "surface": 860.0,
+     "ground": 461.8,
+     "unrepeat": 141.0,
+     "total": 1000.9
+    },
+    {
+     "name": "淮河区",
+     "precip": 1059.3,
+     "surface": 1064.4,
+     "ground": 503.0,
+     "unrepeat": 289.3,
+     "total": 1353.7
+    },
+    {
+     "name": "长江区",
+     "precip": 1152.8,
+     "surface": 11079.0,
+     "ground": 2624.8,
+     "unrepeat": 107.1,
+     "total": 11186.2
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1419.0,
+     "surface": 250.5,
+     "ground": 51.2,
+     "unrepeat": 19.4,
+     "total": 269.9
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1748.3,
+     "surface": 1981.0,
+     "ground": 464.1,
+     "unrepeat": 16.2,
+     "total": 1997.2
+    },
+    {
+     "name": "珠江区",
+     "precip": 1371.1,
+     "surface": 3625.7,
+     "ground": 888.7,
+     "unrepeat": 17.3,
+     "total": 3643.0
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1036.0,
+     "surface": 5351.8,
+     "ground": 1289.5,
+     "unrepeat": 0.0,
+     "total": 5351.8
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 172.6,
+     "surface": 1247.5,
+     "ground": 744.4,
+     "unrepeat": 104.1,
+     "total": 1351.6
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 15,
+   "caption": "表5  2021 年省级行政区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 691.6,
+     "surface": 28310.5,
+     "ground": 8195.7,
+     "unrepeat": 1327.7,
+     "total": 29638.2
+    },
+    {
+     "name": "北京",
+     "precip": 924.0,
+     "surface": 31.6,
+     "ground": 47.5,
+     "unrepeat": 29.7,
+     "total": 61.3
+    },
+    {
+     "name": "天津",
+     "precip": 984.1,
+     "surface": 30.5,
+     "ground": 11.0,
+     "unrepeat": 9.3,
+     "total": 39.8
+    },
+    {
+     "name": "河北",
+     "precip": 790.3,
+     "surface": 227.6,
+     "ground": 220.2,
+     "unrepeat": 149.0,
+     "total": 376.6
+    },
+    {
+     "name": "山西",
+     "precip": 733.0,
+     "surface": 155.9,
+     "ground": 113.7,
+     "unrepeat": 52.0,
+     "total": 207.9
+    },
+    {
+     "name": "内蒙古",
+     "precip": 343.7,
+     "surface": 788.8,
+     "ground": 238.6,
+     "unrepeat": 154.1,
+     "total": 942.9
+    },
+    {
+     "name": "辽宁",
+     "precip": 933.0,
+     "surface": 460.0,
+     "ground": 150.8,
+     "unrepeat": 51.7,
+     "total": 511.7
+    },
+    {
+     "name": "吉林",
+     "precip": 710.4,
+     "surface": 380.0,
+     "ground": 166.2,
+     "unrepeat": 79.2,
+     "total": 459.2
+    },
+    {
+     "name": "黑龙江",
+     "precip": 647.7,
+     "surface": 1020.5,
+     "ground": 346.7,
+     "unrepeat": 175.8,
+     "total": 1196.3
+    },
+    {
+     "name": "上海",
+     "precip": 1474.5,
+     "surface": 45.6,
+     "ground": 11.2,
+     "unrepeat": 8.3,
+     "total": 53.9
+    },
+    {
+     "name": "江苏",
+     "precip": 1190.3,
+     "surface": 442.5,
+     "ground": 135.3,
+     "unrepeat": 58.3,
+     "total": 500.8
+    },
+    {
+     "name": "浙江",
+     "precip": 1992.5,
+     "surface": 1323.3,
+     "ground": 261.8,
+     "unrepeat": 21.4,
+     "total": 1344.7
+    },
+    {
+     "name": "安徽",
+     "precip": 1291.6,
+     "surface": 798.0,
+     "ground": 211.7,
+     "unrepeat": 85.3,
+     "total": 883.3
+    },
+    {
+     "name": "福建",
+     "precip": 1477.1,
+     "surface": 757.3,
+     "ground": 238.7,
+     "unrepeat": 1.4,
+     "total": 758.7
+    },
+    {
+     "name": "江西",
+     "precip": 1587.4,
+     "surface": 1400.6,
+     "ground": 332.0,
+     "unrepeat": 19.2,
+     "total": 1419.7
+    },
+    {
+     "name": "山东",
+     "precip": 979.9,
+     "surface": 381.8,
+     "ground": 237.7,
+     "unrepeat": 143.5,
+     "total": 525.3
+    },
+    {
+     "name": "河南",
+     "precip": 1127.7,
+     "surface": 556.9,
+     "ground": 257.0,
+     "unrepeat": 132.3,
+     "total": 689.2
+    },
+    {
+     "name": "湖北",
+     "precip": 1269.0,
+     "surface": 1170.4,
+     "ground": 326.2,
+     "unrepeat": 18.4,
+     "total": 1188.8
+    },
+    {
+     "name": "湖南",
+     "precip": 1490.1,
+     "surface": 1783.6,
+     "ground": 437.4,
+     "unrepeat": 7.1,
+     "total": 1790.6
+    },
+    {
+     "name": "广东",
+     "precip": 1420.9,
+     "surface": 1211.3,
+     "ground": 301.3,
+     "unrepeat": 9.8,
+     "total": 1221.2
+    },
+    {
+     "name": "广西",
+     "precip": 1383.1,
+     "surface": 1540.5,
+     "ground": 349.2,
+     "unrepeat": 0.7,
+     "total": 1541.2
+    },
+    {
+     "name": "海南",
+     "precip": 1881.4,
+     "surface": 334.9,
+     "ground": 92.9,
+     "unrepeat": 6.7,
+     "total": 341.6
+    },
+    {
+     "name": "重庆",
+     "precip": 1404.3,
+     "surface": 750.8,
+     "ground": 129.4,
+     "unrepeat": 0.0,
+     "total": 750.8
+    },
+    {
+     "name": "四川",
+     "precip": 1004.7,
+     "surface": 2923.4,
+     "ground": 625.9,
+     "unrepeat": 1.2,
+     "total": 2924.5
+    },
+    {
+     "name": "贵州",
+     "precip": 1227.3,
+     "surface": 1091.4,
+     "ground": 263.7,
+     "unrepeat": 0.0,
+     "total": 1091.4
+    },
+    {
+     "name": "云南",
+     "precip": 1123.9,
+     "surface": 1615.8,
+     "ground": 562.9,
+     "unrepeat": 0.0,
+     "total": 1615.8
+    },
+    {
+     "name": "西藏",
+     "precip": 578.7,
+     "surface": 4408.9,
+     "ground": 993.5,
+     "unrepeat": 0.0,
+     "total": 4408.9
+    },
+    {
+     "name": "陕西",
+     "precip": 954.6,
+     "surface": 810.9,
+     "ground": 200.0,
+     "unrepeat": 41.5,
+     "total": 852.5
+    },
+    {
+     "name": "甘肃",
+     "precip": 288.5,
+     "surface": 268.2,
+     "ground": 120.0,
+     "unrepeat": 10.9,
+     "total": 279.0
+    },
+    {
+     "name": "青海",
+     "precip": 356.2,
+     "surface": 824.4,
+     "ground": 362.5,
+     "unrepeat": 17.8,
+     "total": 842.2
+    },
+    {
+     "name": "宁夏",
+     "precip": 273.5,
+     "surface": 7.5,
+     "ground": 16.4,
+     "unrepeat": 1.9,
+     "total": 9.3
+    },
+    {
+     "name": "新疆",
+     "precip": 161.7,
+     "surface": 767.8,
+     "ground": 434.2,
+     "unrepeat": 41.2,
+     "total": 809.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 20,
+   "caption": "表7  2021 年主要平原及盆地浅层地下水动态",
+   "kind": "plain",
+   "ncols": 3,
+   "rows": [
+    {
+     "name": "三江平原",
+     "region": null,
+     "shallow_start": 7.8,
+     "shallow_end": 8.3,
+     "shallow_change": 0.5
+    },
+    {
+     "name": "松嫩平原",
+     "region": "松花江区",
+     "shallow_start": 7.6,
+     "shallow_end": 7.2,
+     "shallow_change": -0.4
+    },
+    {
+     "name": "穆棱兴凯平原",
+     "region": null,
+     "shallow_start": 4.9,
+     "shallow_end": 5.1,
+     "shallow_change": 0.2
+    },
+    {
+     "name": "辽河平原",
+     "region": "辽河区",
+     "shallow_start": 5.1,
+     "shallow_end": 4.3,
+     "shallow_change": -0.8
+    },
+    {
+     "name": "海河平原",
+     "region": null,
+     "shallow_start": 14.2,
+     "shallow_end": 12.1,
+     "shallow_change": -2.1
+    },
+    {
+     "name": "大同盆地",
+     "region": "海河区",
+     "shallow_start": 16.9,
+     "shallow_end": 17.1,
+     "shallow_change": 0.2
+    },
+    {
+     "name": "忻定盆地",
+     "region": null,
+     "shallow_start": 16.7,
+     "shallow_end": 16.7,
+     "shallow_change": 0.0
+    },
+    {
+     "name": "长治盆地",
+     "region": null,
+     "shallow_start": 12.7,
+     "shallow_end": 9.5,
+     "shallow_change": -3.2
+    },
+    {
+     "name": "黄淮平原",
+     "region": "黄河区、淮河区",
+     "shallow_start": 4.8,
+     "shallow_end": 4.0,
+     "shallow_change": -0.8
+    },
+    {
+     "name": "运城盆地",
+     "region": null,
+     "shallow_start": 24.0,
+     "shallow_end": 21.0,
+     "shallow_change": -3.0
+    },
+    {
+     "name": "临汾盆地",
+     "region": null,
+     "shallow_start": 21.4,
+     "shallow_end": 19.3,
+     "shallow_change": -2.1
+    },
+    {
+     "name": "太原盆地",
+     "region": null,
+     "shallow_start": 20.9,
+     "shallow_end": 20.2,
+     "shallow_change": -0.7
+    },
+    {
+     "name": "呼包平原",
+     "region": "黄河区",
+     "shallow_start": 11.6,
+     "shallow_end": 13.2,
+     "shallow_change": 1.6
+    },
+    {
+     "name": "河套平原",
+     "region": null,
+     "shallow_start": 4.5,
+     "shallow_end": 4.7,
+     "shallow_change": 0.2
+    },
+    {
+     "name": "关中平原",
+     "region": null,
+     "shallow_start": 37.4,
+     "shallow_end": 36.5,
+     "shallow_change": -0.9
+    },
+    {
+     "name": "银川卫宁平原",
+     "region": null,
+     "shallow_start": 6.4,
+     "shallow_end": 6.1,
+     "shallow_change": -0.3
+    },
+    {
+     "name": "江汉平原",
+     "region": null,
+     "shallow_start": 4.5,
+     "shallow_end": 4.7,
+     "shallow_change": 0.2
+    },
+    {
+     "name": "鄱阳湖平原",
+     "region": null,
+     "shallow_start": 4.7,
+     "shallow_end": 5.0,
+     "shallow_change": 0.3
+    },
+    {
+     "name": "长江三角洲平原",
+     "region": "长江区",
+     "shallow_start": 3.2,
+     "shallow_end": 3.3,
+     "shallow_change": 0.1
+    },
+    {
+     "name": "河南省南襄山间平原区",
+     "region": null,
+     "shallow_start": 8.4,
+     "shallow_end": 7.8,
+     "shallow_change": -0.6
+    },
+    {
+     "name": "成都平原",
+     "region": null,
+     "shallow_start": 5.8,
+     "shallow_end": 5.1,
+     "shallow_change": -0.7
+    },
+    {
+     "name": "浙东沿海一般平原",
+     "region": "东南诸河区",
+     "shallow_start": 5.1,
+     "shallow_end": 4.7,
+     "shallow_change": -0.4
+    },
+    {
+     "name": "广东珠江三角洲一般平原",
+     "region": null,
+     "shallow_start": 3.8,
+     "shallow_end": 3.4,
+     "shallow_change": -0.4
+    },
+    {
+     "name": "雷州半岛一般平原",
+     "region": "珠江区",
+     "shallow_start": 5.0,
+     "shallow_end": 4.4,
+     "shallow_change": -0.6
+    },
+    {
+     "name": "琼北台地一般平原",
+     "region": null,
+     "shallow_start": 10.8,
+     "shallow_end": 9.9,
+     "shallow_change": -0.9
+    },
+    {
+     "name": "河西走廊平原",
+     "region": null,
+     "shallow_start": 27.5,
+     "shallow_end": 27.8,
+     "shallow_change": 0.3
+    },
+    {
+     "name": "柴达木盆地",
+     "region": "西北诸河区",
+     "shallow_start": 7.0,
+     "shallow_end": 6.7,
+     "shallow_change": -0.3
+    },
+    {
+     "name": "塔里木盆地",
+     "region": null,
+     "shallow_start": 12.8,
+     "shallow_end": 12.4,
+     "shallow_change": -0.4
+    },
+    {
+     "name": "准噶尔盆地",
+     "region": null,
+     "shallow_start": 27.8,
+     "shallow_end": 27.3,
+     "shallow_change": -0.5
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 24,
+   "caption": "表9  2021 年水资源一级区供水量和用水量       单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4928.1,
+     "ground": 853.8,
+     "other": 138.3,
+     "total_supply": 5920.2,
+     "total_use": 5920.2,
+     "domestic": 909.4,
+     "industry": 1049.6,
+     "dc_thermal": 507.4,
+     "agri": 3644.3,
+     "eco": 316.9
+    },
+    {
+     "name": "北方6区",
+     "surface": 1773.2,
+     "ground": 787.2,
+     "other": 91.6,
+     "total_supply": 2652.0,
+     "total_use": 2652.0,
+     "domestic": 309.1,
+     "industry": 220.5,
+     "dc_thermal": 17.6,
+     "agri": 1907.0,
+     "eco": 215.4
+    },
+    {
+     "name": "南方4区",
+     "surface": 3154.9,
+     "ground": 66.6,
+     "other": 46.7,
+     "total_supply": 3268.2,
+     "total_use": 3268.2,
+     "domestic": 600.3,
+     "industry": 829.1,
+     "dc_thermal": 489.8,
+     "agri": 1737.3,
+     "eco": 101.5
+    },
+    {
+     "name": "松花江区",
+     "surface": 297.7,
+     "ground": 157.5,
+     "other": 4.6,
+     "total_supply": 459.8,
+     "total_use": 459.8,
+     "domestic": 28.5,
+     "industry": 26.9,
+     "dc_thermal": 10.4,
+     "agri": 378.4,
+     "eco": 25.9
+    },
+    {
+     "name": "辽河区",
+     "surface": 89.2,
+     "ground": 90.3,
+     "other": 7.5,
+     "total_supply": 187.0,
+     "total_use": 187.0,
+     "domestic": 31.7,
+     "industry": 19.3,
+     "dc_thermal": 0.1,
+     "agri": 124.8,
+     "eco": 11.2
+    },
+    {
+     "name": "海河区",
+     "surface": 208.7,
+     "ground": 128.1,
+     "other": 28.9,
+     "total_supply": 365.8,
+     "total_use": 365.8,
+     "domestic": 70.4,
+     "industry": 40.7,
+     "dc_thermal": 0.2,
+     "agri": 176.1,
+     "eco": 78.5
+    },
+    {
+     "name": "黄河区",
+     "surface": 265.5,
+     "ground": 104.6,
+     "other": 19.2,
+     "total_supply": 389.3,
+     "total_use": 389.3,
+     "domestic": 55.4,
+     "industry": 45.3,
+     "dc_thermal": 0.0,
+     "agri": 256.8,
+     "eco": 31.8
+    },
+    {
+     "name": "淮河区",
+     "surface": 428.1,
+     "ground": 127.9,
+     "other": 24.7,
+     "total_supply": 580.8,
+     "total_use": 580.8,
+     "domestic": 100.1,
+     "industry": 71.7,
+     "dc_thermal": 6.6,
+     "agri": 367.0,
+     "eco": 42.0
+    },
+    {
+     "name": "长江区",
+     "surface": 2003.7,
+     "ground": 39.9,
+     "other": 28.9,
+     "total_supply": 2072.5,
+     "total_use": 2072.5,
+     "domestic": 345.1,
+     "industry": 633.0,
+     "dc_thermal": 420.8,
+     "agri": 1030.9,
+     "eco": 63.5
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 335.1,
+     "ground": 0.1,
+     "other": 7.2,
+     "total_supply": 342.3,
+     "total_use": 342.3,
+     "domestic": 61.6,
+     "industry": 213.5,
+     "dc_thermal": 174.7,
+     "agri": 63.6,
+     "eco": 3.6
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 286.7,
+     "ground": 3.3,
+     "other": 6.6,
+     "total_supply": 296.6,
+     "total_use": 296.6,
+     "domestic": 68.9,
+     "industry": 62.2,
+     "dc_thermal": 14.4,
+     "agri": 145.8,
+     "eco": 19.6
+    },
+    {
+     "name": "珠江区",
+     "surface": 760.8,
+     "ground": 19.5,
+     "other": 10.1,
+     "total_supply": 790.5,
+     "total_use": 790.5,
+     "domestic": 172.9,
+     "industry": 127.5,
+     "dc_thermal": 54.5,
+     "agri": 473.7,
+     "eco": 16.3
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 103.7,
+     "ground": 3.8,
+     "other": 1.2,
+     "total_supply": 108.6,
+     "total_use": 108.6,
+     "domestic": 13.3,
+     "industry": 6.4,
+     "dc_thermal": 0.0,
+     "agri": 86.8,
+     "eco": 2.0
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 484.0,
+     "ground": 178.7,
+     "other": 6.6,
+     "total_supply": 669.3,
+     "total_use": 669.3,
+     "domestic": 22.9,
+     "industry": 16.5,
+     "dc_thermal": 0.3,
+     "agri": 603.9,
+     "eco": 26.0
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 25,
+   "caption": "表10  2021 年省级行政区供水量和用水量     单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4928.1,
+     "ground": 853.8,
+     "other": 138.3,
+     "total_supply": 5920.2,
+     "total_use": 5920.2,
+     "domestic": 909.4,
+     "industry": 1049.6,
+     "dc_thermal": 507.4,
+     "agri": 3644.3,
+     "eco": 316.9
+    },
+    {
+     "name": "北京",
+     "surface": 21.6,
+     "ground": 13.6,
+     "other": 5.5,
+     "total_supply": 40.8,
+     "total_use": 40.8,
+     "domestic": 19.4,
+     "industry": 2.9,
+     "dc_thermal": 0.0,
+     "agri": 2.8,
+     "eco": 15.7
+    },
+    {
+     "name": "天津",
+     "surface": 23.8,
+     "ground": 2.7,
+     "other": 5.8,
+     "total_supply": 32.3,
+     "total_use": 32.3,
+     "domestic": 7.0,
+     "industry": 4.8,
+     "dc_thermal": 0.0,
+     "agri": 9.3,
+     "eco": 11.3
+    },
+    {
+     "name": "河北",
+     "surface": 96.2,
+     "ground": 73.2,
+     "other": 12.5,
+     "total_supply": 181.9,
+     "total_use": 181.9,
+     "domestic": 27.8,
+     "industry": 17.7,
+     "dc_thermal": 0.2,
+     "agri": 97.1,
+     "eco": 39.3
+    },
+    {
+     "name": "山西",
+     "surface": 38.5,
+     "ground": 28.2,
+     "other": 6.0,
+     "total_supply": 72.6,
+     "total_use": 72.6,
+     "domestic": 15.1,
+     "industry": 12.3,
+     "dc_thermal": 0.0,
+     "agri": 40.8,
+     "eco": 4.5
+    },
+    {
+     "name": "内蒙古",
+     "surface": 105.7,
+     "ground": 79.0,
+     "other": 7.0,
+     "total_supply": 191.7,
+     "total_use": 191.7,
+     "domestic": 11.7,
+     "industry": 13.4,
+     "dc_thermal": 0.0,
+     "agri": 137.5,
+     "eco": 29.1
+    },
+    {
+     "name": "辽宁",
+     "surface": 76.7,
+     "ground": 46.5,
+     "other": 5.8,
+     "total_supply": 129.0,
+     "total_use": 129.0,
+     "domestic": 26.6,
+     "industry": 16.5,
+     "dc_thermal": 0.0,
+     "agri": 77.2,
+     "eco": 8.7
+    },
+    {
+     "name": "吉林",
+     "surface": 74.3,
+     "ground": 33.8,
+     "other": 2.1,
+     "total_supply": 110.2,
+     "total_use": 110.2,
+     "domestic": 13.1,
+     "industry": 9.2,
+     "dc_thermal": 2.5,
+     "agri": 79.9,
+     "eco": 8.1
+    },
+    {
+     "name": "黑龙江",
+     "surface": 200.2,
+     "ground": 122.0,
+     "other": 2.2,
+     "total_supply": 324.5,
+     "total_use": 324.5,
+     "domestic": 15.9,
+     "industry": 17.8,
+     "dc_thermal": 8.0,
+     "agri": 289.2,
+     "eco": 1.6
+    },
+    {
+     "name": "上海",
+     "surface": 105.5,
+     "ground": 0.0,
+     "other": 0.2,
+     "total_supply": 105.8,
+     "total_use": 105.8,
+     "domestic": 24.7,
+     "industry": 65.0,
+     "dc_thermal": 56.0,
+     "agri": 15.3,
+     "eco": 0.9
+    },
+    {
+     "name": "江苏",
+     "surface": 552.4,
+     "ground": 3.2,
+     "other": 11.9,
+     "total_supply": 567.5,
+     "total_use": 567.5,
+     "domestic": 66.1,
+     "industry": 250.2,
+     "dc_thermal": 205.2,
+     "agri": 246.2,
+     "eco": 5.1
+    },
+    {
+     "name": "浙江",
+     "surface": 161.7,
+     "ground": 0.2,
+     "other": 4.5,
+     "total_supply": 166.4,
+     "total_use": 166.4,
+     "domestic": 50.6,
+     "industry": 35.8,
+     "dc_thermal": 1.0,
+     "agri": 73.3,
+     "eco": 6.8
+    },
+    {
+     "name": "安徽",
+     "surface": 239.5,
+     "ground": 25.8,
+     "other": 6.3,
+     "total_supply": 271.7,
+     "total_use": 271.7,
+     "domestic": 36.5,
+     "industry": 82.1,
+     "dc_thermal": 50.1,
+     "agri": 144.1,
+     "eco": 9.0
+    },
+    {
+     "name": "福建",
+     "surface": 175.3,
+     "ground": 3.3,
+     "other": 4.0,
+     "total_supply": 182.6,
+     "total_use": 182.6,
+     "domestic": 32.4,
+     "industry": 35.4,
+     "dc_thermal": 13.5,
+     "agri": 99.8,
+     "eco": 14.9
+    },
+    {
+     "name": "江西",
+     "surface": 241.9,
+     "ground": 5.0,
+     "other": 2.5,
+     "total_supply": 249.4,
+     "total_use": 249.4,
+     "domestic": 28.8,
+     "industry": 48.7,
+     "dc_thermal": 22.9,
+     "agri": 167.3,
+     "eco": 4.6
+    },
+    {
+     "name": "山东",
+     "surface": 128.9,
+     "ground": 66.8,
+     "other": 14.4,
+     "total_supply": 210.1,
+     "total_use": 210.1,
+     "domestic": 40.3,
+     "industry": 32.6,
+     "dc_thermal": 0.0,
+     "agri": 115.8,
+     "eco": 21.4
+    },
+    {
+     "name": "河南",
+     "surface": 115.6,
+     "ground": 96.9,
+     "other": 10.3,
+     "total_supply": 222.9,
+     "total_use": 222.9,
+     "domestic": 45.1,
+     "industry": 28.0,
+     "dc_thermal": 0.8,
+     "agri": 115.0,
+     "eco": 34.8
+    },
+    {
+     "name": "湖北",
+     "surface": 330.5,
+     "ground": 5.4,
+     "other": 0.3,
+     "total_supply": 336.1,
+     "total_use": 336.1,
+     "domestic": 51.9,
+     "industry": 85.6,
+     "dc_thermal": 45.1,
+     "agri": 177.7,
+     "eco": 21.0
+    },
+    {
+     "name": "湖南",
+     "surface": 312.1,
+     "ground": 6.7,
+     "other": 3.6,
+     "total_supply": 322.4,
+     "total_use": 322.4,
+     "domestic": 48.4,
+     "industry": 62.1,
+     "dc_thermal": 41.0,
+     "agri": 199.9,
+     "eco": 11.9
+    },
+    {
+     "name": "广东",
+     "surface": 394.0,
+     "ground": 8.6,
+     "other": 4.4,
+     "total_supply": 407.0,
+     "total_use": 407.0,
+     "domestic": 117.9,
+     "industry": 78.2,
+     "dc_thermal": 31.5,
+     "agri": 204.2,
+     "eco": 6.7
+    },
+    {
+     "name": "广西",
+     "surface": 258.2,
+     "ground": 7.1,
+     "other": 3.2,
+     "total_supply": 268.5,
+     "total_use": 268.5,
+     "domestic": 36.1,
+     "industry": 36.5,
+     "dc_thermal": 22.5,
+     "agri": 189.6,
+     "eco": 6.3
+    },
+    {
+     "name": "海南",
+     "surface": 43.3,
+     "ground": 1.3,
+     "other": 0.4,
+     "total_supply": 45.0,
+     "total_use": 45.0,
+     "domestic": 8.5,
+     "industry": 1.5,
+     "dc_thermal": 0.0,
+     "agri": 34.0,
+     "eco": 1.0
+    },
+    {
+     "name": "重庆",
+     "surface": 66.2,
+     "ground": 0.5,
+     "other": 5.4,
+     "total_supply": 72.1,
+     "total_use": 72.1,
+     "domestic": 22.5,
+     "industry": 19.3,
+     "dc_thermal": 6.4,
+     "agri": 28.7,
+     "eco": 1.6
+    },
+    {
+     "name": "四川",
+     "surface": 236.4,
+     "ground": 6.5,
+     "other": 1.4,
+     "total_supply": 244.3,
+     "total_use": 244.3,
+     "domestic": 57.0,
+     "industry": 21.8,
+     "dc_thermal": 0.0,
+     "agri": 158.6,
+     "eco": 6.9
+    },
+    {
+     "name": "贵州",
+     "surface": 100.6,
+     "ground": 2.1,
+     "other": 1.4,
+     "total_supply": 104.1,
+     "total_use": 104.1,
+     "domestic": 20.0,
+     "industry": 20.0,
+     "dc_thermal": 0.0,
+     "agri": 62.1,
+     "eco": 2.0
+    },
+    {
+     "name": "云南",
+     "surface": 153.2,
+     "ground": 3.9,
+     "other": 3.2,
+     "total_supply": 160.3,
+     "total_use": 160.3,
+     "domestic": 27.5,
+     "industry": 15.7,
+     "dc_thermal": 0.5,
+     "agri": 112.1,
+     "eco": 5.0
+    },
+    {
+     "name": "西藏",
+     "surface": 29.0,
+     "ground": 3.3,
+     "other": 0.1,
+     "total_supply": 32.4,
+     "total_use": 32.4,
+     "domestic": 3.5,
+     "industry": 1.1,
+     "dc_thermal": 0.0,
+     "agri": 27.3,
+     "eco": 0.4
+    },
+    {
+     "name": "陕西",
+     "surface": 57.7,
+     "ground": 29.2,
+     "other": 4.9,
+     "total_supply": 91.8,
+     "total_use": 91.8,
+     "domestic": 20.3,
+     "industry": 10.9,
+     "dc_thermal": 0.0,
+     "agri": 54.6,
+     "eco": 5.9
+    },
+    {
+     "name": "甘肃",
+     "surface": 83.9,
+     "ground": 23.5,
+     "other": 2.7,
+     "total_supply": 110.1,
+     "total_use": 110.1,
+     "domestic": 9.7,
+     "industry": 6.5,
+     "dc_thermal": 0.0,
+     "agri": 82.6,
+     "eco": 11.3
+    },
+    {
+     "name": "青海",
+     "surface": 19.1,
+     "ground": 5.0,
+     "other": 0.5,
+     "total_supply": 24.5,
+     "total_use": 24.5,
+     "domestic": 2.9,
+     "industry": 2.5,
+     "dc_thermal": 0.0,
+     "agri": 17.5,
+     "eco": 1.7
+    },
+    {
+     "name": "宁夏",
+     "surface": 61.9,
+     "ground": 5.2,
+     "other": 1.0,
+     "total_supply": 68.1,
+     "total_use": 68.1,
+     "domestic": 3.7,
+     "industry": 4.2,
+     "dc_thermal": 0.0,
+     "agri": 56.9,
+     "eco": 3.3
+    },
+    {
+     "name": "新疆",
+     "surface": 424.1,
+     "ground": 145.0,
+     "other": 4.8,
+     "total_supply": 573.9,
+     "total_use": 573.9,
+     "domestic": 18.7,
+     "industry": 11.2,
+     "dc_thermal": 0.3,
+     "agri": 527.9,
+     "eco": 16.2
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2022": [
+  {
+   "page": 13,
+   "caption": "表3  2022 年水资源一级区地表水资源量",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 14,
+   "caption": "表4  2022 年省级行政区地表水资源量",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 17,
+   "caption": "表5  2022 年水资源一级区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 631.5,
+     "surface": 25984.4,
+     "ground": 7924.4,
+     "unrepeat": 1103.7,
+     "total": 27088.1
+    },
+    {
+     "name": "北方6区",
+     "precip": 340.6,
+     "surface": 4988.3,
+     "ground": 2647.4,
+     "unrepeat": 967.2,
+     "total": 5955.5
+    },
+    {
+     "name": "南方4区",
+     "precip": 1145.8,
+     "surface": 20996.1,
+     "ground": 5277.0,
+     "unrepeat": 136.5,
+     "total": 21132.6
+    },
+    {
+     "name": "松花江区",
+     "precip": 560.0,
+     "surface": 1565.6,
+     "ground": 550.4,
+     "unrepeat": 241.9,
+     "total": 1807.6
+    },
+    {
+     "name": "辽河区",
+     "precip": 688.0,
+     "surface": 690.3,
+     "ground": 240.5,
+     "unrepeat": 108.2,
+     "total": 798.4
+    },
+    {
+     "name": "海河区",
+     "precip": 554.4,
+     "surface": 202.6,
+     "ground": 283.5,
+     "unrepeat": 180.8,
+     "total": 383.5
+    },
+    {
+     "name": "黄河区",
+     "precip": 465.8,
+     "surface": 577.6,
+     "ground": 391.3,
+     "unrepeat": 123.1,
+     "total": 700.7
+    },
+    {
+     "name": "淮河区",
+     "precip": 783.1,
+     "surface": 614.6,
+     "ground": 400.4,
+     "unrepeat": 217.2,
+     "total": 831.8
+    },
+    {
+     "name": "长江区",
+     "precip": 969.6,
+     "surface": 8485.6,
+     "ground": 2310.2,
+     "unrepeat": 105.0,
+     "total": 8590.5
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1098.8,
+     "surface": 141.6,
+     "ground": 42.0,
+     "unrepeat": 15.6,
+     "total": 157.1
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1649.8,
+     "surface": 1940.5,
+     "ground": 465.1,
+     "unrepeat": 12.5,
+     "total": 1953.0
+    },
+    {
+     "name": "珠江区",
+     "precip": 1729.3,
+     "surface": 5404.0,
+     "ground": 1245.3,
+     "unrepeat": 19.0,
+     "total": 5423.0
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 994.2,
+     "surface": 5166.0,
+     "ground": 1256.4,
+     "unrepeat": 0.0,
+     "total": 5166.0
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 154.5,
+     "surface": 1337.6,
+     "ground": 781.3,
+     "unrepeat": 96.0,
+     "total": 1433.6
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 18,
+   "caption": "表6  2022 年省级行政区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 631.5,
+     "surface": 25984.4,
+     "ground": 7924.4,
+     "unrepeat": 1103.7,
+     "total": 27088.1
+    },
+    {
+     "name": "北京",
+     "precip": 482.1,
+     "surface": 7.4,
+     "ground": 26.8,
+     "unrepeat": 16.4,
+     "total": 23.7
+    },
+    {
+     "name": "天津",
+     "precip": 584.7,
+     "surface": 11.0,
+     "ground": 6.8,
+     "unrepeat": 5.6,
+     "total": 16.6
+    },
+    {
+     "name": "河北",
+     "precip": 508.1,
+     "surface": 88.5,
+     "ground": 152.8,
+     "unrepeat": 99.5,
+     "total": 188.0
+    },
+    {
+     "name": "山西",
+     "precip": 592.5,
+     "surface": 108.2,
+     "ground": 112.6,
+     "unrepeat": 45.3,
+     "total": 153.5
+    },
+    {
+     "name": "内蒙古",
+     "precip": 271.8,
+     "surface": 365.9,
+     "ground": 223.1,
+     "unrepeat": 143.3,
+     "total": 509.2
+    },
+    {
+     "name": "辽宁",
+     "precip": 914.6,
+     "surface": 513.8,
+     "ground": 154.3,
+     "unrepeat": 47.9,
+     "total": 561.7
+    },
+    {
+     "name": "吉林",
+     "precip": 820.7,
+     "surface": 625.2,
+     "ground": 192.6,
+     "unrepeat": 79.9,
+     "total": 705.1
+    },
+    {
+     "name": "黑龙江",
+     "precip": 578.8,
+     "surface": 771.4,
+     "ground": 307.1,
+     "unrepeat": 147.0,
+     "total": 918.5
+    },
+    {
+     "name": "上海",
+     "precip": 1072.8,
+     "surface": 27.6,
+     "ground": 8.4,
+     "unrepeat": 5.5,
+     "total": 33.1
+    },
+    {
+     "name": "江苏",
+     "precip": 813.3,
+     "surface": 142.5,
+     "ground": 102.7,
+     "unrepeat": 50.4,
+     "total": 192.8
+    },
+    {
+     "name": "浙江",
+     "precip": 1567.0,
+     "surface": 918.0,
+     "ground": 208.3,
+     "unrepeat": 16.3,
+     "total": 934.3
+    },
+    {
+     "name": "安徽",
+     "precip": 979.8,
+     "surface": 476.7,
+     "ground": 159.0,
+     "unrepeat": 68.5,
+     "total": 545.2
+    },
+    {
+     "name": "福建",
+     "precip": 1712.4,
+     "surface": 1173.1,
+     "ground": 303.7,
+     "unrepeat": 1.6,
+     "total": 1174.7
+    },
+    {
+     "name": "江西",
+     "precip": 1599.3,
+     "surface": 1533.6,
+     "ground": 363.7,
+     "unrepeat": 22.6,
+     "total": 1556.2
+    },
+    {
+     "name": "山东",
+     "precip": 878.0,
+     "surface": 391.1,
+     "ground": 225.4,
+     "unrepeat": 117.9,
+     "total": 508.9
+    },
+    {
+     "name": "河南",
+     "precip": 621.7,
+     "surface": 172.2,
+     "ground": 140.4,
+     "unrepeat": 77.2,
+     "total": 249.4
+    },
+    {
+     "name": "湖北",
+     "precip": 987.2,
+     "surface": 690.1,
+     "ground": 258.1,
+     "unrepeat": 24.2,
+     "total": 714.2
+    },
+    {
+     "name": "湖南",
+     "precip": 1305.3,
+     "surface": 1677.2,
+     "ground": 416.2,
+     "unrepeat": 6.6,
+     "total": 1683.8
+    },
+    {
+     "name": "广东",
+     "precip": 2114.3,
+     "surface": 2213.3,
+     "ground": 546.2,
+     "unrepeat": 10.3,
+     "total": 2223.6
+    },
+    {
+     "name": "广西",
+     "precip": 1696.7,
+     "surface": 2207.6,
+     "ground": 436.9,
+     "unrepeat": 0.9,
+     "total": 2208.5
+    },
+    {
+     "name": "海南",
+     "precip": 2068.6,
+     "surface": 356.1,
+     "ground": 100.3,
+     "unrepeat": 7.7,
+     "total": 363.8
+    },
+    {
+     "name": "重庆",
+     "precip": 945.2,
+     "surface": 373.5,
+     "ground": 82.6,
+     "unrepeat": 0.0,
+     "total": 373.5
+    },
+    {
+     "name": "四川",
+     "precip": 842.7,
+     "surface": 2207.8,
+     "ground": 547.2,
+     "unrepeat": 1.4,
+     "total": 2209.2
+    },
+    {
+     "name": "贵州",
+     "precip": 1016.6,
+     "surface": 912.4,
+     "ground": 246.5,
+     "unrepeat": 0.0,
+     "total": 912.4
+    },
+    {
+     "name": "云南",
+     "precip": 1173.8,
+     "surface": 1742.8,
+     "ground": 602.6,
+     "unrepeat": 0.0,
+     "total": 1742.8
+    },
+    {
+     "name": "西藏",
+     "precip": 538.7,
+     "surface": 4139.7,
+     "ground": 928.1,
+     "unrepeat": 0.0,
+     "total": 4139.7
+    },
+    {
+     "name": "陕西",
+     "precip": 671.1,
+     "surface": 330.6,
+     "ground": 139.9,
+     "unrepeat": 35.1,
+     "total": 365.8
+    },
+    {
+     "name": "甘肃",
+     "precip": 253.6,
+     "surface": 221.6,
+     "ground": 112.7,
+     "unrepeat": 9.4,
+     "total": 231.0
+    },
+    {
+     "name": "青海",
+     "precip": 341.1,
+     "surface": 707.5,
+     "ground": 319.8,
+     "unrepeat": 18.2,
+     "total": 725.7
+    },
+    {
+     "name": "宁夏",
+     "precip": 253.7,
+     "surface": 7.1,
+     "ground": 15.3,
+     "unrepeat": 1.8,
+     "total": 8.9
+    },
+    {
+     "name": "新疆",
+     "precip": 141.3,
+     "surface": 871.0,
+     "ground": 484.3,
+     "unrepeat": 43.1,
+     "total": 914.1
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 24,
+   "caption": "表8  2022 年主要平原及盆地浅层和深层地下水动态",
+   "kind": "plain",
+   "ncols": 7,
+   "rows": [
+    {
+     "name": "三江平原",
+     "region": null,
+     "area": 5.3,
+     "shallow_end": 8.3,
+     "shallow_prev": 8.3,
+     "shallow_change": 0.0,
+     "deep_end": 9.7,
+     "deep_prev": 9.7,
+     "deep_change": 0.0
+    },
+    {
+     "name": "松嫩平原",
+     "region": "松花江区",
+     "area": 22.2,
+     "shallow_end": 7.5,
+     "shallow_prev": 7.2,
+     "shallow_change": 0.3,
+     "deep_end": 8.6,
+     "deep_prev": 8.3,
+     "deep_change": 0.3
+    },
+    {
+     "name": "穆棱兴凯平原",
+     "region": null,
+     "area": 1.6,
+     "shallow_end": 4.9,
+     "shallow_prev": 5.1,
+     "shallow_change": -0.2,
+     "deep_end": 2.6,
+     "deep_prev": 2.7,
+     "deep_change": -0.1
+    },
+    {
+     "name": "辽河平原",
+     "region": "辽河区",
+     "area": 11.0,
+     "shallow_end": 4.1,
+     "shallow_prev": 4.3,
+     "shallow_change": -0.2,
+     "deep_end": 2.9,
+     "deep_prev": 3.0,
+     "deep_change": -0.1
+    },
+    {
+     "name": "海河平原",
+     "region": null,
+     "area": 14.2,
+     "shallow_end": 11.8,
+     "shallow_prev": 12.1,
+     "shallow_change": -0.3,
+     "deep_end": 43.3,
+     "deep_prev": 44.9,
+     "deep_change": -1.6
+    },
+    {
+     "name": "大同盆地",
+     "region": "海河区",
+     "area": 0.6,
+     "shallow_end": 17.0,
+     "shallow_prev": 17.1,
+     "shallow_change": -0.1,
+     "deep_end": 28.0,
+     "deep_prev": 28.7,
+     "deep_change": -0.7
+    },
+    {
+     "name": "忻定盆地",
+     "region": null,
+     "area": 0.3,
+     "shallow_end": 15.9,
+     "shallow_prev": 16.7,
+     "shallow_change": -0.8,
+     "deep_end": 13.7,
+     "deep_prev": 14.7,
+     "deep_change": -1.0
+    },
+    {
+     "name": "长治盆地",
+     "region": "黄河区、",
+     "area": 0.1,
+     "shallow_end": 9.7,
+     "shallow_prev": 9.5,
+     "shallow_change": 0.2,
+     "deep_end": 14.4,
+     "deep_prev": 13.9,
+     "deep_change": 0.5
+    },
+    {
+     "name": "黄淮平原",
+     "region": "淮河区",
+     "area": 19.8,
+     "shallow_end": 4.3,
+     "shallow_prev": 4.0,
+     "shallow_change": 0.3,
+     "deep_end": 20.6,
+     "deep_prev": 20.8,
+     "deep_change": -0.2
+    },
+    {
+     "name": "运城盆地",
+     "region": null,
+     "area": 0.6,
+     "shallow_end": 21.6,
+     "shallow_prev": 21.0,
+     "shallow_change": 0.6,
+     "deep_end": 74.2,
+     "deep_prev": 73.9,
+     "deep_change": 0.3
+    },
+    {
+     "name": "临汾盆地",
+     "region": null,
+     "area": 0.5,
+     "shallow_end": 18.9,
+     "shallow_prev": 19.3,
+     "shallow_change": -0.4,
+     "deep_end": 50.9,
+     "deep_prev": 53.1,
+     "deep_change": -2.2
+    },
+    {
+     "name": "太原盆地",
+     "region": null,
+     "area": 0.5,
+     "shallow_end": 20.9,
+     "shallow_prev": 20.2,
+     "shallow_change": 0.7,
+     "deep_end": 27.2,
+     "deep_prev": 28.1,
+     "deep_change": -0.9
+    },
+    {
+     "name": "内蒙古呼包平原",
+     "region": "黄河区",
+     "area": 0.9,
+     "shallow_end": 14.0,
+     "shallow_prev": 13.2,
+     "shallow_change": 0.8,
+     "deep_end": null,
+     "deep_prev": null,
+     "deep_change": null
+    },
+    {
+     "name": "内蒙古河套平原",
+     "region": null,
+     "area": 1.4,
+     "shallow_end": 7.0,
+     "shallow_prev": 7.1,
+     "shallow_change": -0.1,
+     "deep_end": null,
+     "deep_prev": null,
+     "deep_change": null
+    },
+    {
+     "name": "陕西关中平原",
+     "region": null,
+     "area": 2.2,
+     "shallow_end": 36.5,
+     "shallow_prev": 36.5,
+     "shallow_change": 0.0,
+     "deep_end": 39.0,
+     "deep_prev": 38.1,
+     "deep_change": 0.9
+    },
+    {
+     "name": "宁夏银川卫宁平原",
+     "region": null,
+     "area": 0.8,
+     "shallow_end": 6.1,
+     "shallow_prev": 6.1,
+     "shallow_change": 0.0,
+     "deep_end": 5.6,
+     "deep_prev": 5.9,
+     "deep_change": -0.3
+    },
+    {
+     "name": "江汉平原",
+     "region": null,
+     "area": 4.9,
+     "shallow_end": 5.5,
+     "shallow_prev": 4.7,
+     "shallow_change": 0.8,
+     "deep_end": 5.0,
+     "deep_prev": 4.4,
+     "deep_change": 0.6
+    },
+    {
+     "name": "鄱阳湖平原",
+     "region": null,
+     "area": 1.4,
+     "shallow_end": 5.5,
+     "shallow_prev": 5.0,
+     "shallow_change": 0.5,
+     "deep_end": 15.0,
+     "deep_prev": 13.5,
+     "deep_change": 1.5
+    },
+    {
+     "name": "长江三角洲平原河南南襄山间",
+     "region": "长江区",
+     "area": 5.9,
+     "shallow_end": 3.2,
+     "shallow_prev": 3.3,
+     "shallow_change": -0.1,
+     "deep_end": 8.9,
+     "deep_prev": 9.4,
+     "deep_change": -0.5
+    },
+    {
+     "name": "平原区",
+     "region": null,
+     "area": 0.7,
+     "shallow_end": 10.5,
+     "shallow_prev": 8.0,
+     "shallow_change": 2.5,
+     "deep_end": 16.3,
+     "deep_prev": 14.0,
+     "deep_change": 2.3
+    },
+    {
+     "name": "成都平原",
+     "region": "东南",
+     "area": 0.6,
+     "shallow_end": 5.3,
+     "shallow_prev": 5.1,
+     "shallow_change": 0.2,
+     "deep_end": 5.9,
+     "deep_prev": 4.4,
+     "deep_change": 1.5
+    },
+    {
+     "name": "浙东沿海平原",
+     "region": "诸河区",
+     "area": 0.6,
+     "shallow_end": 4.7,
+     "shallow_prev": 4.7,
+     "shallow_change": 0.0,
+     "deep_end": 8.5,
+     "deep_prev": 9.0,
+     "deep_change": -0.5
+    },
+    {
+     "name": "三角洲平原",
+     "region": "珠江区",
+     "area": 1.0,
+     "shallow_end": 3.4,
+     "shallow_prev": 3.4,
+     "shallow_change": 0.0,
+     "deep_end": null,
+     "deep_prev": null,
+     "deep_change": null
+    },
+    {
+     "name": "雷州半岛平原",
+     "region": null,
+     "area": 0.7,
+     "shallow_end": 3.8,
+     "shallow_prev": 4.4,
+     "shallow_change": -0.6,
+     "deep_end": 15.8,
+     "deep_prev": 18.1,
+     "deep_change": -2.3
+    },
+    {
+     "name": "琼北台地平原",
+     "region": null,
+     "area": 0.1,
+     "shallow_end": 9.7,
+     "shallow_prev": 9.9,
+     "shallow_change": -0.2,
+     "deep_end": 18.8,
+     "deep_prev": 20.3,
+     "deep_change": -1.5
+    },
+    {
+     "name": "甘肃河西走廊平原",
+     "region": null,
+     "area": 10.5,
+     "shallow_end": 28.4,
+     "shallow_prev": 27.8,
+     "shallow_change": 0.6,
+     "deep_end": 6.4,
+     "deep_prev": 6.4,
+     "deep_change": 0.0
+    },
+    {
+     "name": "青海柴达木盆地",
+     "region": "西北",
+     "area": 11.2,
+     "shallow_end": 12.6,
+     "shallow_prev": 9.7,
+     "shallow_change": 2.9,
+     "deep_end": null,
+     "deep_prev": null,
+     "deep_change": null
+    },
+    {
+     "name": "新疆塔里木盆地",
+     "region": "诸河区",
+     "area": 19.3,
+     "shallow_end": 12.6,
+     "shallow_prev": 12.4,
+     "shallow_change": 0.2,
+     "deep_end": 15.5,
+     "deep_prev": 15.2,
+     "deep_change": 0.3
+    },
+    {
+     "name": "新疆准噶尔盆地",
+     "region": null,
+     "area": 9.7,
+     "shallow_end": 27.9,
+     "shallow_prev": 27.3,
+     "shallow_change": 0.6,
+     "deep_end": 35.4,
+     "deep_prev": 33.5,
+     "deep_change": 1.9
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 28,
+   "caption": "表10  2022 年水资源一级区供水量和用水量       单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4994.2,
+     "ground": 828.2,
+     "other": 175.8,
+     "total_supply": 5998.2,
+     "total_use": 5998.2,
+     "domestic": 905.7,
+     "industry": 968.4,
+     "dc_thermal": 482.7,
+     "agri": 3781.3,
+     "eco": 342.8
+    },
+    {
+     "name": "北方6区",
+     "surface": 1805.6,
+     "ground": 768.0,
+     "other": 110.6,
+     "total_supply": 2684.2,
+     "total_use": 2684.2,
+     "domestic": 308.8,
+     "industry": 204.3,
+     "dc_thermal": 14.6,
+     "agri": 1955.0,
+     "eco": 216.1
+    },
+    {
+     "name": "南方4区",
+     "surface": 3188.6,
+     "ground": 60.2,
+     "other": 65.2,
+     "total_supply": 3314.0,
+     "total_use": 3314.0,
+     "domestic": 596.9,
+     "industry": 764.1,
+     "dc_thermal": 468.0,
+     "agri": 1826.3,
+     "eco": 126.7
+    },
+    {
+     "name": "松花江区",
+     "surface": 280.8,
+     "ground": 145.8,
+     "other": 5.4,
+     "total_supply": 432.0,
+     "total_use": 432.0,
+     "domestic": 27.7,
+     "industry": 23.5,
+     "dc_thermal": 9.3,
+     "agri": 360.1,
+     "eco": 20.7
+    },
+    {
+     "name": "辽河区",
+     "surface": 85.3,
+     "ground": 94.4,
+     "other": 8.9,
+     "total_supply": 188.6,
+     "total_use": 188.6,
+     "domestic": 31.4,
+     "industry": 17.7,
+     "dc_thermal": 0.2,
+     "agri": 127.8,
+     "eco": 11.7
+    },
+    {
+     "name": "海河区",
+     "surface": 204.4,
+     "ground": 128.0,
+     "other": 38.3,
+     "total_supply": 370.7,
+     "total_use": 370.7,
+     "domestic": 69.9,
+     "industry": 38.9,
+     "dc_thermal": 0.3,
+     "agri": 186.9,
+     "eco": 75.0
+    },
+    {
+     "name": "黄河区",
+     "surface": 262.4,
+     "ground": 107.5,
+     "other": 21.7,
+     "total_supply": 391.6,
+     "total_use": 391.6,
+     "domestic": 55.8,
+     "industry": 43.0,
+     "dc_thermal": 0.0,
+     "agri": 258.9,
+     "eco": 33.9
+    },
+    {
+     "name": "淮河区",
+     "surface": 482.8,
+     "ground": 128.4,
+     "other": 27.9,
+     "total_supply": 639.1,
+     "total_use": 639.1,
+     "domestic": 100.5,
+     "industry": 64.7,
+     "dc_thermal": 4.8,
+     "agri": 433.5,
+     "eco": 40.4
+    },
+    {
+     "name": "长江区",
+     "surface": 2068.2,
+     "ground": 38.0,
+     "other": 37.4,
+     "total_supply": 2143.6,
+     "total_use": 2143.6,
+     "domestic": 341.0,
+     "industry": 592.2,
+     "dc_thermal": 409.1,
+     "agri": 1127.4,
+     "eco": 83.0
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 337.4,
+     "ground": 0.0,
+     "other": 8.7,
+     "total_supply": 346.1,
+     "total_use": 346.1,
+     "domestic": 60.6,
+     "industry": 207.0,
+     "dc_thermal": 169.3,
+     "agri": 68.6,
+     "eco": 9.9
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 273.5,
+     "ground": 2.8,
+     "other": 8.8,
+     "total_supply": 285.1,
+     "total_use": 285.1,
+     "domestic": 69.7,
+     "industry": 51.4,
+     "dc_thermal": 10.5,
+     "agri": 145.4,
+     "eco": 18.6
+    },
+    {
+     "name": "珠江区",
+     "surface": 745.1,
+     "ground": 16.1,
+     "other": 17.9,
+     "total_supply": 779.1,
+     "total_use": 779.1,
+     "domestic": 173.5,
+     "industry": 115.0,
+     "dc_thermal": 48.4,
+     "agri": 467.5,
+     "eco": 23.2
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 101.8,
+     "ground": 3.2,
+     "other": 1.1,
+     "total_supply": 106.2,
+     "total_use": 106.2,
+     "domestic": 12.7,
+     "industry": 5.5,
+     "dc_thermal": 0.0,
+     "agri": 86.0,
+     "eco": 1.9
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 490.0,
+     "ground": 163.8,
+     "other": 8.4,
+     "total_supply": 662.2,
+     "total_use": 662.2,
+     "domestic": 23.5,
+     "industry": 16.5,
+     "dc_thermal": 0.1,
+     "agri": 587.7,
+     "eco": 34.5
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 29,
+   "caption": "表11  2022 年省级行政区供水量和用水量     单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4994.2,
+     "ground": 828.2,
+     "other": 175.8,
+     "total_supply": 5998.2,
+     "total_use": 5998.2,
+     "domestic": 905.7,
+     "industry": 968.4,
+     "dc_thermal": 482.7,
+     "agri": 3781.3,
+     "eco": 342.8
+    },
+    {
+     "name": "北京",
+     "surface": 15.8,
+     "ground": 12.2,
+     "other": 12.1,
+     "total_supply": 40.0,
+     "total_use": 40.0,
+     "domestic": 18.6,
+     "industry": 2.4,
+     "dc_thermal": 0.0,
+     "agri": 2.6,
+     "eco": 16.4
+    },
+    {
+     "name": "天津",
+     "surface": 24.8,
+     "ground": 2.7,
+     "other": 6.0,
+     "total_supply": 33.6,
+     "total_use": 33.6,
+     "domestic": 7.2,
+     "industry": 4.6,
+     "dc_thermal": 0.0,
+     "agri": 10.0,
+     "eco": 11.7
+    },
+    {
+     "name": "河北",
+     "surface": 95.8,
+     "ground": 72.2,
+     "other": 14.4,
+     "total_supply": 182.4,
+     "total_use": 182.4,
+     "domestic": 27.8,
+     "industry": 16.3,
+     "dc_thermal": 0.3,
+     "agri": 100.4,
+     "eco": 37.9
+    },
+    {
+     "name": "山西",
+     "surface": 38.2,
+     "ground": 27.5,
+     "other": 6.4,
+     "total_supply": 72.1,
+     "total_use": 72.1,
+     "domestic": 15.1,
+     "industry": 11.6,
+     "dc_thermal": 0.0,
+     "agri": 40.5,
+     "eco": 4.9
+    },
+    {
+     "name": "内蒙古",
+     "surface": 95.8,
+     "ground": 88.7,
+     "other": 6.9,
+     "total_supply": 191.5,
+     "total_use": 191.5,
+     "domestic": 11.3,
+     "industry": 13.2,
+     "dc_thermal": 0.0,
+     "agri": 143.4,
+     "eco": 23.5
+    },
+    {
+     "name": "辽宁",
+     "surface": 73.8,
+     "ground": 45.0,
+     "other": 7.2,
+     "total_supply": 126.0,
+     "total_use": 126.0,
+     "domestic": 26.4,
+     "industry": 15.0,
+     "dc_thermal": 0.1,
+     "agri": 75.2,
+     "eco": 9.4
+    },
+    {
+     "name": "吉林",
+     "surface": 70.3,
+     "ground": 31.5,
+     "other": 2.7,
+     "total_supply": 104.5,
+     "total_use": 104.5,
+     "domestic": 12.8,
+     "industry": 8.7,
+     "dc_thermal": 2.4,
+     "agri": 76.6,
+     "eco": 6.4
+    },
+    {
+     "name": "黑龙江",
+     "surface": 193.8,
+     "ground": 111.3,
+     "other": 2.6,
+     "total_supply": 307.7,
+     "total_use": 307.7,
+     "domestic": 15.4,
+     "industry": 14.6,
+     "dc_thermal": 6.9,
+     "agri": 273.8,
+     "eco": 3.9
+    },
+    {
+     "name": "上海",
+     "surface": 104.7,
+     "ground": 0.0,
+     "other": 0.9,
+     "total_supply": 105.7,
+     "total_use": 105.7,
+     "domestic": 23.8,
+     "industry": 63.0,
+     "dc_thermal": 53.9,
+     "agri": 17.2,
+     "eco": 1.6
+    },
+    {
+     "name": "江苏",
+     "surface": 595.0,
+     "ground": 2.8,
+     "other": 14.0,
+     "total_supply": 611.8,
+     "total_use": 611.8,
+     "domestic": 65.6,
+     "industry": 245.5,
+     "dc_thermal": 200.7,
+     "agri": 285.8,
+     "eco": 14.9
+    },
+    {
+     "name": "浙江",
+     "surface": 162.7,
+     "ground": 0.2,
+     "other": 5.0,
+     "total_supply": 167.8,
+     "total_use": 167.8,
+     "domestic": 52.5,
+     "industry": 35.4,
+     "dc_thermal": 1.0,
+     "agri": 73.4,
+     "eco": 6.6
+    },
+    {
+     "name": "安徽",
+     "surface": 269.0,
+     "ground": 24.1,
+     "other": 7.4,
+     "total_supply": 300.5,
+     "total_use": 300.5,
+     "domestic": 36.1,
+     "industry": 78.9,
+     "dc_thermal": 48.9,
+     "agri": 175.7,
+     "eco": 9.8
+    },
+    {
+     "name": "福建",
+     "surface": 159.5,
+     "ground": 2.9,
+     "other": 5.4,
+     "total_supply": 167.9,
+     "total_use": 167.9,
+     "domestic": 31.8,
+     "industry": 24.4,
+     "dc_thermal": 9.6,
+     "agri": 97.2,
+     "eco": 14.5
+    },
+    {
+     "name": "江西",
+     "surface": 260.6,
+     "ground": 6.1,
+     "other": 3.0,
+     "total_supply": 269.8,
+     "total_use": 269.8,
+     "domestic": 29.2,
+     "industry": 42.2,
+     "dc_thermal": 20.5,
+     "agri": 194.5,
+     "eco": 3.8
+    },
+    {
+     "name": "山东",
+     "surface": 130.3,
+     "ground": 69.3,
+     "other": 17.3,
+     "total_supply": 217.0,
+     "total_use": 217.0,
+     "domestic": 41.3,
+     "industry": 33.1,
+     "dc_thermal": 0.0,
+     "agri": 122.7,
+     "eco": 19.9
+    },
+    {
+     "name": "河南",
+     "surface": 118.0,
+     "ground": 99.4,
+     "other": 10.6,
+     "total_supply": 228.0,
+     "total_use": 228.0,
+     "domestic": 43.6,
+     "industry": 21.3,
+     "dc_thermal": 0.7,
+     "agri": 135.5,
+     "eco": 27.6
+    },
+    {
+     "name": "湖北",
+     "surface": 343.4,
+     "ground": 5.0,
+     "other": 4.7,
+     "total_supply": 353.1,
+     "total_use": 353.1,
+     "domestic": 51.7,
+     "industry": 80.9,
+     "dc_thermal": 45.5,
+     "agri": 195.7,
+     "eco": 24.7
+    },
+    {
+     "name": "湖南",
+     "surface": 319.7,
+     "ground": 6.8,
+     "other": 4.5,
+     "total_supply": 331.0,
+     "total_use": 331.0,
+     "domestic": 45.9,
+     "industry": 50.9,
+     "dc_thermal": 36.4,
+     "agri": 220.0,
+     "eco": 14.2
+    },
+    {
+     "name": "广东",
+     "surface": 383.5,
+     "ground": 6.5,
+     "other": 11.7,
+     "total_supply": 401.7,
+     "total_use": 401.7,
+     "domestic": 116.7,
+     "industry": 73.4,
+     "dc_thermal": 29.4,
+     "agri": 198.7,
+     "eco": 12.9
+    },
+    {
+     "name": "广西",
+     "surface": 253.7,
+     "ground": 6.6,
+     "other": 3.8,
+     "total_supply": 264.0,
+     "total_use": 264.0,
+     "domestic": 36.1,
+     "industry": 31.6,
+     "dc_thermal": 18.9,
+     "agri": 190.0,
+     "eco": 6.3
+    },
+    {
+     "name": "海南",
+     "surface": 43.8,
+     "ground": 1.2,
+     "other": 0.6,
+     "total_supply": 45.6,
+     "total_use": 45.6,
+     "domestic": 9.1,
+     "industry": 1.4,
+     "dc_thermal": 0.0,
+     "agri": 33.9,
+     "eco": 1.2
+    },
+    {
+     "name": "重庆",
+     "surface": 65.8,
+     "ground": 0.5,
+     "other": 2.5,
+     "total_supply": 68.8,
+     "total_use": 68.8,
+     "domestic": 22.4,
+     "industry": 17.1,
+     "dc_thermal": 7.2,
+     "agri": 27.5,
+     "eco": 1.8
+    },
+    {
+     "name": "四川",
+     "surface": 242.0,
+     "ground": 5.9,
+     "other": 3.6,
+     "total_supply": 251.6,
+     "total_use": 251.6,
+     "domestic": 57.8,
+     "industry": 21.2,
+     "dc_thermal": 0.0,
+     "agri": 164.8,
+     "eco": 7.8
+    },
+    {
+     "name": "贵州",
+     "surface": 94.0,
+     "ground": 1.1,
+     "other": 1.2,
+     "total_supply": 96.3,
+     "total_use": 96.3,
+     "domestic": 20.3,
+     "industry": 11.2,
+     "dc_thermal": 0.0,
+     "agri": 63.1,
+     "eco": 1.7
+    },
+    {
+     "name": "云南",
+     "surface": 156.1,
+     "ground": 3.3,
+     "other": 4.0,
+     "total_supply": 163.4,
+     "total_use": 163.4,
+     "domestic": 27.6,
+     "industry": 14.2,
+     "dc_thermal": 0.2,
+     "agri": 111.5,
+     "eco": 10.0
+    },
+    {
+     "name": "西藏",
+     "surface": 29.0,
+     "ground": 2.7,
+     "other": 0.1,
+     "total_supply": 31.8,
+     "total_use": 31.8,
+     "domestic": 3.3,
+     "industry": 1.1,
+     "dc_thermal": 0.0,
+     "agri": 27.1,
+     "eco": 0.4
+    },
+    {
+     "name": "陕西",
+     "surface": 60.7,
+     "ground": 28.9,
+     "other": 5.3,
+     "total_supply": 94.9,
+     "total_use": 94.9,
+     "domestic": 20.2,
+     "industry": 10.7,
+     "dc_thermal": 0.0,
+     "agri": 57.5,
+     "eco": 6.5
+    },
+    {
+     "name": "甘肃",
+     "surface": 85.2,
+     "ground": 24.3,
+     "other": 3.4,
+     "total_supply": 112.9,
+     "total_use": 112.9,
+     "domestic": 10.3,
+     "industry": 6.3,
+     "dc_thermal": 0.0,
+     "agri": 82.3,
+     "eco": 13.9
+    },
+    {
+     "name": "青海",
+     "surface": 18.5,
+     "ground": 5.1,
+     "other": 0.8,
+     "total_supply": 24.5,
+     "total_use": 24.5,
+     "domestic": 2.9,
+     "industry": 2.7,
+     "dc_thermal": 0.0,
+     "agri": 17.1,
+     "eco": 1.8
+    },
+    {
+     "name": "宁夏",
+     "surface": 60.1,
+     "ground": 4.9,
+     "other": 1.3,
+     "total_supply": 66.3,
+     "total_use": 66.3,
+     "domestic": 3.7,
+     "industry": 4.5,
+     "dc_thermal": 0.0,
+     "agri": 53.6,
+     "eco": 4.5
+    },
+    {
+     "name": "新疆",
+     "surface": 430.7,
+     "ground": 129.5,
+     "other": 6.2,
+     "total_supply": 566.4,
+     "total_use": 566.4,
+     "domestic": 19.0,
+     "industry": 10.9,
+     "dc_thermal": 0.1,
+     "agri": 513.9,
+     "eco": 22.5
+    }
+   ],
+   "problems": []
+  }
+ ],
+ "2024": [
+  {
+   "page": 13,
+   "caption": "表3  2024 年水资源一级区地表水资源量",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 14,
+   "caption": "表4  2024 年省级行政区地表水资源量",
+   "kind": "resources",
+   "ncols": 3,
+   "rows": [],
+   "problems": []
+  },
+  {
+   "page": 17,
+   "caption": "表5  2024 年水资源一级区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 717.7,
+     "surface": 29895.6,
+     "ground": 8679.2,
+     "unrepeat": 1227.4,
+     "total": 31123.0
+    },
+    {
+     "name": "北方6区",
+     "precip": 398.8,
+     "surface": 5648.2,
+     "ground": 2936.6,
+     "unrepeat": 1086.8,
+     "total": 6735.0
+    },
+    {
+     "name": "南方4区",
+     "precip": 1281.5,
+     "surface": 24247.4,
+     "ground": 5742.6,
+     "unrepeat": 140.6,
+     "total": 24388.0
+    },
+    {
+     "name": "松花江区",
+     "precip": 592.6,
+     "surface": 1650.6,
+     "ground": 610.5,
+     "unrepeat": 267.9,
+     "total": 1918.5
+    },
+    {
+     "name": "辽河区",
+     "precip": 764.2,
+     "surface": 633.1,
+     "ground": 249.5,
+     "unrepeat": 119.0,
+     "total": 752.1
+    },
+    {
+     "name": "海河区",
+     "precip": 649.5,
+     "surface": 248.3,
+     "ground": 311.4,
+     "unrepeat": 184.3,
+     "total": 432.6
+    },
+    {
+     "name": "黄河区",
+     "precip": 537.6,
+     "surface": 695.2,
+     "ground": 426.2,
+     "unrepeat": 131.9,
+     "total": 827.1
+    },
+    {
+     "name": "淮河区",
+     "precip": 970.0,
+     "surface": 919.9,
+     "ground": 457.8,
+     "unrepeat": 255.5,
+     "total": 1175.3
+    },
+    {
+     "name": "长江区",
+     "precip": 1124.4,
+     "surface": 10458.9,
+     "ground": 2583.2,
+     "unrepeat": 107.1,
+     "total": 10566.0
+    },
+    {
+     "name": "其中：太湖流域",
+     "precip": 1518.6,
+     "surface": 276.4,
+     "ground": 52.4,
+     "unrepeat": 18.5,
+     "total": 294.9
+    },
+    {
+     "name": "东南诸河区",
+     "precip": 1890.5,
+     "surface": 2348.4,
+     "ground": 539.7,
+     "unrepeat": 14.8,
+     "total": 2363.2
+    },
+    {
+     "name": "珠江区",
+     "precip": 1837.3,
+     "surface": 5896.7,
+     "ground": 1268.2,
+     "unrepeat": 18.7,
+     "total": 5915.4
+    },
+    {
+     "name": "西南诸河区",
+     "precip": 1082.7,
+     "surface": 5543.5,
+     "ground": 1351.5,
+     "unrepeat": 0.0,
+     "total": 5543.5
+    },
+    {
+     "name": "西北诸河区",
+     "precip": 198.7,
+     "surface": 1501.2,
+     "ground": 881.1,
+     "unrepeat": 128.2,
+     "total": 1629.4
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 18,
+   "caption": "表6  2024 年省级行政区水资源总量",
+   "kind": "resources",
+   "ncols": 5,
+   "rows": [
+    {
+     "name": "全国",
+     "precip": 717.7,
+     "surface": 29895.6,
+     "ground": 8679.2,
+     "unrepeat": 1227.4,
+     "total": 31123.0
+    },
+    {
+     "name": "北京",
+     "precip": 782.0,
+     "surface": 24.5,
+     "ground": 42.0,
+     "unrepeat": 28.4,
+     "total": 52.9
+    },
+    {
+     "name": "天津",
+     "precip": 802.9,
+     "surface": 16.9,
+     "ground": 9.7,
+     "unrepeat": 8.3,
+     "total": 25.2
+    },
+    {
+     "name": "河北",
+     "precip": 659.3,
+     "surface": 140.8,
+     "ground": 179.9,
+     "unrepeat": 107.2,
+     "total": 247.9
+    },
+    {
+     "name": "山西",
+     "precip": 560.3,
+     "surface": 73.5,
+     "ground": 94.1,
+     "unrepeat": 41.5,
+     "total": 115.0
+    },
+    {
+     "name": "内蒙古",
+     "precip": 362.5,
+     "surface": 399.7,
+     "ground": 259.8,
+     "unrepeat": 181.4,
+     "total": 581.1
+    },
+    {
+     "name": "辽宁",
+     "precip": 917.4,
+     "surface": 482.6,
+     "ground": 151.1,
+     "unrepeat": 52.0,
+     "total": 534.6
+    },
+    {
+     "name": "吉林",
+     "precip": 846.6,
+     "surface": 589.5,
+     "ground": 216.6,
+     "unrepeat": 87.3,
+     "total": 676.8
+    },
+    {
+     "name": "黑龙江",
+     "precip": 618.2,
+     "surface": 851.6,
+     "ground": 342.9,
+     "unrepeat": 160.1,
+     "total": 1011.7
+    },
+    {
+     "name": "上海",
+     "precip": 1487.1,
+     "surface": 45.6,
+     "ground": 10.7,
+     "unrepeat": 7.7,
+     "total": 53.4
+    },
+    {
+     "name": "江苏",
+     "precip": 1221.0,
+     "surface": 438.7,
+     "ground": 132.1,
+     "unrepeat": 57.6,
+     "total": 496.3
+    },
+    {
+     "name": "浙江",
+     "precip": 1863.9,
+     "surface": 1189.9,
+     "ground": 245.9,
+     "unrepeat": 19.2,
+     "total": 1209.1
+    },
+    {
+     "name": "安徽",
+     "precip": 1275.4,
+     "surface": 810.9,
+     "ground": 216.6,
+     "unrepeat": 78.7,
+     "total": 889.7
+    },
+    {
+     "name": "福建",
+     "precip": 1885.3,
+     "surface": 1324.6,
+     "ground": 342.6,
+     "unrepeat": 2.2,
+     "total": 1326.8
+    },
+    {
+     "name": "江西",
+     "precip": 1879.9,
+     "surface": 2039.7,
+     "ground": 446.5,
+     "unrepeat": 20.0,
+     "total": 2059.7
+    },
+    {
+     "name": "山东",
+     "precip": 891.7,
+     "surface": 355.8,
+     "ground": 194.0,
+     "unrepeat": 105.9,
+     "total": 461.7
+    },
+    {
+     "name": "河南",
+     "precip": 817.7,
+     "surface": 323.5,
+     "ground": 191.8,
+     "unrepeat": 94.1,
+     "total": 417.7
+    },
+    {
+     "name": "湖北",
+     "precip": 1088.3,
+     "surface": 895.8,
+     "ground": 283.7,
+     "unrepeat": 22.4,
+     "total": 918.2
+    },
+    {
+     "name": "湖南",
+     "precip": 1642.1,
+     "surface": 2079.7,
+     "ground": 451.4,
+     "unrepeat": 7.8,
+     "total": 2087.5
+    },
+    {
+     "name": "广东",
+     "precip": 2190.8,
+     "surface": 2339.4,
+     "ground": 555.7,
+     "unrepeat": 9.7,
+     "total": 2349.1
+    },
+    {
+     "name": "广西",
+     "precip": 1823.0,
+     "surface": 2465.9,
+     "ground": 426.3,
+     "unrepeat": 1.1,
+     "total": 2467.0
+    },
+    {
+     "name": "海南",
+     "precip": 2229.2,
+     "surface": 431.8,
+     "ground": 115.9,
+     "unrepeat": 7.9,
+     "total": 439.7
+    },
+    {
+     "name": "重庆",
+     "precip": 1074.4,
+     "surface": 469.8,
+     "ground": 96.2,
+     "unrepeat": 0.0,
+     "total": 469.8
+    },
+    {
+     "name": "四川",
+     "precip": 940.7,
+     "surface": 2433.1,
+     "ground": 605.9,
+     "unrepeat": 1.2,
+     "total": 2434.4
+    },
+    {
+     "name": "贵州",
+     "precip": 1240.3,
+     "surface": 969.1,
+     "ground": 238.0,
+     "unrepeat": 0.0,
+     "total": 969.1
+    },
+    {
+     "name": "云南",
+     "precip": 1193.8,
+     "surface": 1760.4,
+     "ground": 595.7,
+     "unrepeat": 0.0,
+     "total": 1760.4
+    },
+    {
+     "name": "西藏",
+     "precip": 578.7,
+     "surface": 4420.0,
+     "ground": 996.5,
+     "unrepeat": 0.0,
+     "total": 4420.0
+    },
+    {
+     "name": "陕西",
+     "precip": 671.2,
+     "surface": 353.8,
+     "ground": 144.4,
+     "unrepeat": 35.5,
+     "total": 389.3
+    },
+    {
+     "name": "甘肃",
+     "precip": 311.8,
+     "surface": 250.6,
+     "ground": 123.3,
+     "unrepeat": 10.8,
+     "total": 261.4
+    },
+    {
+     "name": "青海",
+     "precip": 389.5,
+     "surface": 932.4,
+     "ground": 412.9,
+     "unrepeat": 26.2,
+     "total": 958.6
+    },
+    {
+     "name": "宁夏",
+     "precip": 399.1,
+     "surface": 10.0,
+     "ground": 16.1,
+     "unrepeat": 3.0,
+     "total": 13.0
+    },
+    {
+     "name": "新疆",
+     "precip": 189.9,
+     "surface": 975.7,
+     "ground": 541.1,
+     "unrepeat": 50.2,
+     "total": 1025.9
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 27,
+   "caption": "表9  2024 年水资源一级区供水量和用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4892.4,
+     "ground": 784.0,
+     "other": 251.6,
+     "total_supply": 5928.0,
+     "total_use": 5928.0,
+     "domestic": 926.8,
+     "industry": 971.0,
+     "dc_thermal": 477.5,
+     "agri": 3648.4,
+     "eco": 381.8
+    },
+    {
+     "name": "北方6区",
+     "surface": 1819.4,
+     "ground": 734.7,
+     "other": 148.8,
+     "total_supply": 2702.9,
+     "total_use": 2702.9,
+     "domestic": 317.0,
+     "industry": 212.1,
+     "dc_thermal": 12.4,
+     "agri": 1938.4,
+     "eco": 235.4
+    },
+    {
+     "name": "南方4区",
+     "surface": 3073.0,
+     "ground": 49.3,
+     "other": 102.8,
+     "total_supply": 3225.1,
+     "total_use": 3225.1,
+     "domestic": 609.8,
+     "industry": 758.9,
+     "dc_thermal": 465.1,
+     "agri": 1710.0,
+     "eco": 146.4
+    },
+    {
+     "name": "松花江区",
+     "surface": 272.6,
+     "ground": 131.3,
+     "other": 9.1,
+     "total_supply": 413.0,
+     "total_use": 413.0,
+     "domestic": 26.9,
+     "industry": 20.5,
+     "dc_thermal": 6.4,
+     "agri": 344.0,
+     "eco": 21.6
+    },
+    {
+     "name": "辽河区",
+     "surface": 82.0,
+     "ground": 91.0,
+     "other": 10.1,
+     "total_supply": 183.1,
+     "total_use": 183.1,
+     "domestic": 31.2,
+     "industry": 17.7,
+     "dc_thermal": 0.1,
+     "agri": 120.7,
+     "eco": 13.3
+    },
+    {
+     "name": "海河区",
+     "surface": 209.6,
+     "ground": 125.5,
+     "other": 45.9,
+     "total_supply": 381.0,
+     "total_use": 381.0,
+     "domestic": 72.9,
+     "industry": 39.4,
+     "dc_thermal": 0.1,
+     "agri": 187.5,
+     "eco": 81.1
+    },
+    {
+     "name": "黄河区",
+     "surface": 250.8,
+     "ground": 109.9,
+     "other": 30.6,
+     "total_supply": 391.4,
+     "total_use": 391.4,
+     "domestic": 57.6,
+     "industry": 50.4,
+     "dc_thermal": 0.0,
+     "agri": 248.1,
+     "eco": 35.4
+    },
+    {
+     "name": "淮河区",
+     "surface": 445.5,
+     "ground": 119.5,
+     "other": 33.9,
+     "total_supply": 598.9,
+     "total_use": 598.9,
+     "domestic": 103.7,
+     "industry": 66.1,
+     "dc_thermal": 5.6,
+     "agri": 388.5,
+     "eco": 40.6
+    },
+    {
+     "name": "长江区",
+     "surface": 1970.7,
+     "ground": 29.4,
+     "other": 53.4,
+     "total_supply": 2053.4,
+     "total_use": 2053.4,
+     "domestic": 350.7,
+     "industry": 585.6,
+     "dc_thermal": 411.4,
+     "agri": 1031.6,
+     "eco": 85.5
+    },
+    {
+     "name": "其中：太湖流域",
+     "surface": 336.3,
+     "ground": 0.0,
+     "other": 9.3,
+     "total_supply": 345.6,
+     "total_use": 345.6,
+     "domestic": 62.4,
+     "industry": 212.5,
+     "dc_thermal": 175.0,
+     "agri": 61.2,
+     "eco": 9.5
+    },
+    {
+     "name": "东南诸河区",
+     "surface": 277.1,
+     "ground": 2.1,
+     "other": 14.0,
+     "total_supply": 293.1,
+     "total_use": 293.1,
+     "domestic": 71.5,
+     "industry": 57.5,
+     "dc_thermal": 11.4,
+     "agri": 141.9,
+     "eco": 22.3
+    },
+    {
+     "name": "珠江区",
+     "surface": 723.7,
+     "ground": 14.8,
+     "other": 34.1,
+     "total_supply": 772.7,
+     "total_use": 772.7,
+     "domestic": 174.9,
+     "industry": 110.9,
+     "dc_thermal": 42.4,
+     "agri": 449.7,
+     "eco": 37.2
+    },
+    {
+     "name": "西南诸河区",
+     "surface": 101.5,
+     "ground": 3.1,
+     "other": 1.3,
+     "total_supply": 105.9,
+     "total_use": 105.9,
+     "domestic": 12.7,
+     "industry": 5.0,
+     "dc_thermal": 0.0,
+     "agri": 86.8,
+     "eco": 1.5
+    },
+    {
+     "name": "西北诸河区",
+     "surface": 558.9,
+     "ground": 157.4,
+     "other": 19.3,
+     "total_supply": 735.6,
+     "total_use": 735.6,
+     "domestic": 24.6,
+     "industry": 18.1,
+     "dc_thermal": 0.2,
+     "agri": 649.6,
+     "eco": 43.3
+    }
+   ],
+   "problems": []
+  },
+  {
+   "page": 28,
+   "caption": "表10  2024 年省级行政区供水量和用水量 单位：亿m3",
+   "kind": "supply",
+   "ncols": 10,
+   "rows": [
+    {
+     "name": "全国",
+     "surface": 4892.4,
+     "ground": 784.0,
+     "other": 251.6,
+     "total_supply": 5928.0,
+     "total_use": 5928.0,
+     "domestic": 926.8,
+     "industry": 971.0,
+     "dc_thermal": 477.5,
+     "agri": 3648.4,
+     "eco": 381.8
+    },
+    {
+     "name": "北京",
+     "surface": 16.7,
+     "ground": 12.2,
+     "other": 13.2,
+     "total_supply": 42.1,
+     "total_use": 42.1,
+     "domestic": 19.3,
+     "industry": 2.8,
+     "dc_thermal": 0.0,
+     "agri": 2.4,
+     "eco": 17.6
+    },
+    {
+     "name": "天津",
+     "surface": 22.7,
+     "ground": 2.5,
+     "other": 6.7,
+     "total_supply": 32.0,
+     "total_use": 32.0,
+     "domestic": 7.3,
+     "industry": 4.7,
+     "dc_thermal": 0.0,
+     "agri": 8.8,
+     "eco": 11.3
+    },
+    {
+     "name": "河北",
+     "surface": 97.9,
+     "ground": 73.2,
+     "other": 18.7,
+     "total_supply": 189.8,
+     "total_use": 189.8,
+     "domestic": 29.1,
+     "industry": 16.2,
+     "dc_thermal": 0.1,
+     "agri": 100.2,
+     "eco": 44.3
+    },
+    {
+     "name": "山西",
+     "surface": 36.3,
+     "ground": 26.9,
+     "other": 6.8,
+     "total_supply": 70.0,
+     "total_use": 70.0,
+     "domestic": 15.7,
+     "industry": 11.3,
+     "dc_thermal": 0.0,
+     "agri": 36.5,
+     "eco": 6.6
+    },
+    {
+     "name": "内蒙古",
+     "surface": 85.1,
+     "ground": 95.9,
+     "other": 8.9,
+     "total_supply": 189.9,
+     "total_use": 189.9,
+     "domestic": 11.3,
+     "industry": 16.7,
+     "dc_thermal": 0.0,
+     "agri": 138.5,
+     "eco": 23.5
+    },
+    {
+     "name": "辽宁",
+     "surface": 73.7,
+     "ground": 41.7,
+     "other": 7.8,
+     "total_supply": 123.3,
+     "total_use": 123.3,
+     "domestic": 26.4,
+     "industry": 14.8,
+     "dc_thermal": 0.0,
+     "agri": 71.9,
+     "eco": 10.3
+    },
+    {
+     "name": "吉林",
+     "surface": 70.6,
+     "ground": 30.5,
+     "other": 5.8,
+     "total_supply": 107.0,
+     "total_use": 107.0,
+     "domestic": 13.0,
+     "industry": 7.9,
+     "dc_thermal": 2.1,
+     "agri": 76.6,
+     "eco": 9.4
+    },
+    {
+     "name": "黑龙江",
+     "surface": 187.9,
+     "ground": 97.6,
+     "other": 3.1,
+     "total_supply": 288.5,
+     "total_use": 288.5,
+     "domestic": 14.5,
+     "industry": 11.9,
+     "dc_thermal": 4.4,
+     "agri": 258.4,
+     "eco": 3.7
+    },
+    {
+     "name": "上海",
+     "surface": 105.9,
+     "ground": 0.0,
+     "other": 1.4,
+     "total_supply": 107.3,
+     "total_use": 107.3,
+     "domestic": 23.8,
+     "industry": 68.1,
+     "dc_thermal": 59.6,
+     "agri": 14.3,
+     "eco": 1.0
+    },
+    {
+     "name": "江苏",
+     "surface": 560.5,
+     "ground": 2.1,
+     "other": 16.0,
+     "total_supply": 578.7,
+     "total_use": 578.7,
+     "domestic": 67.3,
+     "industry": 251.1,
+     "dc_thermal": 204.0,
+     "agri": 244.8,
+     "eco": 15.4
+    },
+    {
+     "name": "浙江",
+     "surface": 166.8,
+     "ground": 0.1,
+     "other": 6.2,
+     "total_supply": 173.1,
+     "total_use": 173.1,
+     "domestic": 55.5,
+     "industry": 36.9,
+     "dc_thermal": 0.4,
+     "agri": 73.7,
+     "eco": 7.0
+    },
+    {
+     "name": "安徽",
+     "surface": 244.6,
+     "ground": 21.5,
+     "other": 8.6,
+     "total_supply": 274.7,
+     "total_use": 274.7,
+     "domestic": 37.2,
+     "industry": 80.0,
+     "dc_thermal": 52.3,
+     "agri": 148.0,
+     "eco": 9.6
+    },
+    {
+     "name": "福建",
+     "surface": 161.0,
+     "ground": 2.1,
+     "other": 9.5,
+     "total_supply": 172.5,
+     "total_use": 172.5,
+     "domestic": 31.5,
+     "industry": 29.4,
+     "dc_thermal": 11.0,
+     "agri": 94.2,
+     "eco": 17.5
+    },
+    {
+     "name": "江西",
+     "surface": 232.4,
+     "ground": 2.1,
+     "other": 3.7,
+     "total_supply": 238.2,
+     "total_use": 238.2,
+     "domestic": 30.1,
+     "industry": 37.8,
+     "dc_thermal": 20.8,
+     "agri": 165.7,
+     "eco": 4.5
+    },
+    {
+     "name": "山东",
+     "surface": 142.8,
+     "ground": 68.2,
+     "other": 20.5,
+     "total_supply": 231.6,
+     "total_use": 231.6,
+     "domestic": 45.0,
+     "industry": 34.3,
+     "dc_thermal": 0.0,
+     "agri": 132.9,
+     "eco": 19.4
+    },
+    {
+     "name": "河南",
+     "surface": 114.2,
+     "ground": 85.7,
+     "other": 14.3,
+     "total_supply": 214.2,
+     "total_use": 214.2,
+     "domestic": 42.9,
+     "industry": 20.6,
+     "dc_thermal": 0.6,
+     "agri": 125.1,
+     "eco": 25.4
+    },
+    {
+     "name": "湖北",
+     "surface": 329.0,
+     "ground": 4.2,
+     "other": 7.0,
+     "total_supply": 340.2,
+     "total_use": 340.2,
+     "domestic": 52.5,
+     "industry": 70.1,
+     "dc_thermal": 39.5,
+     "agri": 190.9,
+     "eco": 26.6
+    },
+    {
+     "name": "湖南",
+     "surface": 286.9,
+     "ground": 5.2,
+     "other": 6.6,
+     "total_supply": 298.7,
+     "total_use": 298.7,
+     "domestic": 46.1,
+     "industry": 44.4,
+     "dc_thermal": 32.3,
+     "agri": 193.5,
+     "eco": 14.8
+    },
+    {
+     "name": "广东",
+     "surface": 379.4,
+     "ground": 5.4,
+     "other": 26.5,
+     "total_supply": 411.3,
+     "total_use": 411.3,
+     "domestic": 117.1,
+     "industry": 73.0,
+     "dc_thermal": 26.3,
+     "agri": 194.8,
+     "eco": 26.3
+    },
+    {
+     "name": "广西",
+     "surface": 240.2,
+     "ground": 5.2,
+     "other": 5.0,
+     "total_supply": 250.5,
+     "total_use": 250.5,
+     "domestic": 35.8,
+     "industry": 28.7,
+     "dc_thermal": 16.1,
+     "agri": 179.6,
+     "eco": 6.3
+    },
+    {
+     "name": "海南",
+     "surface": 42.2,
+     "ground": 1.4,
+     "other": 0.8,
+     "total_supply": 44.4,
+     "total_use": 44.4,
+     "domestic": 10.4,
+     "industry": 1.7,
+     "dc_thermal": 0.0,
+     "agri": 29.9,
+     "eco": 2.4
+    },
+    {
+     "name": "重庆",
+     "surface": 64.7,
+     "ground": 0.3,
+     "other": 6.3,
+     "total_supply": 71.3,
+     "total_use": 71.3,
+     "domestic": 22.7,
+     "industry": 21.8,
+     "dc_thermal": 7.8,
+     "agri": 25.1,
+     "eco": 1.7
+    },
+    {
+     "name": "四川",
+     "surface": 241.6,
+     "ground": 5.3,
+     "other": 8.4,
+     "total_supply": 255.2,
+     "total_use": 255.2,
+     "domestic": 61.3,
+     "industry": 20.7,
+     "dc_thermal": 0.0,
+     "agri": 163.0,
+     "eco": 10.2
+    },
+    {
+     "name": "贵州",
+     "surface": 90.3,
+     "ground": 1.2,
+     "other": 1.5,
+     "total_supply": 93.0,
+     "total_use": 93.0,
+     "domestic": 22.1,
+     "industry": 10.3,
+     "dc_thermal": 0.0,
+     "agri": 59.5,
+     "eco": 1.1
+    },
+    {
+     "name": "云南",
+     "surface": 152.1,
+     "ground": 4.7,
+     "other": 3.7,
+     "total_supply": 160.5,
+     "total_use": 160.5,
+     "domestic": 26.8,
+     "industry": 12.4,
+     "dc_thermal": 0.0,
+     "agri": 113.3,
+     "eco": 8.1
+    },
+    {
+     "name": "西藏",
+     "surface": 29.7,
+     "ground": 2.1,
+     "other": 0.3,
+     "total_supply": 32.1,
+     "total_use": 32.1,
+     "domestic": 3.2,
+     "industry": 1.4,
+     "dc_thermal": 0.0,
+     "agri": 27.0,
+     "eco": 0.5
+    },
+    {
+     "name": "陕西",
+     "surface": 61.6,
+     "ground": 30.1,
+     "other": 8.4,
+     "total_supply": 100.0,
+     "total_use": 100.0,
+     "domestic": 21.2,
+     "industry": 14.9,
+     "dc_thermal": 0.0,
+     "agri": 56.0,
+     "eco": 7.9
+    },
+    {
+     "name": "甘肃",
+     "surface": 83.9,
+     "ground": 28.5,
+     "other": 4.8,
+     "total_supply": 117.3,
+     "total_use": 117.3,
+     "domestic": 10.6,
+     "industry": 6.4,
+     "dc_thermal": 0.0,
+     "agri": 90.0,
+     "eco": 10.3
+    },
+    {
+     "name": "青海",
+     "surface": 20.2,
+     "ground": 4.6,
+     "other": 1.3,
+     "total_supply": 26.1,
+     "total_use": 26.1,
+     "domestic": 3.2,
+     "industry": 3.2,
+     "dc_thermal": 0.0,
+     "agri": 17.7,
+     "eco": 2.0
+    },
+    {
+     "name": "宁夏",
+     "surface": 52.9,
+     "ground": 4.7,
+     "other": 3.8,
+     "total_supply": 61.4,
+     "total_use": 61.4,
+     "domestic": 3.8,
+     "industry": 5.7,
+     "dc_thermal": 0.0,
+     "agri": 48.7,
+     "eco": 3.2
+    },
+    {
+     "name": "新疆",
+     "surface": 498.3,
+     "ground": 118.7,
+     "other": 16.0,
+     "total_supply": 633.0,
+     "total_use": 633.0,
+     "domestic": 20.0,
+     "industry": 11.8,
+     "dc_thermal": 0.2,
+     "agri": 567.4,
+     "eco": 33.9
+    }
+   ],
+   "problems": []
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# Python / 构建产物
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+data/tmpvenv*/
+data/tmpclone*/
+
+# ---------------------------------------------------------------------------
+# 原始数据归档与中间产物（体积大，可按 docs/deploy.md 用 scripts/ 重新下载/生成）
+# 随包分发的数据库在 src/groundwater_mcp/data/，不受此文件影响
+# ---------------------------------------------------------------------------
+data/pdfs/
+data/legacy/pdfs/
+data/legacy/html/
+data/bulletin/files/
+data/bulletin/downloads/
+data/bulletin/htmltables/
+data/annual/scan*/
+data/surface/html/
+data/surface/tmp/
+data/recon/
+data/parsed/
+data/dataset.json
+
+# 本地运行日志/临时校验输出
+data/*.txt
+data/smoke*.txt
+data/mcp_smoke_result.json
+
+# ---------------------------------------------------------------------------
+# 操作系统 / 编辑器
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

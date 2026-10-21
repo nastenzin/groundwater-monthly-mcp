@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>地下水动态月报 · 地图选点取坐标</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- 优先使用随包分发的 Leaflet，离线也能加载；缺失时回退 CDN -->
+<link rel="stylesheet" href="leaflet.css"
+      onerror="this.onerror=null;this.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';" />
+<style>
+  html, body { margin: 0; height: 100%; font-family: -apple-system, "Microsoft YaHei", sans-serif; }
+  #map { position: absolute; inset: 0 320px 0 0; background: #eef3f8; }
+  #panel { position: absolute; top: 0; right: 0; width: 320px; height: 100%; box-sizing: border-box;
+           padding: 16px; background: #fff; border-left: 1px solid #ddd; overflow: auto; }
+  h1 { font-size: 16px; margin: 0 0 8px; }
+  .hint { color: #555; font-size: 12px; line-height: 1.6; }
+  .coord { font-family: Consolas, monospace; font-size: 15px; background: #f5f7fa; padding: 8px;
+           border-radius: 6px; margin: 8px 0; word-break: break-all; white-space: pre-line; }
+  button { margin: 4px 4px 0 0; padding: 6px 10px; cursor: pointer; }
+  select { width: 100%; padding: 6px; margin-top: 6px; }
+  #status { color: #0a7; font-size: 12px; margin-top: 8px; }
+  code { background: #eef; padding: 1px 4px; border-radius: 3px; }
+  .dot { width: 14px; height: 14px; background: #e33; border: 2px solid #fff; border-radius: 50%;
+         box-shadow: 0 0 3px rgba(0,0,0,.5); }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="panel">
+  <h1>地图选点 · 取经纬度</h1>
+  <div class="hint">
+    在地图上点击目标位置（可缩放/拖动）。得到经纬度后复制到 MCP 工具：
+    <ul>
+      <li><code>locate_by_map_point(lat, lon)</code></li>
+      <li>或 <code>query_by_location(mode="map_point", lat=..., lon=...)</code></li>
+    </ul>
+    坐标顺序为“纬度 lat, 经度 lon”，与工具参数一致。
+  </div>
+  <div class="coord" id="coord">尚未选点</div>
+  <div>
+    <button id="copyLatLon">复制 lat, lon</button>
+    <button id="copyJson">复制 JSON</button>
+  </div>
+  <div id="status"></div>
+  <hr />
+  <div class="hint">底图切换：</div>
+  <select id="basemap">
+    <option value="osm">OpenStreetMap</option>
+    <option value="gaode">高德地图（AutoNavi）</option>
+    <option value="esri">Esri 影像</option>
+    <option value="none">无底图（离线可用）</option>
+  </select>
+  <hr />
+  <div class="hint" id="region">所属行政区：请先选点</div>
+  <div class="hint">提示：本页面只负责取坐标，数据查询由 MCP 工具完成；监测区边界为近似范围。
+    底图瓦片需要联网；离线时选“无底图”仍可点击取坐标。</div>
+</div>
+<script src="leaflet.js"></script>
+<script>
+if (typeof L === 'undefined') {
+  document.write('<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"><\/script>');
+}
+</script>
+<script>
+(function () {
+  if (typeof L === 'undefined') {
+    document.getElementById('coord').textContent = '地图库加载失败：请确认 map/leaflet.js 存在或联网后重试';
+    return;
+  }
+  const map = L.map('map', { center: [35.0, 105.0], zoom: 4 });
+  const layers = {
+    osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18, attribution: '&copy; OpenStreetMap'
+    }),
+    gaode: L.tileLayer('https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', {
+      subdomains: ['1', '2', '3', '4'], maxZoom: 18, attribution: '&copy; 高德地图'
+    }),
+    esri: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 18, attribution: '&copy; Esri'
+    }),
+    none: null
+  };
+  let current = 'osm';
+  layers.osm.addTo(map);
+  document.getElementById('basemap').addEventListener('change', (e) => {
+    if (layers[current]) map.removeLayer(layers[current]);
+    current = e.target.value;
+    if (layers[current]) layers[current].addTo(map);
+  });
+
+  const dotIcon = L.divIcon({ className: '', html: '<div class="dot"></div>', iconSize: [14, 14], iconAnchor: [7, 7] });
+  let marker = null;
+  const coordEl = document.getElementById('coord');
+  const statusEl = document.getElementById('status');
+  const regionEl = document.getElementById('region');
+
+  async function showRegion(lat, lon) {
+    regionEl.textContent = '所属行政区：查询中…';
+    try {
+      const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}&accept-language=zh-CN`;
+      const resp = await fetch(url, { headers: { 'Accept': 'application/json' } });
+      const data = await resp.json();
+      const addr = data.address || {};
+      const parts = [addr.state, addr.city, addr.county, addr.town, addr.village].filter(Boolean);
+      regionEl.textContent = '所属行政区：' + (parts.join(' / ') || data.display_name || '未知');
+    } catch (err) {
+      regionEl.textContent = '所属行政区：反向解析失败（可继续使用坐标）';
+    }
+  }
+
+  map.on('click', (e) => {
+    const lat = e.latlng.lat.toFixed(5);
+    const lon = e.latlng.lng.toFixed(5);
+    if (marker) marker.setLatLng(e.latlng);
+    else marker = L.marker(e.latlng, { icon: dotIcon }).addTo(map);
+    coordEl.textContent = `lat = ${lat}\nlon = ${lon}`;
+    coordEl.dataset.lat = lat;
+    coordEl.dataset.lon = lon;
+    statusEl.textContent = '已选点';
+    showRegion(lat, lon);
+  });
+
+  async function copyText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      statusEl.textContent = '已复制到剪贴板';
+    } catch (err) {
+      statusEl.textContent = '复制失败，请手动选择文本复制';
+    }
+  }
+  document.getElementById('copyLatLon').addEventListener('click', () => {
+    const { lat, lon } = coordEl.dataset;
+    if (lat) copyText(`${lat}, ${lon}`);
+  });
+  document.getElementById('copyJson').addEventListener('click', () => {
+    const { lat, lon } = coordEl.dataset;
+    if (lat) copyText(JSON.stringify({ lat: Number(lat), lon: Number(lon) }));
+  });
+})();
+</script>
+</body>
+</html>

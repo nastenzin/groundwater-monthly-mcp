@@ -1,0 +1,303 @@
+{
+  "total": 59,
+  "passed": 59,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "SQLite integrity_check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "数据库文件存在且 > 2.5MB",
+      "ok": true,
+      "detail": "7790592 B"
+    },
+    {
+      "name": "月报期数 = 25",
+      "ok": true,
+      "detail": "25"
+    },
+    {
+      "name": "月报时间范围 2023-12 ~ 2025-12",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "月报期号唯一",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "每期 17 张表",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "每期原文页数 ≥20",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "每期降水行 34/35",
+      "ok": true,
+      "detail": "[34, 35]"
+    },
+    {
+      "name": "每期浅层叙述 24 行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2025-12 三江平原埋深 8.6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2025-12 松嫩平原降水 6.8mm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2025-12 河北深层站 476",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2025-12 南屯村水位 779.6",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2025-12 涞源泉 0.330",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "埋深变幅分布合计≈100%",
+      "ok": true,
+      "detail": "0 组异常"
+    },
+    {
+      "name": "2024 年后叙述行无全空变幅",
+      "ok": true,
+      "detail": "0 行"
+    },
+    {
+      "name": "年报 2 卷",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "年报表 109 行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "年报表数据年份 2020/2021/2022",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2022 年报三江平原埋深 8.3",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "年报区域 ≥ 29",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报目录 27 年",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报全国 26 年",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报一级区 206 行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报省级 288 行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报平原 58 行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报全国年份覆盖 1997-2024（缺 1999/2000）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报省级年份 = 2011、2016-2022、2024",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报一级区年份含 1997/2010-2024",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：1997 地下水资源量 6942.38",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：1997 地下水供水量 1031.49",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2022 地下水资源量 7924.4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "已知值：2022 地下水供水量 828.2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公报一级区 北方+南方=全国",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "公报省级地下水供水量之和=全国",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "公报平原埋深与水文年报一致（≤0.05m）",
+      "ok": true,
+      "detail": "38 对，max=0.0"
+    },
+    {
+      "name": "公报 1998 年无数值（仅比例）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-经纬度 → 松嫩平原",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-行政区 → 海河平原",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-行政区附带省级公报历史",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-地图选点 → 海河平原",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-单元附带公报埋深序列",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "位置-非法坐标报错",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "db_stats 覆盖四套数据",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "等值面图已数字化 ≥400 幅",
+      "ok": true,
+      "detail": "437 幅"
+    },
+    {
+      "name": "等值面覆盖全部 25 期月报",
+      "ok": true,
+      "detail": "25 期: 2023-12~2025-12"
+    },
+    {
+      "name": "等值面包含 PDF 与 HTML 缩略图两种来源",
+      "ok": true,
+      "detail": "{'html-thumbnail': 149, 'pdf': 288}"
+    },
+    {
+      "name": "等值面质量分级存在 medium",
+      "ok": true,
+      "detail": "{None: 5, 'low': 354, 'medium': 78}"
+    },
+    {
+      "name": "等值面等级一致性（每图 ≥90%）",
+      "ok": true,
+      "detail": "min=100.0"
+    },
+    {
+      "name": "连续场均值 vs 叙述均值（中位误差 <1m）",
+      "ok": true,
+      "detail": "median=0.67m, n=432"
+    },
+    {
+      "name": "任意点反演可用（哈尔滨附近）",
+      "ok": true,
+      "detail": "depth=20.37"
+    },
+    {
+      "name": "跨期点查询覆盖多期",
+      "ok": true,
+      "detail": "33 期命中"
+    },
+    {
+      "name": "HTML 缩略图期次可查询",
+      "ok": true,
+      "detail": "depth=8.0"
+    },
+    {
+      "name": "位置查询附带等值面反演值",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "wheel 存在且 >5MB",
+      "ok": true,
+      "detail": "5647891 B"
+    },
+    {
+      "name": "wheel sha256 与文档一致",
+      "ok": true,
+      "detail": "24ae8fea9a8e2706…"
+    },
+    {
+      "name": "wheel 含城市点位（get_city_depth 依赖）",
+      "ok": true,
+      "detail": "27 files"
+    },
+    {
+      "name": "README 版本 0.4.0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "docs/deploy.md 版本 0.4.0",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "db_size_bytes": 7790592
+}

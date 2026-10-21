@@ -1,0 +1,32 @@
+# Docker 构建上下文裁剪：镜像只需要 pyproject.toml + README.md + src/
+# 原始 PDF（data/pdfs 约 60MB）与解析中间产物一律不进镜像，也不上传给 daemon。
+.git
+.gitignore
+.github
+.venv
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.tmp_*
+dist
+build
+*.egg-info
+**/__pycache__
+**/*.pyc
+**/*.pyo
+
+# 仓库根目录的原始/中间数据（包内 src/groundwater_mcp/data 不受影响）
+/data
+/data/pdfs
+/data/annual
+/data/parsed
+/data/legacy
+/data/*.json
+/data/*.txt
+
+# 与运行无关的文档与脚本
+docs
+scripts
+tests
+*.md
+!README.md

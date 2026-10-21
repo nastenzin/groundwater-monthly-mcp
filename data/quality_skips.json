@@ -1,0 +1,32 @@
+[
+  {
+    "period": "2021-03",
+    "source": "D:\\MCP服务器\\data\\legacy\\pdfs\\2021-03.pdf",
+    "kind": "pdf",
+    "quality": {
+      "counts": {
+        "precip": 35,
+        "distribution": 7,
+        "deep": 0,
+        "water": 0,
+        "temperature": 40,
+        "springs": 34,
+        "shallow": 18
+      },
+      "below_gate": {
+        "deep": [
+          0,
+          15
+        ],
+        "water": [
+          0,
+          30
+        ],
+        "temperature": [
+          40,
+          50
+        ]
+      }
+    }
+  }
+]

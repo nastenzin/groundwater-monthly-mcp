@@ -1,0 +1,47 @@
+[
+  {
+    "year": 2025,
+    "title": "2025中国水文年报",
+    "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202607/t20260724_2135937.html",
+    "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202607/P020260724380219828331.pdf",
+    "local_path": null,
+    "bytes": 174134665,
+    "note": "2025 卷 PDF 存在字体编码问题，未入库（可后续 OCR/修复字体）。"
+  },
+  {
+    "year": 2024,
+    "title": "2024中国水文年报",
+    "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/t20251001_2037173.html",
+    "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/P020251001375169092395.pdf",
+    "local_path": null,
+    "bytes": 145343756,
+    "note": "2024 卷 PDF 存在字体编码问题，未入库（可后续 OCR/修复字体）。"
+  },
+  {
+    "year": 2023,
+    "title": "2023中国水文年报",
+    "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/t20251001_2037172.html",
+    "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/P020251001374862986473.pdf",
+    "local_path": null,
+    "bytes": 70269269,
+    "note": "2023 卷为扫描版 PDF，未做 OCR，暂未入库。"
+  },
+  {
+    "year": 2022,
+    "title": "2022中国水文年报",
+    "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/t20251001_2037171.html",
+    "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/P020251001374674186733.pdf",
+    "local_path": null,
+    "bytes": 162068203,
+    "note": "2022 卷含文本层：表 5-2/5-3 已解析（2021/2022 年末，29 平原 + 11 重点区域）；PDF 未随仓库保留，可用 pdf_url 重新下载。"
+  },
+  {
+    "year": 2021,
+    "title": "2021中国水文年报",
+    "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/t20251001_2037170.html",
+    "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/P020251001374208363675.pdf",
+    "local_path": null,
+    "bytes": 86788692,
+    "note": "2021 卷为扫描版 PDF：表 5-3（2020/2021 年末）经 RapidOCR + 区域锚点重建，逐行埋深差校验通过；PDF 未随仓库保留，可用 pdf_url 重新下载。"
+  }
+]

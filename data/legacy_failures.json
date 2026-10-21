@@ -1,0 +1,524 @@
+[
+  {
+    "period": "2019-01",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201901/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201901/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-02",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201902/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201902/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-03",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201903/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201903/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-04",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201904/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201904/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-05",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201905/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201905/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-06",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201906/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201906/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-07",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201907/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201907/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-08",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201908/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201908/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-09",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201909/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201909/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-10",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201910/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201910/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-11",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201911/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201911/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2019-12",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/201912/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/201912/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-01",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202001/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202001/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-02",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202002/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202002/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-03",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202003/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202003/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-04",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202004/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202004/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-05",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202005/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202005/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-06",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202006/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202006/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-07",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202007/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202007/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-08",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202008/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202008/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-09",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202009/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202009/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-10",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202010/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202010/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-11",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202011/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202011/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2020-12",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202012/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202012/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-01",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202101/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202101/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-02",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202102/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202102/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-04",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202104/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202104/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-05",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202105/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202105/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-06",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202106/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202106/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-07",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202107/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202107/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-08",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202108/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202108/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-09",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202109/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202109/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-10",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202110/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202110/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-11",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202111/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202111/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2021-12",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202112/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202112/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-01",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202201/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202201/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-02",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202202/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202202/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-03",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202203/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202203/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-04",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202204/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202204/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-05",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202205/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202205/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-06",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202206/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202206/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-07",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202207/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202207/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-08",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202208/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202208/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-09",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202209/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202209/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-10",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202210/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202210/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-11",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202211/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202211/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2022-12",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202212/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202212/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-01",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202301/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202301/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-02",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202302/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202302/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-03",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202303/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202303/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-04",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202304/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202304/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-05",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202305/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202305/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-06",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202306/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202306/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-07",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202307/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202307/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-08",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202308/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202308/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-09",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202309/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202309/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-10",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202310/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202310/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  },
+  {
+    "period": "2023-11",
+    "reason": "官方原始资源已下线：zzsc flipbook 目录统一 404、新版站点 PDF 目录已删除、旧 PDF 附件文件名不可枚举",
+    "tried": [
+      "http://www.mwr.gov.cn/zzsc/tjgb/dxsdtyb/202311/",
+      "http://www.mwr.gov.cn/sj/tjgb/dxsdtyb/202311/",
+      "http://xxzx.mwr.gov.cn/swszyjcpj/dxsjcpj/ (详情页仅剩 iframe，附件目录无索引)"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.nastenzin/groundwater-monthly",
+  "description": "《地下水动态月报》结构化数据 MCP：降水、浅层/深层地下水、重点站、历年《中国水资源公报》地下水资源量与供水量，支持经纬度/行政区/地图选点定位",
+  "version": "0.4.0",
+  "repository": {
+    "url": "https://github.com/nastenzin/groundwater-monthly-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/nastenzin/groundwater-monthly-mcp",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "groundwater-monthly-mcp",
+      "version": "0.4.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "report_year": 2022,
+  "title": "2022中国水文年报",
+  "detail_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/t20251001_2037171.html",
+  "pdf_url": "http://www.mwr.gov.cn/sj/tjgb/zgswnb/202510/P020251001374674186733.pdf",
+  "pages": 129,
+  "data_years": [
+    2021,
+    2022
+  ],
+  "table52_page": 75,
+  "table53_page": 79,
+  "plains": [
+    {
+      "region": "三江平原",
+      "region_label": "三江平原",
+      "region_group": "松花江区",
+      "shallow_change": 0.0,
+      "deep_change": 0.0,
+      "shallow_first": 8.3,
+      "shallow_second": 8.3,
+      "deep_first": 9.7,
+      "deep_second": 9.7
+    },
+    {
+      "region": "松嫩平原",
+      "region_label": "松嫩平原",
+      "region_group": "松花江区",
+      "shallow_change": -0.3,
+      "deep_change": -0.3,
+      "shallow_first": 7.2,
+      "shallow_second": 7.5,
+      "deep_first": 8.3,
+      "deep_second": 8.6
+    },
+    {
+      "region": "穆棱兴凯平原",
+      "region_label": "穆棱兴凯平原",
+      "region_group": "松花江区",
+      "shallow_change": 0.2,
+      "deep_change": 0.1,
+      "shallow_first": 5.1,
+      "shallow_second": 4.9,
+      "deep_first": 2.7,
+      "deep_second": 2.6
+    },
+    {
+      "region": "辽河平原",
+      "region_label": "辽河平原",
+      "region_group": "辽河区",
+      "shallow_change": 0.2,
+      "deep_change": 0.1,
+      "shallow_first": 4.3,
+      "shallow_second": 4.1,
+      "deep_first": 3.0,
+      "deep_second": 2.9
+    },
+    {
+      "region": "海河平原",
+      "region_label": "海河平原",
+      "region_group": "海河区",
+      "shallow_change": 0.3,
+      "deep_change": 1.6,
+      "shallow_first": 12.1,
+      "shallow_second": 11.8,
+      "deep_first": 44.9,
+      "deep_second": 43.3
+    },
+    {
+      "region": "大同盆地",
+      "region_label": "大同盆地",
+      "region_group": "海河区",
+      "shallow_change": 0.1,
+      "deep_change": 0.7,
+      "shallow_first": 17.1,
+      "shallow_second": 17.0,
+      "deep_first": 28.7,
+      "deep_second": 28.0
+    },
+    {
+      "region": "忻定盆地",
+      "region_label": "忻定盆地",
+      "region_group": "海河区",
+      "shallow_change": 0.8,
+      "deep_change": 1.0,
+      "shallow_first": 16.7,
+      "shallow_second": 15.9,
+      "deep_first": 14.7,
+      "deep_second": 13.7
+    },
+    {
+      "region": "长治盆地",
+      "region_label": "长治盆地",
+      "region_group": "海河区",
+      "shallow_change": -0.2,
+      "deep_change": -0.5,
+      "shallow_first": 9.5,
+      "shallow_second": 9.7,
+      "deep_first": 13.9,
+      "deep_second": 14.4
+    },
+    {
+      "region": "黄淮平原",
+      "region_label": "黄淮平原",
+      "region_group": "黄河区、淮河区",
+      "shallow_change": -0.3,
+      "deep_change": 0.2,
+      "shallow_first": 4.0,
+      "shallow_second": 4.3,
+      "deep_first": 20.8,
+      "deep_second": 20.6
+    },
+    {
+      "region": "运城盆地",
+      "region_label": "运城盆地",
+      "region_group": "黄河区",
+      "shallow_change": -0.6,
+      "deep_change": -0.3,
+      "shallow_first": 21.0,
+      "shallow_second": 21.6,
+      "deep_first": 73.9,
+      "deep_second": 74.2
+    },
+    {
+      "region": "临汾盆地",
+      "region_label": "临汾盆地",
+      "region_group": "黄河区",
+      "shallow_change": 0.4,
+      "deep_change": 2.2,
+      "shallow_first": 19.3,
+      "shallow_second": 18.9,
+      "deep_first": 53.1,
+      "deep_second": 50.9
+    },
+    {
+      "region": "太原盆地",
+      "region_label": "太原盆地",
+      "region_group": "黄河区",
+      "shallow_change": -0.7,
+      "deep_change": 0.9,
+      "shallow_first": 20.2,
+      "shallow_second": 20.9,
+      "deep_first": 28.1,
+      "deep_second": 27.2
+    },
+    {
+      "region": "呼包平原",
+      "region_label": "内蒙古呼包平原",
+      "region_group": "黄河区",
+      "shallow_change": -0.8,
+      "deep_change": null,
+      "shallow_first": 13.2,
+      "shallow_second": 14.0,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "河套平原",
+      "region_label": "内蒙古河套平原",
+      "region_group": "黄河区",
+      "shallow_change": 0.1,
+      "deep_change": null,
+      "shallow_first": 7.1,
+      "shallow_second": 7.0,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "关中平原",
+      "region_label": "陕西关中平原",
+      "region_group": "黄河区",
+      "shallow_change": 0.0,
+      "deep_change": -0.9,
+      "shallow_first": 36.5,
+      "shallow_second": 36.5,
+      "deep_first": 38.1,
+      "deep_second": 39.0
+    },
+    {
+      "region": "银川卫宁平原",
+      "region_label": "宁夏银川卫宁平原",
+      "region_group": "黄河区",
+      "shallow_change": 0.0,
+      "deep_change": 0.3,
+      "shallow_first": 6.1,
+      "shallow_second": 6.1,
+      "deep_first": 5.9,
+      "deep_second": 5.6
+    },
+    {
+      "region": "江汉平原",
+      "region_label": "江汉平原",
+      "region_group": "长江区",
+      "shallow_change": -0.8,
+      "deep_change": -0.6,
+      "shallow_first": 4.7,
+      "shallow_second": 5.5,
+      "deep_first": 4.4,
+      "deep_second": 5.0
+    },
+    {
+      "region": "鄱阳湖平原",
+      "region_label": "鄱阳湖平原",
+      "region_group": "长江区",
+      "shallow_change": -0.5,
+      "deep_change": -1.5,
+      "shallow_first": 5.0,
+      "shallow_second": 5.5,
+      "deep_first": 13.5,
+      "deep_second": 15.0
+    },
+    {
+      "region": "长江三角洲平原",
+      "region_label": "长江三角洲平原",
+      "region_group": "长江区",
+      "shallow_change": 0.1,
+      "deep_change": 0.5,
+      "shallow_first": 3.3,
+      "shallow_second": 3.2,
+      "deep_first": 9.4,
+      "deep_second": 8.9
+    },
+    {
+      "region": "河南省南襄山间平原",
+      "region_label": "河南南襄山间平原区",
+      "region_group": "长江区",
+      "shallow_change": -2.5,
+      "deep_change": -2.3,
+      "shallow_first": 8.0,
+      "shallow_second": 10.5,
+      "deep_first": 14.0,
+      "deep_second": 16.3
+    },
+    {
+      "region": "成都平原",
+      "region_label": "成都平原",
+      "region_group": "长江区",
+      "shallow_change": -0.2,
+      "deep_change": -1.5,
+      "shallow_first": 5.1,
+      "shallow_second": 5.3,
+      "deep_first": 4.4,
+      "deep_second": 5.9
+    },
+    {
+      "region": "浙东沿海平原",
+      "region_label": "浙东沿海平原",
+      "region_group": "东南诸河区",
+      "shallow_change": 0.0,
+      "deep_change": 0.5,
+      "shallow_first": 4.7,
+      "shallow_second": 4.7,
+      "deep_first": 9.0,
+      "deep_second": 8.5
+    },
+    {
+      "region": "广东珠江三角洲平原",
+      "region_label": "广东珠江三角洲平原",
+      "region_group": "珠江区",
+      "shallow_change": 0.0,
+      "deep_change": null,
+      "shallow_first": 3.4,
+      "shallow_second": 3.4,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "雷州半岛平原",
+      "region_label": "雷州半岛平原",
+      "region_group": "珠江区",
+      "shallow_change": 0.6,
+      "deep_change": 2.3,
+      "shallow_first": 4.4,
+      "shallow_second": 3.8,
+      "deep_first": 18.1,
+      "deep_second": 15.8
+    },
+    {
+      "region": "琼北台地平原",
+      "region_label": "琼北台地平原",
+      "region_group": "珠江区",
+      "shallow_change": 0.2,
+      "deep_change": 1.5,
+      "shallow_first": 9.9,
+      "shallow_second": 9.7,
+      "deep_first": 20.3,
+      "deep_second": 18.8
+    },
+    {
+      "region": "河西走廊平原",
+      "region_label": "甘肃河西走廊平原",
+      "region_group": "西北诸河区",
+      "shallow_change": -0.6,
+      "deep_change": 0.0,
+      "shallow_first": 27.8,
+      "shallow_second": 28.4,
+      "deep_first": 6.4,
+      "deep_second": 6.4
+    },
+    {
+      "region": "柴达木盆地",
+      "region_label": "青海柴达木盆地",
+      "region_group": "西北诸河区",
+      "shallow_change": -2.9,
+      "deep_change": null,
+      "shallow_first": 9.7,
+      "shallow_second": 12.6,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "塔里木盆地",
+      "region_label": "新疆塔里木盆地",
+      "region_group": "西北诸河区",
+      "shallow_change": -0.2,
+      "deep_change": -0.3,
+      "shallow_first": 12.4,
+      "shallow_second": 12.6,
+      "deep_first": 15.2,
+      "deep_second": 15.5
+    },
+    {
+      "region": "准噶尔盆地",
+      "region_label": "新疆准噶尔盆地",
+      "region_group": "西北诸河区",
+      "shallow_change": -0.6,
+      "deep_change": -1.9,
+      "shallow_first": 27.3,
+      "shallow_second": 27.9,
+      "deep_first": 33.5,
+      "deep_second": 35.4
+    }
+  ],
+  "key_regions": [
+    {
+      "region": "华北地区",
+      "region_label": "华北地区",
+      "shallow_change": 0.5,
+      "deep_change": 1.5,
+      "shallow_first": 16.1,
+      "shallow_second": 15.6,
+      "deep_first": 45.9,
+      "deep_second": 44.4
+    },
+    {
+      "region": "三江平原（重点）",
+      "region_label": "三江平原",
+      "shallow_change": -0.2,
+      "deep_change": 0.0,
+      "shallow_first": 6.9,
+      "shallow_second": 7.1,
+      "deep_first": 8.4,
+      "deep_second": 8.4
+    },
+    {
+      "region": "松嫩平原（重点）",
+      "region_label": "松嫩平原",
+      "shallow_change": -0.3,
+      "deep_change": -0.3,
+      "shallow_first": 7.7,
+      "shallow_second": 8.0,
+      "deep_first": 8.8,
+      "deep_second": 9.1
+    },
+    {
+      "region": "辽河平原（重点）",
+      "region_label": "辽河平原",
+      "shallow_change": 0.2,
+      "deep_change": 0.1,
+      "shallow_first": 4.2,
+      "shallow_second": 4.0,
+      "deep_first": 3.1,
+      "deep_second": 3.0
+    },
+    {
+      "region": "西辽河流域",
+      "region_label": "西辽河流域",
+      "shallow_change": -0.2,
+      "deep_change": null,
+      "shallow_first": 8.2,
+      "shallow_second": 8.0,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "黄淮地区（重点）",
+      "region_label": "黄淮地区",
+      "shallow_change": -0.4,
+      "deep_change": 0.3,
+      "shallow_first": 6.4,
+      "shallow_second": 6.8,
+      "deep_first": 27.3,
+      "deep_second": 27.0
+    },
+    {
+      "region": "鄂尔多斯台地",
+      "region_label": "鄂尔多斯台地",
+      "shallow_change": -0.6,
+      "deep_change": null,
+      "shallow_first": 13.3,
+      "shallow_second": 13.9,
+      "deep_first": null,
+      "deep_second": null
+    },
+    {
+      "region": "河西走廊（重点）",
+      "region_label": "河西走廊",
+      "shallow_change": -0.2,
+      "deep_change": -0.1,
+      "shallow_first": 29.6,
+      "shallow_second": 29.8,
+      "deep_first": 6.2,
+      "deep_second": 6.3
+    },
+    {
+      "region": "汾渭谷地",
+      "region_label": "汾渭谷地",
+      "shallow_change": 0.0,
+      "deep_change": 0.5,
+      "shallow_first": 23.0,
+      "shallow_second": 23.0,
+      "deep_first": 40.7,
+      "deep_second": 40.2
+    },
+    {
+      "region": "天山南北麓与吐哈盆地",
+      "region_label": "天山南北麓与吐哈盆地",
+      "shallow_change": -1.0,
+      "deep_change": -1.4,
+      "shallow_first": 35.2,
+      "shallow_second": 36.2,
+      "deep_first": 35.1,
+      "deep_second": 36.5
+    },
+    {
+      "region": "北部湾地区",
+      "region_label": "北部湾地区",
+      "shallow_change": 0.4,
+      "deep_change": 1.6,
+      "shallow_first": 7.2,
+      "shallow_second": 6.8,
+      "deep_first": 14.7,
+      "deep_second": 13.1
+    }
+  ],
+  "warnings": [],
+  "source_kind": "pdf-text-layer",
+  "table_name": "表5-2",
+  "table_page": 75
+}
