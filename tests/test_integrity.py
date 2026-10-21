@@ -235,6 +235,48 @@ def test_location_out_of_range():
     assert server.get_map_picker()["exists"]
     with pytest.raises(repo.DataError):
         server.locate_by_coordinates(999, 999)
+    with pytest.raises(repo.DataError):
+        server.locate_by_map_point(999, 116.40, period="2025-12")
+
+
+def test_map_picker_contract():
+    """地图选点页面契约：字段齐全、资源内容一致、本地 Leaflet 齐备、关键交互存在。"""
+    import re
+    from pathlib import Path
+
+    info = server.get_map_picker()
+    assert {"picker_path", "exists", "how_to", "resource_uri", "note"} <= set(info)
+    assert info["exists"] is True
+    assert info["resource_uri"] == "groundwater://map/picker"
+    picker = Path(info["picker_path"])
+    assert picker.is_file()
+    html = picker.read_text(encoding="utf-8")
+    assert server.map_picker_resource() == html
+    # HTML 中引用的本地资源（Leaflet）必须随包存在，离线可用
+    refs = re.findall(r'(?:src|href)="([^"]+)"', html)
+    local = [u for u in refs if not u.startswith(("http://", "https://", "data:", "//"))]
+    assert "leaflet.js" in local and "leaflet.css" in local
+    for ref in local:
+        assert (picker.parent / ref).is_file(), ref
+    # 关键交互与离线切换要素
+    assert "map.on('click'" in html
+    assert 'id="coord"' in html
+    assert 'value="none"' in html and "无底图" in html
+
+
+def test_map_point_matches_coordinates():
+    """地图点选坐标与经纬度查询结果一致（除 mode/input/map_picker 字段）。"""
+    for lat, lon in ((39.90, 116.40), (23.13, 113.26)):
+        by_map = server.locate_by_map_point(lat, lon, period="2025-12")
+        by_coord = server.locate_by_coordinates(lat, lon, period="2025-12")
+        assert by_map["mode"] == "map_point"
+        assert by_coord["mode"] == "coordinates"
+        for key in ("mode", "input", "map_picker"):
+            by_map.pop(key, None)
+            by_coord.pop(key, None)
+        assert by_map == by_coord
+    with pytest.raises(repo.DataError):
+        server.query_by_location(mode="map_point", period="2025-12")
 
 
 # ---------------------------------------------------------------------------

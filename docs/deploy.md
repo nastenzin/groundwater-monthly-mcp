@@ -742,7 +742,7 @@ docker push <dockerhub-user>/groundwater-monthly-mcp:latest
 
 环境：`python` 3.13.9、`mcp 2.3.0`、Docker CLI/Desktop 29.5.3（linux/amd64）。
 
-> 0.4.0 验证结论：`python -m pytest -q tests` → **27 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
+> 0.4.0 验证结论：`python -m pytest -q tests` → **29 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
 > wheel `groundwater_monthly_mcp-0.4.0-py3-none-any.whl`（5,647,599 B，sha256 `60e98571…`）；
 > Docker 镜像 `groundwater-monthly-mcp:0.4.0`（`842e4a1e5afd`，约 283MB，HEALTHCHECK `healthy`，HTTP 端 26 个工具）；
 > 随包 DB 7,790,592 B（约 7,608 KB），含 `surface_maps` 437 行/25 期与 339 个城市点位。

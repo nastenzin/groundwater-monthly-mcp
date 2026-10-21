@@ -806,7 +806,7 @@ def get_map_picker() -> dict:
         "exists": picker.exists(),
         "how_to": [
             "用浏览器打开 picker_path（file:// 路径）",
-            "在地图上点击目标位置，页面会显示经纬度并自动复制 JSON",
+            "在地图上点击目标位置，页面会显示经纬度，可点按钮复制 lat, lon 或 JSON",
             "把经纬度传给 locate_by_map_point(lat, lon, period=...) 或 query_by_location(mode='map_point', ...)",
         ],
         "resource_uri": "groundwater://map/picker",

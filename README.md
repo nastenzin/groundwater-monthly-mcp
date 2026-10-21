@@ -329,7 +329,7 @@ python -m groundwater_mcp.ingest.build   # 重新解析并构建数据库
 
 | 测试 | 命令 | 结果 |
 | --- | --- | --- |
-| 数据完整性 pytest（期数、17 表、已知数值、位置三方式、年报/公报基准、等值面查询） | `python -m pytest -q tests` | 27 passed |
+| 数据完整性 pytest（期数、17 表、已知数值、位置三方式、年报/公报基准、等值面查询） | `python -m pytest -q tests` | 29 passed |
 | MCP stdio 冒烟（tools/resources/prompts + 每个工具各调一次） | `python scripts\test_mcp.py` | 26/26 工具调用成功 |
 | wheel 打包检查（DB/geo/map 是否齐全、是否混入原始 PDF） | `python scripts\package_check.py wheel` | 通过；`dist/groundwater_monthly_mcp-0.4.0-py3-none-any.whl`，5,647,599 B，sha256 `c9a87f5fe6f14153f6bac30ae73721ebb20f6a9c3fe0db5356a4d8002752dc7c` |
 | 等值面数字化校验（25 期 × 18 幅尝试；等级一致性、独立均值校验） | `python scripts\verify_all.py`（59/59 项，覆盖数据与产物） | 437/437 幅等级一致性 100%；均值误差中位：PDF 0.25 m、HTML 缩略图 1.24 m、全体 0.67 m；68 幅 \|误差\|>5 m 标记 suspect |
