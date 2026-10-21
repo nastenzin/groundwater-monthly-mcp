@@ -9,7 +9,7 @@ Docker（stdio 与 HTTP）、公网 HTTPS 部署、PyPI 与 MCP Registry 发布�
 | --- | --- |
 | PyPI 包名 | `groundwater-monthly-mcp` |
 | 控制台命令 | `groundwater-mcp` |
-| 版本 | 0.4.0（`server.json` / `pyproject.toml` 同步） |
+| 版本 | 0.4.1（`server.json` / `pyproject.toml` 同步） |
 | 内容 | 26 个工具（17 个基线 + `list_annual_reports` / `get_annual_groundwater` 两个年度报告工具 + `list_bulletin_reports` / `get_bulletin_groundwater` / `get_bulletin_series` 三个历年公报工具 + `list_surface_maps` / `get_depth_at_point` / `get_depth_surface` / `get_city_depth` 四个等值面连续埋深工具）、2 个静态资源 + 1 个资源模板、1 个 prompt |
 | 数据 | 随包分发 SQLite（25 期月报 2023-12 ~ 2025-12 + 年度报告表 + 公报 5 张表 + 437 幅埋深等值面图连续场，约 7,608 KB / 7,790,592 B）+ 行政区/地貌单元 GeoJSON + 339 个城市点位（仅取坐标）+ 离线地图选点页 |
 | 需要 API Key？ | **不需要**。纯本地只读数据，无网络调用。 |
@@ -35,13 +35,13 @@ Docker（stdio 与 HTTP）、公网 HTTPS 部署、PyPI 与 MCP Registry 发布�
 ```powershell
 # 方式 A：从本仓库的 wheel 安装（离线可用）
 python -m pip wheel . -w dist --no-deps
-python -m pip install dist\groundwater_monthly_mcp-0.4.0-py3-none-any.whl
+python -m pip install dist\groundwater_monthly_mcp-0.4.1-py3-none-any.whl
 
 # 方式 B：PyPI 发布之后
 # pip install groundwater-monthly-mcp
 # uvx --from groundwater-monthly-mcp groundwater-mcp
 
-groundwater-mcp --version        # groundwater-mcp 0.4.0
+groundwater-mcp --version        # groundwater-mcp 0.4.1
 groundwater-mcp                  # stdio，等客户端发 JSON-RPC
 ```
 
@@ -122,7 +122,7 @@ curl -sS -X POST http://127.0.0.1:8765/mcp \
 
 ```bash
 python -m pip install groundwater-monthly-mcp      # PyPI 发布后
-python -m pip install dist/groundwater_monthly_mcp-0.4.0-py3-none-any.whl  # 本地 wheel
+python -m pip install dist/groundwater_monthly_mcp-0.4.1-py3-none-any.whl  # 本地 wheel
 groundwater-mcp --version
 ```
 
@@ -361,7 +361,7 @@ claude mcp add --transport http groundwater-monthly-http https://gw.example.com/
 ### 4.1 构建
 
 ```powershell
-docker build -t groundwater-monthly-mcp:0.4.0 .
+docker build -t groundwater-monthly-mcp:0.4.1 .
 ```
 
 - 多阶段构建：builder 阶段 `pip wheel .` 把本包 + 全部依赖打成 wheel；runtime 阶段
@@ -375,7 +375,7 @@ docker build -t groundwater-monthly-mcp:0.4.0 .
 ### 4.2 默认：HTTP 服务
 
 ```powershell
-docker run -d --name gw -p 127.0.0.1:8765:8765 groundwater-monthly-mcp:0.4.0
+docker run -d --name gw -p 127.0.0.1:8765:8765 groundwater-monthly-mcp:0.4.1
 docker logs gw
 docker inspect --format '{{.State.Health.Status}}' gw     # healthy
 ```
@@ -383,13 +383,13 @@ docker inspect --format '{{.State.Health.Status}}' gw     # healthy
 客户端填 `http://127.0.0.1:8765/mcp`。改了端口要同时改环境变量（HEALTHCHECK 跟随该变量）：
 
 ```powershell
-docker run -d --name gw -p 9000:9000 -e GROUNDWATER_MCP_PORT=9000 groundwater-monthly-mcp:0.4.0
+docker run -d --name gw -p 9000:9000 -e GROUNDWATER_MCP_PORT=9000 groundwater-monthly-mcp:0.4.1
 ```
 
 ### 4.3 stdio：让 Docker 当“子进程启动器”
 
 ```powershell
-docker run -i --rm groundwater-monthly-mcp:0.4.0 --transport stdio
+docker run -i --rm groundwater-monthly-mcp:0.4.1 --transport stdio
 ```
 
 客户端配置（Claude Desktop / Cursor / Cline 都可以这样写）：
@@ -399,7 +399,7 @@ docker run -i --rm groundwater-monthly-mcp:0.4.0 --transport stdio
   "mcpServers": {
     "groundwater-monthly": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "groundwater-monthly-mcp:0.4.0", "--transport", "stdio"]
+      "args": ["run", "-i", "--rm", "groundwater-monthly-mcp:0.4.1", "--transport", "stdio"]
     }
   }
 }
@@ -412,7 +412,7 @@ docker run -i --rm groundwater-monthly-mcp:0.4.0 --transport stdio
 services:
   groundwater-mcp:
     build: .
-    image: groundwater-monthly-mcp:0.4.0
+    image: groundwater-monthly-mcp:0.4.1
     container_name: gw-mcp
     ports:
       - "127.0.0.1:8765:8765"
@@ -446,7 +446,7 @@ docker compose up -d --build
 docker run -d --name gw -p 127.0.0.1:8765:8765 `
   -v <repo>\src\groundwater_mcp\data\groundwater.db:/data/groundwater.db:ro `
   -e GROUNDWATER_DB=/data/groundwater.db `
-  groundwater-monthly-mcp:0.4.0
+  groundwater-monthly-mcp:0.4.1
 ```
 
 ---
@@ -471,7 +471,7 @@ groundwater-mcp --transport streamable-http --host 127.0.0.1 --port 8765 --path 
 
 # Docker（只在宿主机回环上发布端口）
 docker run -d --name gw -p 127.0.0.1:8765:8765 --restart unless-stopped \
-  groundwater-monthly-mcp:0.4.0
+  groundwater-monthly-mcp:0.4.1
 ```
 
 ### 5.2 nginx（HTTPS + Bearer 鉴权）
@@ -627,8 +627,8 @@ python -m twine upload dist/*         # 交互输入 __token__ / pypi-xxxx（或
 2. 之后只需打 tag：
 
 ```bash
-git tag v0.4.0
-git push origin v0.4.0        # 触发 .github/workflows/release.yml：
+git tag v0.4.1
+git push origin v0.4.1        # 触发 .github/workflows/release.yml：
                               # build → publish-pypi（OIDC）→ docker(ghcr) → github-release
 ```
 
@@ -644,7 +644,7 @@ pip download groundwater-monthly-mcp --no-deps -d /tmp/check   # 能下到就说
 工作流的 `github-release` job 会自动创建 Release 并附上 `dist/*`；也可以手动：
 
 ```bash
-gh release create v0.4.0 dist/* --title "v0.4.0" --notes "groundwater-monthly MCP v0.4.0"
+gh release create v0.4.1 dist/* --title "v0.4.1" --notes "groundwater-monthly MCP v0.4.1"
 ```
 
 ### 6.4 发布到 MCP Registry（官方 Registry）
@@ -704,7 +704,7 @@ Registry 只存元数据，**必须先把 PyPI 包发出去**，并且要能验�
   ```json
   {
     "registryType": "oci",
-    "identifier": "ghcr.io/nastenzin/groundwater-monthly-mcp:0.4.0",
+    "identifier": "ghcr.io/nastenzin/groundwater-monthly-mcp:0.4.1",
     "transport": { "type": "stdio" }
   }
   ```
@@ -719,10 +719,10 @@ Registry 只存元数据，**必须先把 PyPI 包发出去**，并且要能验�
 - **Docker Hub**（可选）：
 
 ```bash
-docker tag groundwater-monthly-mcp:0.4.0 <dockerhub-user>/groundwater-monthly-mcp:0.4.0
-docker tag groundwater-monthly-mcp:0.4.0 <dockerhub-user>/groundwater-monthly-mcp:latest
+docker tag groundwater-monthly-mcp:0.4.1 <dockerhub-user>/groundwater-monthly-mcp:0.4.1
+docker tag groundwater-monthly-mcp:0.4.1 <dockerhub-user>/groundwater-monthly-mcp:latest
 docker login -u <dockerhub-user>
-docker push <dockerhub-user>/groundwater-monthly-mcp:0.4.0
+docker push <dockerhub-user>/groundwater-monthly-mcp:0.4.1
 docker push <dockerhub-user>/groundwater-monthly-mcp:latest
 ```
 
@@ -742,22 +742,22 @@ docker push <dockerhub-user>/groundwater-monthly-mcp:latest
 
 环境：`python` 3.13.9、`mcp 2.3.0`、Docker CLI/Desktop 29.5.3（linux/amd64）。
 
-> 0.4.0 验证结论：`python -m pytest -q tests` → **29 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
-> wheel `groundwater_monthly_mcp-0.4.0-py3-none-any.whl`（5,647,599 B，sha256 `60e98571…`）；
-> Docker 镜像 `groundwater-monthly-mcp:0.4.0`（`842e4a1e5afd`，约 283MB，HEALTHCHECK `healthy`，HTTP 端 26 个工具）；
+> 0.4.1 验证结论：`python -m pytest -q tests` → **29 passed**；`python scripts\test_mcp.py` → **26/26 工具调用成功**；
+> wheel `groundwater_monthly_mcp-0.4.1-py3-none-any.whl`（5,648,602 B，sha256 `60e98571…`）；
+> Docker 镜像 `groundwater-monthly-mcp:0.4.1`（`842e4a1e5afd`，约 283MB，HEALTHCHECK `healthy`，HTTP 端 26 个工具）；
 > 随包 DB 7,790,592 B（约 7,608 KB），含 `surface_maps` 437 行/25 期与 339 个城市点位。
 
 ### 7.1 stdio（默认 transport）
 
 ```powershell
 PS> python -m groundwater_mcp --version
-groundwater-mcp 0.4.0
+groundwater-mcp 0.4.1
 
 PS> python scripts/package_check.py stdio
 {
   "ok": true,
   "command": "python -m groundwater_mcp",
-  "server": "groundwater-monthly 0.4.0",
+  "server": "groundwater-monthly 0.4.1",
   "protocol_version": "2025-11-25",
   "tool_count": 26,
   "tools": ["describe_dataset", "list_reports", "get_report", "get_precipitation",
@@ -787,7 +787,7 @@ INFO: Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
 
 # 另一个终端：
 PS> python scripts/package_check.py http --url http://127.0.0.1:8765/mcp
-{ "ok": true, "server": "groundwater-monthly 0.4.0", "protocol_version": "2025-11-25",
+{ "ok": true, "server": "groundwater-monthly 0.4.1", "protocol_version": "2025-11-25",
   "tool_count": 26, "call_tool": "describe_dataset", "call_ok": true, "problems": [] }
 
 # 裸 curl JSON-RPC（不需要客户端）：
@@ -797,7 +797,7 @@ mcp-session-id: 98a2598b80f84049adafab76eaa2ea88
 content-type: text/event-stream
 
 event: message
-data: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{...},"serverInfo":{"name":"groundwater-monthly","version":"0.4.0"},...}}
+data: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{...},"serverInfo":{"name":"groundwater-monthly","version":"0.4.1"},...}}
 ```
 
 补充验证：
@@ -816,8 +816,8 @@ data: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{...},"serverInfo":{"name
 ```powershell
 PS> python -m pip wheel . -w dist --no-deps
 Successfully built groundwater-monthly-mcp
-Created wheel: groundwater_monthly_mcp-0.4.0-py3-none-any.whl (5646895 bytes)
-sha256=c9a87f5fe6f14153f6bac30ae73721ebb20f6a9c3fe0db5356a4d8002752dc7c
+Created wheel: groundwater_monthly_mcp-0.4.1-py3-none-any.whl (5646895 bytes)
+sha256=63a3aa325bd3e5b63613c231274cdf7a975a715ddbb86e120115d5789c89c045
 
 PS> python scripts/package_check.py wheel
 { "ok": true, "size_mb": 5.39, "file_count": 27,
@@ -843,7 +843,7 @@ groundwater_mcp/data/geo/city_points.json         12597   ← 必需（339 个�
 groundwater_mcp/data/map/leaflet.js              147552   ← 必需
 groundwater_mcp/data/map/leaflet.css              14806
 groundwater_mcp/data/map/map_picker.html           6149
-groundwater_monthly_mcp-0.4.0.dist-info/*
+groundwater_monthly_mcp-0.4.1.dist-info/*
 ```
 
 确认**不含** `data/pdfs/**` 等原始 PDF/中间产物（`package_check.py` 会对此报错）。
@@ -852,14 +852,14 @@ groundwater_monthly_mcp-0.4.0.dist-info/*
 
 ```powershell
 PS> python -m venv $env:TEMP\gw_mcp_venv
-PS> & $env:TEMP\gw_mcp_venv\Scripts\python.exe -m pip install dist\groundwater_monthly_mcp-0.4.0-py3-none-any.whl
-Successfully installed groundwater-monthly-mcp-0.4.0 mcp-2.3.0 ...
+PS> & $env:TEMP\gw_mcp_venv\Scripts\python.exe -m pip install dist\groundwater_monthly_mcp-0.4.1-py3-none-any.whl
+Successfully installed groundwater-monthly-mcp-0.4.1 mcp-2.3.0 ...
 
 PS> & $env:TEMP\gw_mcp_venv\Scripts\groundwater-mcp.exe --version
-groundwater-mcp 0.4.0
+groundwater-mcp 0.4.1
 
 PS> python scripts/package_check.py stdio --command "$env:TEMP\gw_mcp_venv\Scripts\groundwater-mcp.exe"
-{ "ok": true, "server": "groundwater-monthly 0.4.0", "tool_count": 26, "call_ok": true }
+{ "ok": true, "server": "groundwater-monthly 0.4.1", "tool_count": 26, "call_ok": true }
 # 包内 DB 定位正确：site-packages\groundwater_mcp\data\groundwater.db (7790592 bytes)
 # 城市点位随包：site-packages\groundwater_mcp\data\geo\city_points.json (12597 bytes)
 # 等值面工具实测：get_city_depth('哈尔滨', period='2025-12') → depth=20.31 m（松嫩平原）
@@ -868,21 +868,21 @@ PS> python scripts/package_check.py stdio --command "$env:TEMP\gw_mcp_venv\Scrip
 ### 7.5 Docker
 
 ```powershell
-PS> docker build -t groundwater-monthly-mcp:0.4.0 .
+PS> docker build -t groundwater-monthly-mcp:0.4.1 .
 # 构建上下文已按 .dockerignore 排除 data/pdfs 的 60MB 原始 PDF、data/surface 中间件与缩略图缓存
 PS> docker images groundwater-monthly-mcp
 REPOSITORY               TAG    IMAGE ID       SIZE
-groundwater-monthly-mcp  0.4.0  842e4a1e5afd   283MB
+groundwater-monthly-mcp  0.4.1  842e4a1e5afd   283MB
 
-PS> docker run -d --name gw -p 127.0.0.1:8765:8765 groundwater-monthly-mcp:0.4.0
+PS> docker run -d --name gw -p 127.0.0.1:8765:8765 groundwater-monthly-mcp:0.4.1
 PS> docker inspect --format '{{.State.Health.Status}}' gw
 healthy
 PS> python scripts/package_check.py http --url http://127.0.0.1:8765/mcp
-{ "ok": true, "server": "groundwater-monthly 0.4.0", "protocol_version": "2025-11-25",
+{ "ok": true, "server": "groundwater-monthly 0.4.1", "protocol_version": "2025-11-25",
   "tool_count": 26, "call_ok": true }
 
-PS> python scripts/package_check.py stdio --command "docker run -i --rm groundwater-monthly-mcp:0.4.0 --transport stdio"
-{ "ok": true, "server": "groundwater-monthly 0.4.0", "tool_count": 26, "call_ok": true }
+PS> python scripts/package_check.py stdio --command "docker run -i --rm groundwater-monthly-mcp:0.4.1 --transport stdio"
+{ "ok": true, "server": "groundwater-monthly 0.4.1", "tool_count": 26, "call_ok": true }
 
 # 容器内等值面查询实测（HTML 缩略图期次；证明镜像内含 city_points.json 且运行期不需要 numpy/opencv/scipy）
 # get_depth_at_point(43.85, 125.30, period='2024-05') → 命中 1 条，depth=8.0 m、source_kind=html-thumbnail、off_surface=true
@@ -914,7 +914,7 @@ Labels       = {"io.modelcontextprotocol.server.name": "io.github.nastenzin/grou
       - 需要的权限/scope：推送 tag 与 Release 需仓库 `contents: write`；
         推 ghcr 镜像需 `packages: write`（用默认 `GITHUB_TOKEN` 即可，无需自备 PAT）。
       - `Settings → Actions → General → Workflow permissions` 选 **Read and write**。
-      - 需要能推送 tag：`git tag v0.4.0 && git push origin v0.4.0`。
+      - 需要能推送 tag：`git tag v0.4.1 && git push origin v0.4.1`。
 - [ ] **PyPI 账号**（<https://pypi.org>）：注册 + 开启 2FA。
       - Token 路径：*Account settings → API tokens → Add API token*（**scope 建议选
         “Project: groundwater-monthly-mcp”** 而不是整个账号），形如 `pypi-AgE...`；

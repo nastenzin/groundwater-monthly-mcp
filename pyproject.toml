@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "groundwater-monthly-mcp"
-version = "0.4.0"
+version = "0.4.1"
 description = "《地下水动态月报》数据 MCP 服务器：提供降水、浅层/深层地下水、重点站数据与经纬度/行政区/地图选点定位"
 readme = "README.md"
 requires-python = ">=3.10"

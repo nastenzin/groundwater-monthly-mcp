@@ -190,13 +190,13 @@ check("HTML 缩略图期次可查询", html_pt["count"] >= 1,
 check("位置查询附带等值面反演值", r1["data"].get("surface_depth", {}).get("count", 0) >= 1)
 
 # ---------------------------------------------------------------- 产物文件
-wheel = ROOT / "dist" / "groundwater_monthly_mcp-0.4.0-py3-none-any.whl"
+wheel = ROOT / "dist" / "groundwater_monthly_mcp-0.4.1-py3-none-any.whl"
 import hashlib
 if wheel.exists():
     h = hashlib.sha256(wheel.read_bytes()).hexdigest()
     check("wheel 存在且 >5MB", wheel.stat().st_size > 5_000_000, f"{wheel.stat().st_size} B")
     check("wheel sha256 与文档一致",
-          h == "24ae8fea9a8e270661c8d36f9f97a0335f9ce635610733bac3a3283c3f1ec9c4", h[:16] + "…")
+          h == "63a3aa325bd3e5b63613c231274cdf7a975a715ddbb86e120115d5789c89c045", h[:16] + "…")
 else:
     check("wheel 存在", False)
 if wheel.exists():
@@ -205,8 +205,8 @@ if wheel.exists():
     names = zipfile.ZipFile(wheel).namelist()
     check("wheel 含城市点位（get_city_depth 依赖）",
           "groundwater_mcp/data/geo/city_points.json" in names, f"{len(names)} files")
-check("README 版本 0.4.0", "0.4.0" in (ROOT / "README.md").read_text(encoding="utf-8"))
-check("docs/deploy.md 版本 0.4.0", "0.4.0" in (ROOT / "docs" / "deploy.md").read_text(encoding="utf-8")[:3000])
+check("README 版本 0.4.1", "0.4.1" in (ROOT / "README.md").read_text(encoding="utf-8"))
+check("docs/deploy.md 版本 0.4.1", "0.4.1" in (ROOT / "docs" / "deploy.md").read_text(encoding="utf-8")[:3000])
 
 conn.close()
 

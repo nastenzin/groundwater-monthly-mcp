@@ -276,12 +276,12 @@
     {
       "name": "wheel 存在且 >5MB",
       "ok": true,
-      "detail": "5647891 B"
+      "detail": "5648602 B"
     },
     {
       "name": "wheel sha256 与文档一致",
       "ok": true,
-      "detail": "24ae8fea9a8e2706…"
+      "detail": "63a3aa325bd3e5b6…"
     },
     {
       "name": "wheel 含城市点位（get_city_depth 依赖）",
@@ -289,12 +289,12 @@
       "detail": "27 files"
     },
     {
-      "name": "README 版本 0.4.0",
+      "name": "README 版本 0.4.1",
       "ok": true,
       "detail": ""
     },
     {
-      "name": "docs/deploy.md 版本 0.4.0",
+      "name": "docs/deploy.md 版本 0.4.1",
       "ok": true,
       "detail": ""
     }

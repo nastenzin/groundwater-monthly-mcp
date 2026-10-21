@@ -43,16 +43,17 @@
   </div>
   <div id="status"></div>
   <hr />
-  <div class="hint">底图切换：</div>
+  <div class="hint">底图切换（默认高德）：</div>
   <select id="basemap">
+    <option value="gaode" selected>高德地图（AutoNavi，默认）</option>
     <option value="osm">OpenStreetMap</option>
-    <option value="gaode">高德地图（AutoNavi）</option>
     <option value="esri">Esri 影像</option>
     <option value="none">无底图（离线可用）</option>
   </select>
   <hr />
   <div class="hint" id="region">所属行政区：请先选点</div>
   <div class="hint">提示：本页面只负责取坐标，数据查询由 MCP 工具完成；监测区边界为近似范围。
+    高德底图为 GCJ-02 坐标，选点后会自动转换为 WGS84（与 MCP 数据一致）。
     底图瓦片需要联网；离线时选“无底图”仍可点击取坐标。</div>
 </div>
 <script src="leaflet.js"></script>
@@ -80,8 +81,8 @@ if (typeof L === 'undefined') {
     }),
     none: null
   };
-  let current = 'osm';
-  layers.osm.addTo(map);
+  let current = 'gaode';
+  layers.gaode.addTo(map);
   document.getElementById('basemap').addEventListener('change', (e) => {
     if (layers[current]) map.removeLayer(layers[current]);
     current = e.target.value;
@@ -93,6 +94,41 @@ if (typeof L === 'undefined') {
   const coordEl = document.getElementById('coord');
   const statusEl = document.getElementById('status');
   const regionEl = document.getElementById('region');
+
+  // 高德瓦片是 GCJ-02 坐标；MCP 数据按 WGS84 使用，选点后做 GCJ-02 -> WGS84 转换。
+  const X_PI = Math.PI * 3000 / 180;
+  const PI = Math.PI;
+  const GCJ_A = 6378245.0;
+  const GCJ_EE = 0.00669342162296594323;
+  function outOfChina(lat, lon) {
+    return !(lon > 73.66 && lon < 135.05 && lat > 3.86 && lat < 53.55);
+  }
+  function transformLat(x, y) {
+    let ret = -100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * Math.sqrt(Math.abs(x));
+    ret += (20.0 * Math.sin(6.0 * x * PI) + 20.0 * Math.sin(2.0 * x * PI)) * 2.0 / 3.0;
+    ret += (20.0 * Math.sin(y * PI) + 40.0 * Math.sin(y / 3.0 * PI)) * 2.0 / 3.0;
+    ret += (160.0 * Math.sin(y / 12.0 * PI) + 320 * Math.sin(y * PI / 30.0)) * 2.0 / 3.0;
+    return ret;
+  }
+  function transformLon(x, y) {
+    let ret = 300.0 + x + 2.0 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * Math.sqrt(Math.abs(x));
+    ret += (20.0 * Math.sin(6.0 * x * PI) + 20.0 * Math.sin(2.0 * x * PI)) * 2.0 / 3.0;
+    ret += (20.0 * Math.sin(x * PI) + 40.0 * Math.sin(x / 3.0 * PI)) * 2.0 / 3.0;
+    ret += (150.0 * Math.sin(x / 12.0 * PI) + 300.0 * Math.sin(x / 30.0 * PI)) * 2.0 / 3.0;
+    return ret;
+  }
+  function gcj02ToWgs84(lat, lon) {
+    if (outOfChina(lat, lon)) return [lat, lon];
+    let dLat = transformLat(lon - 105.0, lat - 35.0);
+    let dLon = transformLon(lon - 105.0, lat - 35.0);
+    const radLat = lat / 180.0 * PI;
+    let magic = Math.sin(radLat);
+    magic = 1 - GCJ_EE * magic * magic;
+    const sqrtMagic = Math.sqrt(magic);
+    dLat = (dLat * 180.0) / ((GCJ_A * (1 - GCJ_EE)) / (magic * sqrtMagic) * PI);
+    dLon = (dLon * 180.0) / (GCJ_A / sqrtMagic * Math.cos(radLat) * PI);
+    return [lat - dLat, lon - dLon];
+  }
 
   async function showRegion(lat, lon) {
     regionEl.textContent = '所属行政区：查询中…';
@@ -109,15 +145,21 @@ if (typeof L === 'undefined') {
   }
 
   map.on('click', (e) => {
-    const lat = e.latlng.lat.toFixed(5);
-    const lon = e.latlng.lng.toFixed(5);
+    let lat = e.latlng.lat;
+    let lon = e.latlng.lng;
+    const fromGaode = current === 'gaode';
+    if (fromGaode) {
+      [lat, lon] = gcj02ToWgs84(lat, lon);
+    }
+    const latS = lat.toFixed(5);
+    const lonS = lon.toFixed(5);
     if (marker) marker.setLatLng(e.latlng);
     else marker = L.marker(e.latlng, { icon: dotIcon }).addTo(map);
-    coordEl.textContent = `lat = ${lat}\nlon = ${lon}`;
-    coordEl.dataset.lat = lat;
-    coordEl.dataset.lon = lon;
-    statusEl.textContent = '已选点';
-    showRegion(lat, lon);
+    coordEl.textContent = `lat = ${latS}\nlon = ${lonS}`;
+    coordEl.dataset.lat = latS;
+    coordEl.dataset.lon = lonS;
+    statusEl.textContent = fromGaode ? '已选点（GCJ-02 → WGS84）' : '已选点';
+    showRegion(latS, lonS);
   });
 
   async function copyText(text) {
@@ -136,6 +178,11 @@ if (typeof L === 'undefined') {
     const { lat, lon } = coordEl.dataset;
     if (lat) copyText(JSON.stringify({ lat: Number(lat), lon: Number(lon) }));
   });
+
+  // 供自动化测试/调试读取（不影响页面使用）
+  window.__gwMap = map;
+  window.__gwGcj02ToWgs84 = gcj02ToWgs84;
+  window.__gwState = { get basemap() { return current; } };
 })();
 </script>
 </body>

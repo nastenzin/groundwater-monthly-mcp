@@ -42,7 +42,7 @@ mcp = MCPServer(
     name="groundwater-monthly",
     title="地下水动态月报数据",
     instructions=INSTRUCTIONS,
-    version="0.4.0",
+    version="0.4.1",
 )
 
 # 黄淮海/山西等区域的降水量表按省或盆地统计，需要从地貌单元映射到表内名称
@@ -812,7 +812,9 @@ def get_map_picker() -> dict:
         "resource_uri": "groundwater://map/picker",
         "note": (
             "Leaflet 已随包分发（data/map/leaflet.js|css），离线也能加载页面并取坐标；"
-            "底图瓦片需要联网，离线时可切换“无底图”。地图仅用于取坐标，不参与数据计算。"
+            "底图默认高德（GCJ-02 选点后自动转换为 WGS84，与 MCP 数据一致），"
+            "可切换 OSM/Esri/无底图；底图瓦片需要联网，离线时切换“无底图”仍可取坐标。"
+            "地图仅用于取坐标，不参与数据计算。"
         ),
     }
 

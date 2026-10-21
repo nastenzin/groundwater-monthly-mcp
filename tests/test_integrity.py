@@ -262,6 +262,10 @@ def test_map_picker_contract():
     assert "map.on('click'" in html
     assert 'id="coord"' in html
     assert 'value="none"' in html and "无底图" in html
+    # 默认底图应为高德，且高德 GCJ-02 坐标会转换为 WGS84
+    assert re.search(r'<option value="gaode"\s+selected>', html)
+    assert "gcj02ToWgs84" in html and "GCJ-02" in html
+    assert "layers.gaode.addTo(map)" in html or "current = 'gaode'" in html
 
 
 def test_map_point_matches_coordinates():

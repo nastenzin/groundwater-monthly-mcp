@@ -2,9 +2,9 @@
 # ---------------------------------------------------------------------------
 # groundwater-monthly MCP 服务器容器镜像
 #
-#   docker build -t groundwater-monthly-mcp:0.4.0 .
-#   docker run --rm -p 8765:8765 groundwater-monthly-mcp:0.4.0            # streamable-http
-#   docker run -i --rm groundwater-monthly-mcp:0.4.0 --transport stdio     # stdio（客户端拉起）
+#   docker build -t groundwater-monthly-mcp:0.4.1 .
+#   docker run --rm -p 8765:8765 groundwater-monthly-mcp:0.4.1            # streamable-http
+#   docker run -i --rm groundwater-monthly-mcp:0.4.1 --transport stdio     # stdio（客户端拉起）
 #
 # 设计要点：
 #   * 多阶段构建：builder 阶段把本包 + 全部依赖打成 wheel，runtime 阶段用

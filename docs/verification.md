@@ -60,8 +60,8 @@
 | 跨期点查询覆盖多期 | ✅ | 33 期命中 |
 | HTML 缩略图期次可查询 | ✅ | depth=8.0 |
 | 位置查询附带等值面反演值 | ✅ |  |
-| wheel 存在且 >5MB | ✅ | 5647891 B |
-| wheel sha256 与文档一致 | ✅ | 24ae8fea9a8e2706… |
+| wheel 存在且 >5MB | ✅ | 5648602 B |
+| wheel sha256 与文档一致 | ✅ | 63a3aa325bd3e5b6… |
 | wheel 含城市点位（get_city_depth 依赖） | ✅ | 27 files |
-| README 版本 0.4.0 | ✅ |  |
-| docs/deploy.md 版本 0.4.0 | ✅ |  |
+| README 版本 0.4.1 | ✅ |  |
+| docs/deploy.md 版本 0.4.1 | ✅ |  |
